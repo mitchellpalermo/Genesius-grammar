@@ -1,0 +1,26 @@
+<noinclude><pagequality level="1" user="BlobcatsAreCool" /></noinclude><section begin="par" />{{larger|{{center|INDEX OF SUBJECTS}}}}
+
+{{c|The numbers refer to the sections, except where otherwise indicated.}}
+
+{{c|1=N. {{=}} note.}}
+
+{{colbegin}}
+A-sounds, 8 ''a'', 9 ''a'' ff.
+
+Abbreviations, 5 ''m''.
+
+Absolute cases, 143 ''c'' {{smallcaps|n}}.
+
+Abstract, for concrete, 83''c'': abstr. ideas expressed by the feminine, 122 ''q'',''r'': by fem. in {{GHGheb|text=-וּת}}, 86 ''k'': by the plural, 124''a, d-f'': with the article, 126 ''n''.
+
+Accents, 3 ''b'': names and laws of, 15: of the poetical books, 15 ''h, i''.
+
+Accentuation, 3 ''b'': double accentuation in certain passages, 15 ''p''.
+
+Accusative expressed by {{GHGheb|text=אֵת}}, 117: as direct object of verb, 117, syntax of pronominal object and second accus., 117 ''e'': introduced by {{GHGheb|text=ל}} (esp. late), 117 ''n'': cognate accus., 117 ''p-r'':
+{{colend}}
+
+{{colbegin}}
+stands before the subst, 132 ''b''. See also Attributive ideas.
+{{colend}}<section end="par" /><noinclude>
+<references/></noinclude>
