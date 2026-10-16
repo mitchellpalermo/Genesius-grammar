@@ -4,8 +4,9 @@ This is a multi-session project. **Every session starts by reading this whole
 file**, then runs `python3 tools/proof_status.py next` and works that chunk.
 All state lives on disk in this folder; nothing depends on any earlier
 conversation. Work from this folder (`gesenius/` in the
-`gesenius-grammar-modernize-ac64c1` worktree). Do not commit or push unless
-Mitch asks.
+`gesenius-grammar-modernize-ac64c1` worktree). Each run commits its work
+locally with `tools/proof_commit.py` (Mitch asked for this, 2026-10-16);
+never push.
 
 ## What Mitch asked for (decisions already made — do not re-ask)
 
