@@ -2,6 +2,7 @@
 
     python3 tools/proof_lock.py acquire "<who>"   # exit 1 if a live lock exists
     python3 tools/proof_lock.py release           # prints the run's timed summary
+    python3 tools/proof_lock.py abandon           # clear a lock left by a run that was stopped
     python3 tools/proof_lock.py status
 
 Two sessions on the same queue would claim the same pages and race on
@@ -97,6 +98,15 @@ def main() -> None:
         print(f"lock released. Run: {row['start']} → {row['end']}, {row['minutes']} min, "
               f"chunks {row['chunks'] or '—'}, {row['n_pages']} pages ({row['flagged']} flagged), "
               f"{row['fixes']} fixes, {row['min_per_page'] or '—'} min/page")
+    elif cmd == "abandon":
+        # a run stopped by hand or by a usage limit: free the queue, and keep its
+        # partial time out of the estimate, since it is not a whole run
+        if not lock:
+            sys.exit("no lock to abandon")
+        row = record(lock, None, "abandoned")
+        LOCK.unlink()
+        print(f"lock cleared; recorded {lock['who']}'s run as abandoned "
+              f"({row['n_pages']} pages finished: {row['pages'] or '—'})")
     else:
         print(json.dumps({k: v for k, v in lock.items() if k != "finished"}) if lock else "unlocked")
 

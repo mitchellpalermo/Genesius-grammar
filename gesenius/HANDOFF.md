@@ -83,7 +83,9 @@ A session takes the next chunk, finishes it, and if it has budget left, takes
 the next. Stop between pages, never mid-page: a page is only `done` once its
 fixes are saved. Only one run works the queue at a time: `tools/proof_lock.py`
 enforces it (a lock older than 2 hours counts as abandoned — longer than any
-chunk, shorter than a usage-limit reset).
+chunk, shorter than a usage-limit reset). If you stop a run by hand, run
+`python3 tools/proof_lock.py abandon` before restarting; the next run resumes
+the half-done page (see the skill's "Resume safely").
 
 ### Running it on a loop
 
