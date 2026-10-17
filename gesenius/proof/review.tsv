@@ -52,3 +52,4 @@ page	status	question	choice	logged
 402	open	§119 g headword stored as '(אֱלֵי) אֶל־' in visual order; print reads אֶל־ (אֱלֵי)	Split and put in logical order	2026-10-17
 410	open	Print reference for הוֹאֶל־נָא וְלִין reads 'Ju 1 ⁶' with the 9 broken out (Ju 19:6); Wikisource had 'Ju 1 6' unlinked, and the Hebrew in visual order	Treated as broken type: Ju 19:6; Hebrew reordered to הוֹאֶל־נָא וְלִין	2026-10-17
 426	open	Footnote's first form is printed הַמְנַשֶּׁח (final ח, closed at top) though הַמְנַשֶּׁה is meant; Wikisource agrees with the print	Kept ח as printed (misprint or filled-in ה)	2026-10-17
+446	open	Ex 4:13 print reads בְּיַד־תְּשְׁלָח (shewa under the dageshed ת, a misprint for hireq); Wikisource matches and carries an editorial {{GHGcritic|Should be תִּשְׁלָח?}} note	Kept as printed; left the existing GHGcritic note	2026-10-17

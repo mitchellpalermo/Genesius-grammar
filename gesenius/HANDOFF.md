@@ -414,3 +414,10 @@ know. The numbers come from `proof/runs.tsv`; don't type them by hand.
   (קָדוֹשׁ), שׂ/שׁ (שָׂדַי). Wrong ref Ex 3:14 → 31:4 (print 31⁴). Review item:
   426 (הַמְנַשֶּׁח printed with ח). Seven queued loop firings arrived during a
   ~3h pause and were folded in. Next: B24.
+- 2026-10-17 — B24 done: pages 435–446 (§127 b–§130 f: determination by genitive,
+  the construct state and its circumlocutions). 0 flagged, 44 fixes. Hebrew:
+  ב/כ (הַבֵּן, בַּמָּקוֹם, בְּעָפְרָה, כִּסְאֲךָ, כָּל־הַכֵּלִים, כַפַּיִם), ר/ד (הָאָדָם ×2,
+  הַנַּעַר), ת/ח (הַחֲנִית, הַיְתַד, הַיָּתֵד, הָרַקָּחִים, חָלָב, מַחֲמַדֵּי), ח/ה
+  (הַשְּׁלִישִׁי), מ/ט (הַטּוֹב), ס/ם (הַנְּבִיאִים, הַכֵּלִים), שׂ/שׁ (שָׁנָה). Wrong ref
+  1 K 15:2 → 1:52; Job/Lev book codes normalized. English: "hats me", "coustruct",
+  "Accontuation". Review item: 446 (Ex 4:13 shewa under תּ). Next: B25.
