@@ -55,3 +55,9 @@ page	status	question	choice	logged
 446	open	Ex 4:13 print reads בְּיַד־תְּשְׁלָח (shewa under the dageshed ת, a misprint for hireq); Wikisource matches and carries an editorial {{GHGcritic|Should be תִּשְׁלָח?}} note	Kept as printed; left the existing GHGcritic note	2026-10-17
 448	open	1 Ch 15:19 phrase stored as נְהֹשֶׁת בִּמְצִלְתַּיִם (visual order, ה for ח); print reads בִּמְצִלְתַּיִם נְחֹשֶׁת	Reordered and fixed ה→ח	2026-10-17
 457	open	Print cites 'Ju 11⁵³' (broken superscript; Ju 11 has 40 verses, 11:33 fits); Wikisource has 11:33	Kept 11:33 (broken type)	2026-10-17
+460	open	Gn 31 ref for עֲשֶׂ֫רֶת מֹנִים: scan prints 31⁷·¹⁴ (wikitext had 17, 14); 'ten times' is at Gn 31:7, 41 — likely printer misprint of 41	kept as printed: 7, 14	2026-10-17
+465	open	'Ezr 11⁵' for plurals of animal names — Ezra has only 10 chapters; scan clearly prints Ezr (likely a misprint for Ez)	kept as printed: Ezr 11:5	2026-10-17
+467	open	'1 S 7²⁸' for הוּא strengthening אַתָּה — 1 S 7 has 17 verses; the passage is 2 S 7:28. Scan prints 1 S	kept as printed: 1 S 7:28	2026-10-17
+467	open	§137 heading: wikitext had 'The Interrogative Pronouns'; scan prints singular 'Pronoun' (check TOC/index wording if it matters)	changed to singular, as printed	2026-10-17
+468	open	Arabic transliterations: wikitext ‛at̄ar / ʾallad-i; scan prints 'aṯar and 'allaḏi (alef apostrophe, macron-below t and d)	ʾaṯar, ʾallaḏi (ʾ for alef per policy; ṯ/ḏ for underlined letters)	2026-10-17
+469	open	Gn 13:3 phrase stored in visual order (אֲשֶׁר־הָיָה שָׁם אָֽהֳלֹה עַד־הַמָּקוֹם)	reordered to reading order: עַד־הַמָּקוֹם אֲשֶׁר־הָיָה שָׁם אָֽהֳלֹה	2026-10-17

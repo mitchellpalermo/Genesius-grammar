@@ -428,3 +428,4 @@ know. The numbers come from `proof/runs.tsv`; don't type them by hand.
   2 K 2:21 → 22:1, "Jan 3:5" → Jon 3:5, Jb 15<sup>l0</sup> relinked. English: "the
   anther", "eases". Review items: 448 (1 Ch 15:19 visual order), 457 (Ju 11:33
   broken type). Next: B26.
+- 2026-10-17 — B26 done: pages 459–470 (§134 p – §138 g). 0 flagged, 33 fixes. Notable: נַּֽעֲמַ֫יִם→פַּֽעֲמַ֫יִם, הַכֶּ֫כֶף→הַכֶּ֫סֶף, גַּס→גַּם, broken אָֽנׄכֹי→אָֽנֹכִי, יָהוָֹה→יְהוָֹה, §137 heading restored to singular "Pronoun", "eases"→"cases" ×2, section-letter italics throughout. Review items: p.460 Gn 31⁷·¹⁴ kept as printed; p.465 "Ezr 11⁵" kept; p.467 "1 S 7²⁸" kept + §137 heading; p.468 Arabic ʾaṯar/ʾallaḏi; p.469 Gn 13:3 reordered. Next: B27.
