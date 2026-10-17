@@ -35,3 +35,4 @@ page	status	question	choice	logged
 328	open	Ground-forms were stored as one span '(אֲלַי) אֱלַי' in visual order; print reads אֱלַי (אֲלַי)	Split into אֱלַי (אֲלַי) in logical order	2026-10-17
 330	open	Print cites '2 K 22³⁰' for וָבֹא; the verse is 1 K 22:30 (2 Kings 22 has 20 verses). Wikisource had silently corrected to 1 K	Restored 2 K as printed (printer misprint)	2026-10-17
 331	open	Gn 7:13 / 1 K 21:10 run was scrambled: נֹחַ split off after the phrase, and כֹּה וָכֹה ;אֱלֹהִים וָמֶלֶךְ fused in visual order under 1 K	Rebuilt per print: נֹחַ וְשֵׁם־וְחָם וָיֶ֫פֶת; 1 K 21:10 אֱלֹהִים וָמֶ֑לֶךְ; כֹּה וָכֹה thus and thus	2026-10-17
+342	open	Ez 12:12 conjunction stored as אֲשֶׁר יַעַן (visual order); print reads יַעַן אֲשֶׁר, as does the footnote	Swapped to logical order יַעַ֫ן אֲשֶׁר	2026-10-17

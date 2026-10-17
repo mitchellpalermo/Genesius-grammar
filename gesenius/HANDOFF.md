@@ -353,3 +353,10 @@ know. The numbers come from `proof/runs.tsv`; don't type them by hand.
   printed "2 K 22³⁰" to 1 K (330) — restored as printed. Review items: 321, 325,
   328, 330, 331. Eight queued loop firings arrived during the run and were folded
   into it. Next: B16.
+- 2026-10-17 — B16 done: pages 333–346 (§106–§109 f, start of Syntax: the
+  perfect, imperfect, cohortative and jussive). 0 flagged, 35 fixes. Mostly
+  ד/ר (יִסָּפֵר, אֲשֶׁר twice on 343, וְהַנַּעַר), ב/כ and ב/נ (כַּאֲשֶׁר 335,
+  יַנְחֵנִי 339, הָטְבָּעוּ 338), פ/מ (שָׁמָּה 346), wrong book names in refs (Gn→Is
+  63, Ps→Is 40), a dropped 1 K 7:8, a mislabelled "(b)" for "(a)" on 345, and
+  many unitalicized cross-reference letters. Review item: 342 (Ez 12:12 word
+  order). Next: B17.
