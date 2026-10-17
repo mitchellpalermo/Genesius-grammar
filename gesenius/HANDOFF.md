@@ -326,3 +326,8 @@ know. The numbers come from `proof/runs.tsv`; don't type them by hand.
   ground-from), ‛/’→ʿ/ʾ throughout, a broken {{GHGcite|title|…}} template (262),
   Barth/Stade § refs unlinked (264). 4 review items (242, 243 ×2, 266). The new
   no-op guard in proof_fix.py fired once and wrote nothing, as intended. Next: B12.
+- 2026-10-16 — B12 done: pages 268–279 (§87 p–§91 e); 0 flagged, 38 fixes, 4.8 min.
+  Look-alikes (ה/ח חֲלוֹם, ם/ס כִּסֵּא, פ/מ הַמֶּלֶךְ, נ/כ suffix table כֶם, ח/ת
+  בְּתוֹכְכֶם), garbled pointing (נַהֲרַיִם, גְּנֻבְתִי … לָיְלָה, דַּיֶּךָּ, the
+  suffix table on 278), musc→masc again, ‛/’→ʿ/ʾ. 2 review items (272, 275).
+  Next: B13.

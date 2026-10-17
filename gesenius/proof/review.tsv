@@ -23,3 +23,5 @@ page	status	question	choice	logged
 243	open	§77 a: 'consonant' has stray specks under the t in the print; wiki had italic consonant̤	plain 'consonant' (broken-type rule; print is roman)	2026-10-16
 243	open	§77 c: the פ״א stem paired with דּוּשׁ looks like אָרַשׁ (ר) in the zoom; the lexical stem is אדשׁ	kept Wikisource's אָדַשׁ	2026-10-16
 266	open	§87 g: transliteration of חֲשׂוּפֵי שֵׁת — print's diacritics on h/s too small to read; wiki had plain h, s	used ḥ and ś to match the Hebrew (ח, שׂ)	2026-10-16
+272	open	§89 d: plural noun before suffix — wiki סוּסַ֫יִךְ, print form looks more like סוּסֶ֫יךָ (2 m. sg.)	kept Wikisource; tiny print	2026-10-16
+275	open	§90 i: Ju 20:16 locative and Baer's variant — wiki had shin+sin double dots (שַֹׁ); print pointing too small to compare the two forms	kept Wikisource vowels, single sin dot (הַשַּׂעֲרָה / Baer הַשַּׂעְרָה)	2026-10-16

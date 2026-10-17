@@ -28,7 +28,7 @@ With nouns ending in a—
 |-
 | 2. m. ''thy.''
 | {{GHGheb|text=ךָ}}
-| {{GHGheb|text=־ְךָ}} ({{GHGterm|pause}} {{GHGheb|text=־ֶ֫ ךָ}}
+| {{GHGheb|text=־ְךָ}} ({{GHGterm|pause}} {{GHGheb|text=־ֶ֫ ךָ}})
 |-
 | f.
 | {{GHGheb|text=ךְ}}
@@ -36,7 +36,7 @@ With nouns ending in a—
 |-
 | 3. m. ''his.''
 | {{GHGheb|text=הוּ}}, {{GHGheb|text=ו}}
-| {{GHGheb|text=וֹ}} ({{GHGheb|text=הּׄ}}), {{GHGheb|text=־ֵ֫ וּ}}
+| {{GHGheb|text=וֹ}} ({{GHGheb|text=הֹ}}), {{GHGheb|text=־ֵ֫ הוּ}}
 |-
 | f. ''her.''
 | {{GHGheb|text=הָ}}
