@@ -360,3 +360,11 @@ know. The numbers come from `proof/runs.tsv`; don't type them by hand.
   63, Ps→Is 40), a dropped 1 K 7:8, a mislabelled "(b)" for "(a)" on 345, and
   many unitalicized cross-reference letters. Review item: 342 (Ez 12:12 word
   order). Next: B17.
+- 2026-10-17 — B17 done: pages 347–355, 357–359 (§109 g–§112 dd: jussive,
+  imperative, imperfect and perfect with wāw consecutive). 0 flagged, 46 fixes.
+  Hebrew: ה/ח (יְחַיּוּ, וַתִּירְאִי, וְהֶחֱרַשְׁתִּי, וְהָיוּ), ת/ה (ויהי ×2), נ/ג
+  (וְגָדַעְתִּי), נ/ו (וִיכַזֵּב), stray dagesh (מֵאָז). Wrong § numbers in
+  cross-refs (§ 144 r→114 r, § 112 c→111 c), a missing "(" on 359, and many
+  unitalicized section letters. Visual-order spans again on 349 and 352. Review
+  items: 347 (Jb 37:22 vs 27:22), 349, 350 (Dn 15¹⁹ misprint kept), 352.
+  Next: B18.

@@ -36,3 +36,7 @@ page	status	question	choice	logged
 330	open	Print cites '2 K 22³⁰' for וָבֹא; the verse is 1 K 22:30 (2 Kings 22 has 20 verses). Wikisource had silently corrected to 1 K	Restored 2 K as printed (printer misprint)	2026-10-17
 331	open	Gn 7:13 / 1 K 21:10 run was scrambled: נֹחַ split off after the phrase, and כֹּה וָכֹה ;אֱלֹהִים וָמֶלֶךְ fused in visual order under 1 K	Rebuilt per print: נֹחַ וְשֵׁם־וְחָם וָיֶ֫פֶת; 1 K 21:10 אֱלֹהִים וָמֶ֑לֶךְ; כֹּה וָכֹה thus and thus	2026-10-17
 342	open	Ez 12:12 conjunction stored as אֲשֶׁר יַעַן (visual order); print reads יַעַן אֲשֶׁר, as does the footnote	Swapped to logical order יַעַ֫ן אֲשֶׁר	2026-10-17
+347	open	Wikisource cites Jb 37:22 between 20:23 and 33:11; the print's chapter digit is broken ('?7²²') and the ascending order suggests 27:22	Kept 37:22 (print unreadable)	2026-10-17
+349	open	Imperatives stored as '(לְכוּ) לֵךְ', '(קוּמוּ) קוּם' in visual order; print reads לֵךְ (לְכוּ), קוּם (קוּמוּ)	Split and put in logical order	2026-10-17
+350	open	Print cites 'Dn 10¹¹, 15¹⁹' (Daniel has 12 chapters); Wikisource agrees	Kept as printed (likely misprint)	2026-10-17
+352	open	Is 49:7 phrase was split as נִֽאֱמָן. אֲשֶׁר (visual order, hireq under nun); print reads one phrase אֲשֶׁר נֶאֱמָן	Rejoined as אֲשֶׁר נֶֽאֱמָן in logical order	2026-10-17
