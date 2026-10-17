@@ -40,3 +40,5 @@ page	status	question	choice	logged
 349	open	Imperatives stored as '(לְכוּ) לֵךְ', '(קוּמוּ) קוּם' in visual order; print reads לֵךְ (לְכוּ), קוּם (קוּמוּ)	Split and put in logical order	2026-10-17
 350	open	Print cites 'Dn 10¹¹, 15¹⁹' (Daniel has 12 chapters); Wikisource agrees	Kept as printed (likely misprint)	2026-10-17
 352	open	Is 49:7 phrase was split as נִֽאֱמָן. אֲשֶׁר (visual order, hireq under nun); print reads one phrase אֲשֶׁר נֶאֱמָן	Rejoined as אֲשֶׁר נֶֽאֱמָן in logical order	2026-10-17
+361	open	Gn 44:29 and 1 S 2:15 phrases stored in visual (left-to-right) order across '...'; print reads וּלְקַחְתֶּם גַּם־אֶת־זֶה ... וְהוֹרַדְתֶּם and בְּטֶרֶם ... אֶת־הַחֵלֶב ... וּבָא נַעַר הַכֹּהֵן	Reordered to logical (reading) order	2026-10-17
+363	open	Print cites 'Ez 8³⁶' (Ezekiel 8 has 18 verses; Ezra 8:36 fits). Wikisource had silently corrected to Ezr	Restored Ez as printed (printer misprint), as on p.330	2026-10-17

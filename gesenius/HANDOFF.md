@@ -368,3 +368,11 @@ know. The numbers come from `proof/runs.tsv`; don't type them by hand.
   unitalicized section letters. Visual-order spans again on 349 and 352. Review
   items: 347 (Jb 37:22 vs 27:22), 349, 350 (Dn 15¹⁹ misprint kept), 352.
   Next: B18.
+- 2026-10-17 — B18 done: pages 360–371 (§112 ee–§114 e: end of the perfect
+  consecutive, the infinitive absolute, start of the infinitive construct).
+  0 flagged, 47 fixes. Hebrew: וְהֹשִׁיבוּ (missing holem), וְנָשָׂא, חֲבֹל (ה→ח),
+  stray vowels in וַיֹּאמֶר, וְהֶעֱמִיד, וְאָבֹא, הַשְׁכֵּם, אָדוֹשׁ/אָסוֹף.
+  Visual-order runs again on 361 (Gn 44:29, 1 S 2:15). English: "hooks"→"books",
+  "Ausgeäwhlte", "verbal-nominals", "surety"→"surely"; Barth § ref unlinked;
+  many unitalicized section letters. Review items: 361, 363 (Ez 8:36 restored
+  as printed). Next: B19.
