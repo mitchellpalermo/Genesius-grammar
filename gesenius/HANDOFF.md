@@ -398,3 +398,11 @@ know. The numbers come from `proof/runs.tsv`; don't type them by hand.
   {{GHGheb|translate=…}} misuses where a Latin term (essentiae, instrumenti,
   indole) had been swallowed into the gloss. Visual-order spans again on 397,
   402. Review items: 397, 402. Next: B22.
+- 2026-10-17 — B22 done: pages 409–420 (§120–§124 a: complementary verbal ideas,
+  passives, gender of nouns, collectives and repetition). 0 flagged, 56 fixes.
+  Hebrew: ד/ר (וַיַּחְפֹּר, רָשׁ), ה/ח (וַיִּוָּלֵד, צִוָּה, יָלְדָה), ת/ה (קוּמָה, הָרִים
+  צִלָּהּ), ע/צ (חָצֵר), missing dagesh/vowels (אַיָּל, יוֹנָה, חֲסִידָה, נְמָלָה,
+  מַהֵר, יֹשֵׁב, יַגְדִּיל, אֲדָמָה, רֵיקִים). A missing {{GHGmargin-letter|122|u}}
+  added; "II." restored in the Syntax of the Noun heading; Ju 19:6 recovered
+  from broken type "Ju 1 ⁶". English: "smite thom", "string ones". Review
+  item: 410. Next: B23.
