@@ -110,7 +110,7 @@
 |- align="right"
 {{GHGparad-dual-abs}}
 |
-| {{GHGheb|text=עֵינַיִם}}
+| {{GHGheb|text=עֵינַ֫יִם}}
 | {{GHGheb|text=יוֹמַ֫יִם}}
 | {{GHGheb|text=לְחָיַ֫יִם}}
 | {{GHGheb|text=כַּפַּ֫יִם}}
@@ -214,7 +214,7 @@
 | {{GHGheb|text=אֹֽיִבְכֶם}}
 | {{GHGheb|text=חֹֽזְכֶם}}
 |
-| {{GHGheb|text=פְּקִֽירְכֶם}}
+| {{GHGheb|text=פְּקִֽידְכֶם}}
 |
 | {{GHGheb|text=כְּתָֽבְכֶם}}
 |- align="right"
@@ -223,14 +223,14 @@
 | {{GHGheb|text=אֹֽיְבִים}}
 | {{GHGheb|text=חֹזִים}}
 |
-| {{GHGheb|text=פְּקידִים}}
+| {{GHGheb|text=פְּקִידִים}}
 | {{GHGheb|text=עֲנִיִּים}}
 | {{GHGheb|text=[כְּתָבִים]}}
 |- align="right"
 {{GHGparad-q-cstr}}
 | {{GHGheb|text=עֽוֹלְמֵי}}
-| {{GHGheb|text=אִֽיְבֵי}}
-| {{GHGheb|text=חִזֵי}}
+| {{GHGheb|text=אֹֽיְבֵי}}
+| {{GHGheb|text=חֹזֵי}}
 |
 | {{GHGheb|text=פְּקִידֵי}}
 | {{GHGheb|text=עֲנִיֵּי}}
@@ -259,7 +259,7 @@
 | {{GHGheb|text=מֹֽאזְנַ֫יִם}}
 |
 |
-| {{GHGheb|text=שְׁבֻעַ֫ים}}
+| {{GHGheb|text=שְׁבֻעַ֫יִם}}
 |
 |
 |- align="right"

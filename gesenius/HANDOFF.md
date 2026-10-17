@@ -331,3 +331,10 @@ know. The numbers come from `proof/runs.tsv`; don't type them by hand.
   בְּתוֹכְכֶם), garbled pointing (נַהֲרַיִם, גְּנֻבְתִי … לָיְלָה, דַּיֶּךָּ, the
   suffix table on 278), musc→masc again, ‛/’→ʿ/ʾ. 2 review items (272, 275).
   Next: B13.
+- 2026-10-17 — B13 done: pages 280–285, 288–289, 301–304 (§91 e–§95 q). The first
+  run stalled overnight after page 282 and was recorded `abandoned`; the resume
+  run did 283–304 (3.8 min). 0 flagged, 48 fixes total. Paradigm tables (288–289,
+  301–302) carry many one-letter slips (ד/ר צְדָקָה, ה/ח חֶרְפָּה חֻקּוֹת, ט/מ זִמָּה,
+  נ/ג גְּבִרְתְּכֶם, ס/ם מַלְכַּת) and an "eorum" for "earum" in the 283 table.
+  0 review items. Several queued loop firings arrived while the run was stalled;
+  they were folded into this one run. Next: B14.

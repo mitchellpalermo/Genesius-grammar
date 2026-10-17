@@ -1,4 +1,4 @@
-<noinclude><pagequality level="1" user="" /></noinclude><section begin=par91 />{{GHGheb|text=אַֽחֲיוֹתֵךְ}} {{GHGbible-ref|book=Ez|chapter=16|verse=52}}. On the other hand {{GHGheb|text=מִצְוֹתֶ֑ךָ}} (so Baer, Ginsb.; but Opit. {{GHGheb|text=־ֶ֫ יךָ}}) {{GHGbible-ref|book=Ps|chapter=119|verse=98}}, {{GHGbible-ref|book=Dn|chapter=9|verse=5}} is merely written defectively, like {{GHGheb|text=גַּרְגְּרֹתֶ֫ךָ}} according to Baer (not Ginsb.) in {{GHGbible-ref|book=Pr|chapter=1|verse=9}}, &c. In the ''3rd plur.'' the use of the singular suffix is even the rule in the earlier Books (see the instances in Diehl, l. c., p. 8), e.g. {{GHGheb|text=אֲבוֹתָם}} (''their fathers'') oftener than {{GHGheb|text=אֲבֹֽתֵיהֶם}} (this only in {{GHGbible-ref|book=1 K|chapter=14|verse=15}}, and in Jer, Ezr, Neh, and Ch [in 1 K, Jer, Ezr, however, {{GHGheb|text=אֲבוֹתָם}} is more common]); so always {{GHGheb|text=שְׁמוֹתָם}}, {{GHGheb|text=שְׁמוֹתָן|translate=their names}}, {{GHGheb|text=דּוֹרותָם|translate=their generations}}. From parallel passages like {{GHGbible-ref|book=2 S|chapter=22|verse=46}} compared with {{GHGbible-ref|book=Ps|chapter=18|verse=46}}, {{GHGbible-ref|book=Is|chapter=2|verse=4}} with {{GHGbible-ref|book=Mi|chapter=4|verse=3}}, it appears that in many cases the longer form in {{GHGheb|text=־ֵיהֶם}} can only subsequently have taken the place of {{GHGheb|text=־ָם}}.
+<noinclude><pagequality level="1" user="" /></noinclude><section begin=par91 />{{GHGheb|text=אַֽחֲיוֹתֵךְ}} {{GHGbible-ref|book=Ez|chapter=16|verse=52}}. On the other hand {{GHGheb|text=מִצְוֹתֶ֑ךָ}} (so Baer, Ginsb.; but Opit. {{GHGheb|text=־ֶ֫ יךָ}}) {{GHGbible-ref|book=Ps|chapter=119|verse=98}}, {{GHGbible-ref|book=Dn|chapter=9|verse=5}} is merely written defectively, like {{GHGheb|text=גַּרְגְּרֹתֶ֫ךָ}} according to Baer (not Ginsb.) in {{GHGbible-ref|book=Pr|chapter=1|verse=9}}, &c. In the ''3rd plur.'' the use of the singular suffix is even the rule in the earlier Books (see the instances in Diehl, l. c., p. 8), e.g. {{GHGheb|text=אֲבוֹתָם}} (''their fathers'') oftener than {{GHGheb|text=אֲבֹֽתֵיהֶם}} (this only in {{GHGbible-ref|book=1 K|chapter=14|verse=15}}, and in Jer, Ezr, Neh, and Ch [in 1 K, Jer, Ezr, however, {{GHGheb|text=אֲבוֹתָם}} is more common]); so always {{GHGheb|text=שְׁמוֹתָם}}, {{GHGheb|text=שְׁמוֹתָן|translate=their names}}, {{GHGheb|text=דּוֹרוֹתָם|translate=their generations}}. From parallel passages like {{GHGbible-ref|book=2 S|chapter=22|verse=46}} compared with {{GHGbible-ref|book=Ps|chapter=18|verse=46}}, {{GHGbible-ref|book=Is|chapter=2|verse=4}} with {{GHGbible-ref|book=Mi|chapter=4|verse=3}}, it appears that in many cases the longer form in {{GHGheb|text=־ֵיהֶם}} can only subsequently have taken the place of {{GHGheb|text=־ָם}}.
 
 {{GHGmargin-letter|91|o}}
 '''4.''' The following Paradigm of a masculine and feminine noun with suffixes is based upon a monosyllabic noun with one unchangeable vowel. With regard to the ending {{GHGheb|text=־ַת}} in the ''constr. st.'' of the fem. it should be further remarked that the short ''ă'' of this ending is only retained before the ''grave'' suffixes {{GHGheb|text=כֶם}} and {{GHGheb|text=כֶן}}; before all the others (the ''light'' suffixes) it is lengthened to ''ā''.
@@ -135,7 +135,7 @@
 |-
 |
 | ''f''.
-| {{GHGheb|text=סוּסֶ֫והָ}}
+| {{GHGheb|text=סוּסֶ֫יהָ}}
 | ''equi eius'' (''sui'').
 | {{GHGheb|text=סֽוּסוֹתֶ֫יהָ}}
 | ''equae eius'' (''suae'').
@@ -143,7 +143,7 @@
 | Plur. 1.
 | ''com''.
 | {{GHGheb|text=סוּסֵ֫ינוּ}}
-| ''our hourses''.
+| ''our horses''.
 | {{GHGheb|text=סֽוּסוֹתֵ֫ינוּ}}
 | ''our mares''.
 |-
@@ -151,7 +151,7 @@
 | ''m''.
 | {{GHGheb|text=סֽוּסֵיכֶם}}
 | ''your horses''.
-| {{GHGheb|text=סוּסֽוֹתֵיכֶס}}
+| {{GHGheb|text=סוּסֽוֹתֵיכֶם}}
 | ''your mares''.
 |-
 |
@@ -171,8 +171,8 @@
 |
 | ''f''.
 | {{GHGheb|text=סֽוּסֵיהֶן}}
-| ''equi eorum'' (''sui'').
+| ''equi earum'' (''sui'').
 | {{GHGheb|text=סוּסֽוֹתֵיהֶן}}
-| ''equae eorum'' (''suae'').
+| ''equae earum'' (''suae'').
 |}<section end=par91 /><noinclude>
 <references/></noinclude>

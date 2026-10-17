@@ -45,7 +45,7 @@ Paradigms of Masculine Nouns.
 | {{GHGheb|text=סִפְרִי}}
 | {{GHGheb|text=קָדְשִׁי}}
 | {{GHGheb|text=נַֽעֲרִי}}
-| {{GHGheb|text=נִצְתִי}}
+| {{GHGheb|text=נִצְחִי}}
 | {{GHGheb|text=פָּֽעֳלִי}}
 |- align="right"
 |
@@ -53,7 +53,7 @@ Paradigms of Masculine Nouns.
 | {{GHGheb|text=מַלְכְּךָ}}
 | {{GHGheb|text=סִפְרְךָ}}
 | {{GHGheb|text=קָדְשְׁךָ}}
-| {{GHGheb|text=נַֽערְךָ}}
+| {{GHGheb|text=נַֽעַרְךָ}}
 | {{GHGheb|text=נִצְחֲךָ}}
 | {{GHGheb|text=פָּֽעָלְךָ}}
 |- align="right"
@@ -162,7 +162,7 @@ Paradigms of Masculine Nouns.
 | (''field'')
 |- align="right"
 {{GHGparad-q-cstr}}
-| {{GHGheb|text=דְבַר}}
+| {{GHGheb|text=דְּבַר}}
 | {{GHGheb|text=חֲכַם}}
 | {{GHGheb|text=זְקַן}}
 | {{GHGheb|text=כֶּ֫תֶף}}
