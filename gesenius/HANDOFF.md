@@ -376,3 +376,10 @@ know. The numbers come from `proof/runs.tsv`; don't type them by hand.
   "Ausgeäwhlte", "verbal-nominals", "surety"→"surely"; Barth § ref unlinked;
   many unitalicized section letters. Review items: 361, 363 (Ez 8:36 restored
   as printed). Next: B19.
+- 2026-10-17 — B19 done: pages 372–378, 380–384 (§114 e–§116 t: infinitive
+  construct, its subject and object, and the participles). 0 flagged, 47 fixes.
+  Hebrew: the participle עֹשֶׂה family was mangled throughout 381–382 (holem and
+  sin-dot merged into ש, e.g. עשֹׁוֹ, עשֵֹׁה); הָקִים (ס→ם), כָּל (ב→כ), הֵיטִיב (מ→ט),
+  עֹרֵר (י→ר), לִבּוֹ, stray ׄ marks on נֹפֵל, נֹבֶלֶת, יֹצְאֵי, וְנֹכַחַת. A "##"
+  join on 373. English: "heat thee"→"heal thee", "ninny"→"many", joined words.
+  Review item: 382 (Ez 27:34 visual order). Next: B20.
