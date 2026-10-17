@@ -5,3 +5,7 @@ page	status	question	choice	logged
 224	open	§72 z: wiki cites Est 2:18 and 4:14; the print shows only 2:18	removed the 4:14 reference	2026-10-16
 233	open	§75 g: pair גְּלֶינָה, תִּגְלֶינָה is in logical order, not the left-to-right visual order the print shows	left Wikisource's order unchanged	2026-10-16
 234	open	§75 k: print reads 'c curs' (broken type for 'occurs'); wiki copies it	left 'c curs' as printed	2026-10-16
+236	open	§75 u (Pr 26:7): first form printed with faint pointing; wiki has qamets-metheg דָּֽלְיוּ	left Wikisource's דָּֽלְיוּ	2026-10-16
+237	open	§75 y, Wellhausen's reading: last letter of the first word is unclear (ח or ת); wiki had נִבְזָח	read נִבְזָת וְנִמְאָ֫סֶת (ת, as in נַעֲשָׂת beside it; segol under ס)	2026-10-16
+239	open	§75 hh: print reads 'I will le' (damaged b); Wikisource has 'be'	left 'be' (Wikisource) — note p.234 'c curs' was kept as printed; decide one policy for broken type	2026-10-16
+240	open	§75 oo: נשֶׁא lending (1 S 22:2) — print may have a holem merged with the shin dot	left נשֶׁא (Wikisource)	2026-10-16

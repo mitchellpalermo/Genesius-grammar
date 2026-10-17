@@ -305,3 +305,10 @@ know. The numbers come from `proof/runs.tsv`; don't type them by hand.
   across lines (pages 99, 108, 202, 235) were rejoined. B05–B09 were never
   committed at the time (the per-run commit step was missed); committed now in
   one catch-up commit, with B10 pages 231–235 included as work in progress.
+- 2026-10-16 — B10 done: pages 231–241 (§74 l–§76 d); 0 flagged. Lock timer
+  spans the review-log interruption, so its minutes overstate the run. Fixes:
+  ד/ר and נ/ו slips (כָּרֹת, רְאוֹת, נַאֲוָה, הֶחְבְּאַתָה), §-letter margin markers
+  on 241 moved to the print's positions (76 b at "2.", c at (b), d at (c)),
+  Stade/Barth § refs unlinked (234), ’/‛→ʾ/ʿ. 5 review items logged (236, 237,
+  239, 240, plus backfill). Open policy question in review.tsv: broken type
+  ('c curs' p.234 kept vs 'I will le' p.239 left as 'be'). Next: B11.
