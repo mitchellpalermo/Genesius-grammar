@@ -406,3 +406,11 @@ know. The numbers come from `proof/runs.tsv`; don't type them by hand.
   added; "II." restored in the Syntax of the Noun heading; Ju 19:6 recovered
   from broken type "Ju 1 ⁶". English: "smite thom", "string ones". Review
   item: 410. Next: B23.
+- 2026-10-17 — B23 done: pages 423–434 (§124 g–§127 b: plurals of majesty and
+  result, determination of proper names, the article). 0 flagged, 42 fixes.
+  Hebrew: the עֹשֶׂה holem/sin-dot merge again (עֹשָׂי, עֹשַׂיִךְ, עֹשָׂיו, עֹשֶׂיהָ),
+  missing holems (קְדֹשִׁים, שְׁלֹמֹה, גֻּלֹּת), ה/ח (הָאִישׁ הַזֶּה, הַדְּבָרִים, הָרִים
+  ×2, הַבַּיִת), ב/כ (כֶּסֶף, כַּגִּבּוֹר), ו/ז (זָּהָב, הַזֶּה), ב/נ (וְהַנּוֹרָא), ר/ד
+  (קָדוֹשׁ), שׂ/שׁ (שָׂדַי). Wrong ref Ex 3:14 → 31:4 (print 31⁴). Review item:
+  426 (הַמְנַשֶּׁח printed with ח). Seven queued loop firings arrived during a
+  ~3h pause and were folded in. Next: B24.
