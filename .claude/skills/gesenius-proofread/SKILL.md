@@ -72,6 +72,14 @@ describes it. The points that keep a long unattended run honest:
 - **A page is `done` only after you have compared all of it** — every strip,
   every Hebrew sheet. If you could not resolve something, `flag` the page with
   what and where, rather than marking it done or guessing.
+- **Log every close call for review.** When you choose a reading the scan
+  does not settle — a faint point, two plausible letters, a reference the print
+  only half confirms, or a deliberate decision to leave Wikisource's text
+  alone — record it before marking the page done:
+  `python3 tools/proof_review.py add <page> "<what was uncertain>" "<what you chose>"`.
+  Mitch checks `proof/review.tsv` against the scan later; a call that exists
+  only in the chat summary is lost. Use `flag` instead only when you cannot
+  choose at all.
 - **The scan decides, not grammar.** Expectation is how a wrong "correction"
   gets in; when the print is legible, it wins.
 - **Mark each page as it finishes**, not at the end of the chunk, so a run cut
@@ -97,7 +105,7 @@ describes it. The points that keep a long unattended run honest:
    where a bare `git commit` would land on the wrong branch. Never push: the
    commits are restore points, so a bad run can be rolled back.
 4. Report to Mitch in two or three lines: chunk, time taken, fixes, any
-   flagged pages and why, and the last line of
+   flagged pages and why, how many review items the run added, and the last line of
    `python3 tools/proof_status.py estimate` for the hours left.
 5. In a self-paced loop with work remaining, schedule the next run ~60 seconds
    out — nothing external is being waited on. A fixed-interval loop needs

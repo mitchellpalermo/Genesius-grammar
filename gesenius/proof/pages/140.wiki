@@ -22,7 +22,7 @@
 | 5. Hiphʿîl
 | {{GHGheb|text=הִקְטִיל|translate=to cause to kill}}.
 | 6. Hophʿal
-| {{GHGheb|text=הָקְּטַל}}.
+| {{GHGheb|text=הָקְטַל}}.
 |-valign="top"
 | 7. Hithpaʿēl
 | {{GHGheb|text=הִתְקַטֵּל|translate=to kill oneself}}.
@@ -33,5 +33,5 @@
 {{GHGmargin-letter|39|g}}
 There are besides several less frequent conjugations, some of which, however, are more common in the kindred languages, and even in Hebrew (in the weak verb) regularly take the place of the usual conjugations (§ 55).
 
-In Arabic there is a greater variety of conjugations, and their arrangement is more appropriate. According to the Arabic method, the Hebrew conjugations would stand thus: 1. {{GHGterm|Qal}}; 2. {{GHGterm|Piʿēl}} and {{GHGterm|Puʿal}}; 3. ''Pôʿēl'' and ''Pôʿal'' (see {{GHGpar|55|b}}); 4. {{GHGterm|Hiphʿîl}} and {{GHGterm|Hophʿal}}; 5. {{GHGterm|Hithpaʿēl}} and {{GHGterm|Hothpaʿal}}; 6. ''Hithpô‛ēl'' (see {{GHGpar|55|b}}); 7. {{GHGterm|Niphʿal}}; 8. {{GHGterm|Hithpaʿēl}} (see {{GHGpar|54|l}}); 9. ''Piʿlēl'' (see {{GHGpar|55|d}}). A more satisfactory division would be into three classes: (1) The intensive {{GHGterm|Piʿēl}} with the derived and analogous forms {{GHGterm|Puʿal}} and {{GHGterm|Hithpaʿēl}}. (2) The causative {{GHGterm|Hiphʿîl}} with its passive {{GHGterm|Hophʿal}}, and the analogous forms (''Šaphʿēl'' and ''Tiphʿēl''). (3) The reflexive or passive {{GHGterm|Niphʿal}}.<section end=par39 /><noinclude>
+In Arabic there is a greater variety of conjugations, and their arrangement is more appropriate. According to the Arabic method, the Hebrew conjugations would stand thus: 1. {{GHGterm|Qal}}; 2. {{GHGterm|Piʿēl}} and {{GHGterm|Puʿal}}; 3. ''Pôʿēl'' and ''Pôʿal'' (see {{GHGpar|55|b}}); 4. {{GHGterm|Hiphʿîl}} and {{GHGterm|Hophʿal}}; 5. {{GHGterm|Hithpaʿēl}} and {{GHGterm|Hothpaʿal}}; 6. ''Hithpôʿēl'' (see {{GHGpar|55|b}}); 7. {{GHGterm|Niphʿal}}; 8. {{GHGterm|Hithpaʿēl}} (see {{GHGpar|54|l}}); 9. ''Piʿlēl'' (see {{GHGpar|55|d}}). A more satisfactory division would be into three classes: (1) The intensive {{GHGterm|Piʿēl}} with the derived and analogous forms {{GHGterm|Puʿal}} and {{GHGterm|Hithpaʿēl}}. (2) The causative {{GHGterm|Hiphʿîl}} with its passive {{GHGterm|Hophʿal}}, and the analogous forms (''Šaphʿēl'' and ''Tiphʿēl''). (3) The reflexive or passive {{GHGterm|Niphʿal}}.<section end=par39 /><noinclude>
 <references/></noinclude>

@@ -129,6 +129,11 @@ For each `todo` page in the chunk:
    words. It logs to `proof/corrections.tsv`.
 4. `python3 tools/proof_status.py done <n> "<short summary of fixes>"`, or
    `flag <n> "<what you could not resolve>"` if something stays uncertain.
+   Before `done`, log each close judgment call (faint print, a reading you
+   chose between two, Wikisource text deliberately left alone) with
+   `python3 tools/proof_review.py add <n> "<question>" "<choice>"`. Mitch
+   checks `proof/review.tsv` later and sets each row's status to `ok` or `fix`;
+   `proof_review.py list` shows the open ones.
 
 Rules that matter:
 
@@ -233,3 +238,70 @@ know. The numbers come from `proof/runs.tsv`; don't type them by hand.
 
 - 2026-10-16 — set up the pipeline, sample approved, page 230 proofread as the
   pilot (10 fixes), Paradigm B verified. Next: B01.
+- 2026-10-16 — B01: 2026-10-16T14:06:52 → 15:21:53, 75.0 min, 11 pages (1 flagged),
+  40 fixes, 6.8 min/page (page 33 was done by an earlier run of this session
+  that was interrupted and recorded `abandoned`; the 75 min includes a
+  usage-limit pause, so the true pace is faster). Flagged 66: the Babylonian
+  vowel-mark footnote is placeholders and the print has two signs the wiki
+  omits; it needs images cropped from scan 67 at build time. Recurring in this
+  stretch: wrong Hebrew letter in a word (ד/ר, ח/ה, ג/נ, final ם for medial מ),
+  missing or extra punctuation around ed. Mant./Baer variant readings, and
+  English OCR slips (fortz, peps, hems, fall for full). Next: B02.
+- 2026-10-16 — B02: 2026-10-16T15:41:04 → 15:47:29, 6.4 min, 12 pages (0 flagged),
+  43 fixes, 0.5 min/page. The B01 figure includes a usage-limit pause, so the
+  two runs bracket the real pace; trust `estimate` only after a few more rows.
+  This stretch (§§ 27–30) has the same Hebrew-letter slips as B01 (ד/ר twice:
+  בִּֽיהוּדָה again, חרק, ספרד; ה/ח: חָיָה, וֶֽחְיֵה) plus split § letters
+  written as `{{GHGpar|72|d}}d` — grep for `}}[a-z]\b` after a GHGpar on later
+  pages. The print's ס and ם are indistinguishable in unpointed roots; keep
+  Wikisource's reading there. Next: B03.
+- 2026-10-16 — B03: 2026-10-16T16:11:06 → 16:15:42, 4.6 min, 12 pages (0 flagged),
+  21 fixes, 0.4 min/page. §§ 30–39 (pronouns, article, start of the verb) is
+  cleaner than §§ 20–29: three pages had no fixes. Patterns here: transliterated
+  alef typed as ’ instead of ʾ (seven on page 130 alone — grep `''’` per page),
+  a book name misattached to a verse ref (`on Lev {{…book=Dt…}}`), and stray
+  dagesh in paradigm forms (הָקְּטַל). Page 131's חִיא for הוּא is a genuine
+  misprint in the 1910 text; kept as printed. Next: B04.
+- 2026-10-16 — B04: 2026-10-16T16:41:07 → 16:46:10, 5.0 min, 12 pages (0 flagged),
+  24 fixes, 0.4 min/page. §§ 40–48 (flexion of Perfect, Infinitive, Imperative,
+  Imperfect). Most fixes are stray or wrong points in paradigm forms
+  (יִקְטִֹל, תִָּקְטֹ֫לְנָה, לְבַשֹׁ, חֳָרָ֑בִי — grep for two vowels on one letter),
+  one wrong consonant per page or so (לָמַר, שְׂמַה), and a garbled pair of
+  Hebrew words with the semicolon inside one GHGheb (page 150). Pages 145, 147,
+  153 needed nothing. Next: B05.
+- 2026-10-16 — B05 partial (usage limit): pages 154–160 done, 161–165 still todo.
+  Fixes: OCR `and`→`2nd` twice (pages 155, 156 — grep `the and`), doubled
+  vowels, Ex/Ez book mix-up. The run row above in runs.tsv covers only these
+  seven pages. Next: finish B05 from page 161.
+- 2026-10-16 — B05 finished: pages 161–165 done, 0 flagged, 10 fixes. OCR word
+  slips (emission→omission, gone→tone, "put out on"), Greek ξ→χ in μάχεσθαι,
+  vowel slips (Piʿ̄l→Piʿēl, Puʿal ŏ→ă), נְלְחַם→נִלְחַם. Next: B06.
+- 2026-10-16 — B06 done: pages 166–176, 180; 0 flagged, 36 fixes. Look-alike
+  letters (ט/מ in יַקְטִיל etc. on 172, ט/מ in מְלוֹשְׁנִי 175, ה/ח in חסר 169, ג/נ
+  in הִתְגַּדֵּל 174), stray/doubled points (וָאֲצַוֶּה, הִתְגֹּעֲשׁוּ, זֹרְמוּ), ’→ʾ,
+  mojibake "aŒ¬"→ā̆ (180 fn), wrong book in a ref (Is→Jb 13:27, p.174), one
+  section end tag par54→par55 (176). Next: B07.
+- 2026-10-16 — B07 done: pages 181–185, 194–196, 200–204; 0 flagged, 28 fixes.
+  ר/ו (וַיְבָרֶךְ 194), dropped/stray points (קְטָלַתְהָ 184, מְשַׁלֵּחֲךָ,
+  וַתֵּעָצַר, וַיָּסָב), missing final ם (וְישַׁעֲכֶם 196), English slips
+  (more→mere, from→form, soon→seen, yă→hă-sēb), book=Job→Jb template refs (204),
+  a Stade § wrongly linked as GHGpar (200, unlinked). Next: B08.
+- 2026-10-16 — B08 done: pages 205–207, 209–217; 0 flagged, 40 fixes. Look-alikes
+  (ו/ז תֵּזְלִי 210, ר/ו יִירַשׁ 212, ת/ה הָבָה 214, ה/ח וַיּוֹכַח 215), stray/missing
+  points (ׄ upper dot → holem, יְבֹשׁ/יְבֹשֶׁת on 213, 216), reversed RTL pairs
+  "X ;Y" (207, 211), English OCR (east→cast, arrears→appears, soon-style slips),
+  a Ju-for-Is ref with stray "is" (205). Unresolved but left (print faint):
+  2 S 14 verse on p.217 (wiki 19, print looks like 13). Next: B09.
+- 2026-10-16 — B09 done: pages 218–229; 0 flagged, 52 fixes. Heavy ד/ר and ג/נ
+  confusion in §72–73 (תְּרוֹמֵם גּוֹי, וַיֵּרֹמּוּ, הֵרֹמּוּ, מוּר, רִיב יָרִיב, הרים,
+  בֹּרַאֲךָ), ב/כ in suffix כֶם (196-style, again 229), missing dagesh in וַיָּ forms
+  (224, 226, 228), OCR English (mast/mase/muse→masc, band→hand, censonantal),
+  two Stade § refs mislinked as GHGpar (219), extra Est 4:14 ref not in print
+  removed (224), duplicate section-begin tag removed (226). Next: B10.
+- 2026-10-16 — Added the review log (`tools/proof_review.py`, `proof/review.tsv`)
+  for close judgment calls, at Mitch's request; backfilled 6 calls from B07–B10.
+  `proof_fix.py` now refuses no-op fixes and escapes line breaks/tabs when
+  logging, and four rows of corrections.tsv that a multi-line fix had split
+  across lines (pages 99, 108, 202, 235) were rejoined. B05–B09 were never
+  committed at the time (the per-run commit step was missed); committed now in
+  one catch-up commit, with B10 pages 231–235 included as work in progress.

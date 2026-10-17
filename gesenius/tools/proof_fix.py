@@ -14,6 +14,11 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
 
+def esc(s: str) -> str:
+    """Keep one fix on one TSV row: a fix spanning a line break is logged with \\n."""
+    return s.replace("\\", "\\\\").replace("\n", "\\n").replace("\t", "\\t")
+
+
 def main() -> None:
     page, pairs = sys.argv[1], sys.argv[2:]
     if not pairs or len(pairs) % 2:
@@ -22,11 +27,13 @@ def main() -> None:
     text = path.read_text()
     log = []
     for old, new in zip(pairs[::2], pairs[1::2]):
+        if old == new:
+            sys.exit(f"'{old}' is replaced by itself — nothing written; a no-op would pollute corrections.tsv")
         n = text.count(old)
         if n != 1:
             sys.exit(f"'{old}' occurs {n} times in page {page} — nothing written; add context")
         text = text.replace(old, new)
-        log.append(f"{page}\t{old}\t{new}\n")
+        log.append(f"{page}\t{esc(old)}\t{esc(new)}\n")
     path.write_text(text)
     with (ROOT / "proof" / "corrections.tsv").open("a") as f:
         f.writelines(log)

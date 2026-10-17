@@ -1,118 +1,118 @@
 page	printed	kind	chunk	status	notes
 33	9	body	B01	done	Altsemitischs→Altsemitische; no Hebrew on page
-66	42	body	B01	todo	
-77	53	body	B01	todo	
-87	63	body	B01	todo	
-97	73	body	B01	todo	
-99	75	body	B01	todo	
-102	78	body	B01	todo	
-104	80	body	B01	todo	
-105	81	body	B01	todo	
-106	82	body	B01	todo	
-107	83	body	B01	todo	
-108	84	body	B01	todo	
-114	90	body	B02	todo	
-115	91	body	B02	todo	
-116	92	body	B02	todo	
-117	93	body	B02	todo	
-118	94	body	B02	todo	
-119	95	body	B02	todo	
-120	96	body	B02	todo	
-121	97	body	B02	todo	
-122	98	body	B02	todo	
-124	100	body	B02	todo	
-125	101	body	B02	todo	
-126	102	body	B02	todo	
-127	103	body	B03	todo	
-128	104	body	B03	todo	
-129	105	body	B03	todo	
-130	106	body	B03	todo	
-131	107	body	B03	todo	
-132	108	body	B03	todo	
-133	109	body	B03	todo	
-135	111	body	B03	todo	
-137	113	body	B03	todo	
-138	114	body	B03	todo	
-139	115	body	B03	todo	
-140	116	body	B03	todo	
-141	117	body	B04	todo	
-143	119	body	B04	todo	
-144	120	body	B04	todo	
-145	121	body	B04	todo	
-146	122	body	B04	todo	
-147	123	body	B04	todo	
-148	124	body	B04	todo	
-149	125	body	B04	todo	
-150	126	body	B04	todo	
-151	127	body	B04	todo	
-152	128	body	B04	todo	
-153	129	body	B04	todo	
-154	130	body	B05	todo	
-155	131	body	B05	todo	
-156	132	body	B05	todo	
-157	133	body	B05	todo	
-158	134	body	B05	todo	
-159	135	body	B05	todo	
-160	136	body	B05	todo	
-161	137	body	B05	todo	
-162	138	body	B05	todo	
-163	139	body	B05	todo	
-164	140	body	B05	todo	
-165	141	body	B05	todo	
-166	142	body	B06	todo	
-167	143	body	B06	todo	
-168	144	body	B06	todo	
-169	145	body	B06	todo	
-170	146	body	B06	todo	
-171	147	body	B06	todo	
-172	148	body	B06	todo	
-173	149	body	B06	todo	
-174	150	body	B06	todo	
-175	151	body	B06	todo	
-176	152	body	B06	todo	
-180	156	body	B06	todo	
-181	157	body	B07	todo	
-182	158	body	B07	todo	
-184	160	body	B07	todo	
-185	161	body	B07	todo	
-194	170	body	B07	todo	
-195	171	body	B07	todo	
-196	172	body	B07	todo	
-200	176	body	B07	todo	
-201	177	body	B07	todo	
-202	178	body	B07	todo	
-203	179	body	B07	todo	
-204	180	body	B07	todo	
-205	181	body	B08	todo	
-206	182	body	B08	todo	
-207	183	body	B08	todo	
-209	185	body	B08	todo	
-210	186	body	B08	todo	
-211	187	body	B08	todo	
-212	188	body	B08	todo	
-213	189	body	B08	todo	
-214	190	body	B08	todo	
-215	191	body	B08	todo	
-216	192	body	B08	todo	
-217	193	body	B08	todo	
-218	194	body	B09	todo	
-219	195	body	B09	todo	
-220	196	body	B09	todo	
-221	197	body	B09	todo	
-222	198	body	B09	todo	
-223	199	body	B09	todo	
-224	200	body	B09	todo	
-225	201	body	B09	todo	
-226	202	body	B09	todo	
-227	203	body	B09	todo	
-228	204	body	B09	todo	
-229	205	body	B09	todo	
+66	42	body	B01	flagged	Qâmeṣ→Qâmēṣ, pront→pron fixed; footnote 3 continues on scan 67 (checked, text OK). Unresolved: Babylonian vowel marks are placeholders needing images from scan 67, and scan shows two signs the wiki omits — a second sign after '= î,' and 'or <sign>' before '= û'
+77	53	body	B01	done	5 fixes: two missing ')' after ed. Mant. readings, missing comma 2 S 15:7, stray '.' after (ed. Mant.), Keeth→Keth. Print has 'Ezr 26:21' (misprint for Ez); wiki's book=Eze kept. Footnote 3 בִּֽקַרָב־ shows patah in print; kept
+87	63	body	B01	done	Übersetsungen→Übersetzungen; missing comma after אֶת־
+97	73	body	B01	done	fortz→forte; כַּנְּלֹֽתְךָ missing holem; חָדֵ֑לּוּ hiriq→tsere; bare 22:12 made a Jb ref
+99	75	body	B01	done	aspirant→a spirant; ṭeeamim→ṭeamim; ʾal→ʿal; כב→כְב; removed paragraph break after footnote ref
+102	78	body	B01	done	fall→full vowel; יֽחֲשֹׁב missing patah; Greek Ί (tonos)→Ἰ (smooth breathing) ×2
+104	80	body	B01	done	latter with ô→ê; stray ', for ,' before אֲחַטְּאֶנָּה. לִֽאלֹהִים vowel under ל is a single blurred mark in print; wiki hiriq kept
+105	81	body	B01	done	indicatea→indicate a; Šeuâ→Šewâ; אֽהָלְים sheva→hiriq; בֲּשָּׁמַ֫יִם hateph→patah; בְּנְהִיהֶם→בִּנְהִיהֶם; פִיְּה→פִיָּה. '§ 84 a, q' kept as Wikisource's 84ᵃ q
+106	82	body	B01	done	he→be heterogeneous; וָזָד→וָזָר (Pr 21:8)
+107	83	body	B01	done	peps→pers; final-mem םִ→מִ; בִּֽיהוּרָה→בִּֽיהוּדָה
+108	84	body	B01	done	hems→holds; חֵיכָל→הֵיכָל; נְבוּל→גְּבוּל; removed newline before footnote ref
+114	90	body	B02	done	שְׁמִּי no dagesh; בְּחֻוּקֵּי→בְּחוּקֵּי; 'forms' not italic
+115	91	body	B02	done	הָ→חָ (before חָ and חֳ); orIginal; Seeghôl→Seghôl ×2; ’aḥāw→ʾaḥāw
+116	92	body	B02	done	rIghteousness; Ḥaṭaeph→Ḥaṭeph; בִּֽיהוּרָה/וִֽיהוּרָה→ד (same error as 107); bi-yehedûā→bi-yehûdā
+117	93	body	B02	done	הָיָה→חָיָה (to live); §67 c c→cc; נַ֫עַד→נַ֫עַר; יַעֽמֲדוּ→יַֽעַמְדוּ; yaᵃ→yaʿᵃ
+118	94	body	B02	done	דָּבָ֫ד→דָּבָ֫ר; missing space after footnote ref
+119	95	body	B02	done	Methog→Metheg; ’aḥor→ʾaḥor; כֶן→־כֶן; footnote 1 moved after the period
+120	96	body	B02	done	יִקְטֵֹ֫לוּ stray tsere removed; rest matches
+121	97	body	B02	done	Baer קָשֵָׁב→קָשֵׁב; '( 93 x' → § link; Je 9:3→9:8 as printed. Ps 100:8 kept as printed (likely misprint)
+122	98	body	B02	done	§72 d d→dd, §75 h h→hh, el.→cf.; וֶהָֽיֶה→וֶֽחְיֵה; יִתְּהַלֵּךְ no dagesh; secondary abs. st. סֶ֫תֶר/שֶׁ֫בֶט (segol); סְפָרַ֑ר→ד; upper-dot ׄ→holem in וַיֹּלַ֫ךְ
+124	100	body	B02	done	no fixes; all 25 Hebrew items checked in strips
+125	101	body	B02	done	חדק→חרק; restored 'Lexicon'. ס/ם in כס, נכס, חוּס indistinguishable in this font; Wikisource's samekh kept
+126	102	body	B02	done	Indo-Germanie→ic; דדח→דדה; 'if is'→'if it is'; eases→cases
+127	103	body	B03	done	no fixes; 14 Hebrew items checked in strips
+128	104	body	B03	done	no fixes; 10 Hebrew forms match
+129	105	body	B03	done	footnote s.v. אֲנֹי→אֲנִי; table forms match the print
+130	106	body	B03	done	’→ʾ (alef) in 7 transliterations; Hebrew and refs match
+131	107	body	B03	done	ZDMG xxviii. 175→172. Print really has חִיא (sense wants הִיא; kept as printed)
+132	108	body	B03	done	ô or ô→ô or û; Nerdsemit→Nordsemit; (''e''i)→(''ei'')
+133	109	body	B03	done	footnote 4 ref was Dt 18:27 → Lv 18:27; Hebrew matches
+135	111	body	B03	done	ה and ה→ח and ה; ''c''ase; missing space and semicolon
+137	113	body	B03	done	Olshausen not italic in print; Hebrew matches; footnote continuation is on 136 (Wikisource-proofread)
+138	114	body	B03	done	Verbs→Verba denom.; Hebrew matches
+139	115	body	B03	done	no fixes; Hebrew and English match
+140	116	body	B03	done	Hophal הָקְּטַל stray dagesh; ‛→ʿ in Hithpôʿēl
+141	117	body	B04	done	missing space after Optative; afformative table matches
+143	119	body	B04	done	ירֵא־תֶם→יְרֵא־תֶם; יִרא→ירא (unpointed in print); stray space. Footnote tail is on 142
+144	120	body	B04	done	missing ')' after דָּבָ֫קָה; שְׁאלְתִּיו missing hiriq (the point of §44d); יָכִֽלָה/יָכְֽלוּ→יָֽכְלָה/יָֽכְלוּ (vocal sheva per print)
+145	121	body	B04	done	no fixes; Hebrew and refs match
+146	122	body	B04	done	missing ')' after מָֽלְא֫וּ; Prätorius title quote/italic markup
+147	123	body	B04	done	no fixes; Hebrew and refs match
+148	124	body	B04	done	לְבַשֹׁ stray holem; חֳָרָ֑בִי doubled vowel under ח
+149	125	body	B04	done	שְׂמַה→שְׂמַח; footnote 'cf. 106 ff.'→§ link; Completed→completed. קִרְאֶן checked at high zoom, kept
+150	126	body	B04	done	farther→further; יִקְטִֹל stray hiriq; garbled 'אנחמך ;יִטְקֹד' split into יִפְקֹד; אנחמך; תִָּקְטֹ֫לְנָה stray qamets
+151	127	body	B04	done	לָמַר→לָמַד; Barth title not italic in print
+152	128	body	B04	done	תִּקְטֹ֫לְנַה patah→qamets; Arab→Arab.; בַּל־יְֽחֱזָי֑וּן sheva→segol
+153	129	body	B04	done	no fixes; Hebrew and refs match
+154	130	body	B05	done	Šeewâ→Šewâ; וָֽאֶקְרִַא doubled vowel→qamets per print
+155	131	body	B05	done	OCR and→2nd; qîṭelî→qĭṭelî
+156	132	body	B05	done	OCR and→2nd; ואשּׂא stray dagesh; italic 'and I lifted…'
+157	133	body	B05	done	italic 'to him'; Hebrew matches
+158	134	body	B05	done	stray ')' after וַנַּֽעֲמִיד. Print reads 'Ez 7:28, 8:25, 9:3' (likely Ezra); kept as printed
+159	135	body	B05	done	omitred; 'except In'; Ex 36:29→Ez 36:29; '§ ee'→'ee'
+160	136	body	B05	done	יָשֵׂן→יָשֵׁן; Hîthpaʿēl→Hithpaʿēl; Pāʿŭl→Pāʿûl
+161	137	body	B05	done	
+162	138	body	B05	done	
+163	139	body	B05	done	
+164	140	body	B05	done	
+165	141	body	B05	done	
+166	142	body	B06	done	
+167	143	body	B06	done	
+168	144	body	B06	done	
+169	145	body	B06	done	
+170	146	body	B06	done	
+171	147	body	B06	done	
+172	148	body	B06	done	
+173	149	body	B06	done	
+174	150	body	B06	done	
+175	151	body	B06	done	
+176	152	body	B06	done	
+180	156	body	B06	done	
+181	157	body	B07	done	
+182	158	body	B07	done	
+184	160	body	B07	done	
+185	161	body	B07	done	
+194	170	body	B07	done	
+195	171	body	B07	done	
+196	172	body	B07	done	
+200	176	body	B07	done	
+201	177	body	B07	done	
+202	178	body	B07	done	
+203	179	body	B07	done	
+204	180	body	B07	done	
+205	181	body	B08	done	
+206	182	body	B08	done	
+207	183	body	B08	done	
+209	185	body	B08	done	
+210	186	body	B08	done	
+211	187	body	B08	done	
+212	188	body	B08	done	
+213	189	body	B08	done	
+214	190	body	B08	done	
+215	191	body	B08	done	
+216	192	body	B08	done	
+217	193	body	B08	done	
+218	194	body	B09	done	
+219	195	body	B09	done	
+220	196	body	B09	done	
+221	197	body	B09	done	
+222	198	body	B09	done	
+223	199	body	B09	done	
+224	200	body	B09	done	
+225	201	body	B09	done	
+226	202	body	B09	done	
+227	203	body	B09	done	
+228	204	body	B09	done	
+229	205	body	B09	done	
 230	206	body	B10	done	pilot page; 10 fixes: 2× and→2nd, ʿ→ʾ, 7 Hebrew (נִפְלֵאת, נִשָּׂאָה, יוֹצֵת, מֹצֵאת, מַשָּׂא, נֹשְׂאֵת, לְמַלֹּאות)
-231	207	body	B10	todo	
-232	208	body	B10	todo	
-233	209	body	B10	todo	
-234	210	body	B10	todo	
-235	211	body	B10	todo	
+231	207	body	B10	done	
+232	208	body	B10	done	
+233	209	body	B10	done	
+234	210	body	B10	done	
+235	211	body	B10	done	
 236	212	body	B10	todo	
 237	213	body	B10	todo	
 238	214	body	B10	todo	

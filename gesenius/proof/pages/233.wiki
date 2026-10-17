@@ -6,7 +6,7 @@
 
 In the perfect ''Qal î'', e.g. {{GHGheb|text=גָּ֫לִיתָ}};
 
-In the perfects of the other active and reflexive conjugations, sometimes ''ê'', sometimes ''î'', {{GHGheb|text=גִּלֵּ֫יתָ}} and {{GHGheb|text=גִּלִּ֫יתָ}}; {{GHGheb|text=נִגְלֵ֫יתָ}} and {{GHGheb|text=נִגְ֫לִיתָ}};
+In the perfects of the other active and reflexive conjugations, sometimes ''ê'', sometimes ''î'', {{GHGheb|text=גִּלֵּ֫יתָ}} and {{GHGheb|text=גִּלִּ֫יתָ}}; {{GHGheb|text=נִגְלֵ֫יתָ}} and {{GHGheb|text=נִגְלִ֫יתָ}};
 
 In the perfects passive always ''ê'', e.g. {{GHGheb|text=גֻּלֵּ֫יתָ}};
 
@@ -15,10 +15,10 @@ In the imperfects and imperatives always {{GHGheb|text=־ֶי}}, e.g. {{GHGheb|t
 The diphthongal forms have been systematically retained in Arabic and Ethiopic; only as an exception and in the popular language is the diphthong contracted. In Aramaic the contracted forms predominate, yet the Syriac, for example, has in {{GHGterm|Qal}} 2nd ''pers. sing. g<sup>e</sup>lait'' (but 1st ''pers. sing.'' {{GHGheb|text=גְּלִית}}), and so too the Western Aramaic {{GHGheb|text=גְּלַיתָ}}, but also {{GHGheb|text=גְּלֵיתָ}}.
 
 {{GHGmargin-letter|75|h}}
-'''3.''' Before the vocalic afformatives ({{GHGheb|text=וּ}}, {{GHGheb|text=־ִי}}, {{GHGheb|text=־ָה}}) the {{GHGterm|Yôdh}} is usually dropped altogether, e.g. {{GHGheb|text=גָּלוּ}} (ground-form ''găl̆yû''), {{GHGheb|text=תִּגְלִי}}, {{GHGterm|participle fem.}} {{GHGheb|text=גֹּלָה}}, ''plur. masc.'' {{GHGheb|text=גֹּלִים}}; yet the old full forms also not infrequently occur, especially in {{GHGterm|pause}}, see u. The elision of the {{GHGterm|Yôdh}} takes place regularly before ''suffixes'', e.g. {{GHGheb|text=גָּֽלְךָ}} (see ll).
+'''3.''' Before the vocalic afformatives ({{GHGheb|text=וּ}}, {{GHGheb|text=־ִי}}, {{GHGheb|text=־ָה}}) the {{GHGterm|Yôdh}} is usually dropped altogether, e.g. {{GHGheb|text=גָּלוּ}} (ground-form ''gălăyû''), {{GHGheb|text=תִּגְלִי}}, {{GHGterm|participle fem.}} {{GHGheb|text=גֹּלָה}}, ''plur. masc.'' {{GHGheb|text=גֹּלִים}}; yet the old full forms also not infrequently occur, especially in {{GHGterm|pause}}, see u. The elision of the {{GHGterm|Yôdh}} takes place regularly before ''suffixes'', e.g. {{GHGheb|text=גָּֽלְךָ}} (see ll).
 
 {{GHGmargin-letter|75|i}}
-'''4.''' In the 3rd ''sing. fem. perfect'', the original feminine ending {{GHGheb|text=־ַת}} was appended to the stem; hence, after elision of the {{GHGterm|Yôdh}}, arose properly forms like {{GHGheb|text=גָּלָת}}, with ''ā'', in the final syllable with the tone, This form, however, has been but rarely preserved (see below, m). The analogy of the other forms had so much influence, that the common ending {{GHGheb|text=־ָה}} was added pleonastically to the ending {{GHGheb|text=־ָת}}. Before the {{GHGheb|text=־ָה}} the vowel of the ending {{GHGheb|text=־ָת}}, which thus loses the tone, becomes {{GHGterm|Š<sup>e</sup>wâ}}, and thus there arise such forms as {{GHGheb|text=גָּֽלְתָה}}, {{GHGheb|text=נִגְלְתָה}}, &c. (but in {{GHGterm|pause}} {{GHGheb|text=גָּלָ֫תָה}}, &c.).
+'''4.''' In the 3rd ''sing. fem. perfect'', the original feminine ending {{GHGheb|text=־ַת}} was appended to the stem; hence, after elision of the {{GHGterm|Yôdh}}, arose properly forms like {{GHGheb|text=גָּלָת}}, with ''ā'', in the final syllable with the tone. This form, however, has been but rarely preserved (see below, m). The analogy of the other forms had so much influence, that the common ending {{GHGheb|text=־ָה}} was added pleonastically to the ending {{GHGheb|text=־ָת}}. Before the {{GHGheb|text=־ָה}} the vowel of the ending {{GHGheb|text=־ָת}}, which thus loses the tone, becomes {{GHGterm|Š<sup>e</sup>wâ}}, and thus there arise such forms as {{GHGheb|text=גָּֽלְתָה}}, {{GHGheb|text=נִגְלְתָה}}, &c. (but in {{GHGterm|pause}} {{GHGheb|text=גָּלָ֫תָה}}, &c.).
 
 For similar cases see {{GHGpar|70|d}}; {{GHGpar|91|m}}.
 <section end=par75 /><noinclude>
