@@ -421,3 +421,10 @@ know. The numbers come from `proof/runs.tsv`; don't type them by hand.
   (הַשְּׁלִישִׁי), מ/ט (הַטּוֹב), ס/ם (הַנְּבִיאִים, הַכֵּלִים), שׂ/שׁ (שָׁנָה). Wrong ref
   1 K 15:2 → 1:52; Job/Lev book codes normalized. English: "hats me", "coustruct",
   "Accontuation". Review item: 446 (Ex 4:13 shewa under תּ). Next: B25.
+- 2026-10-17 — B25 done: pages 447–458 (§130 g–§134 l: apposition, adjectives,
+  comparison, start of the numerals). 0 flagged, 49 fixes. Hebrew: ח/ה (כֹּהֵן,
+  נְחֹשֶׁת, לָקַח, הַחֵמָה, הֵיכָל, יהוה), ר/ד (עַיִר), ט/מ (מִדְּבַשׁ, מֵאָה), shin/sin
+  dots (נָשָׁיו, שָׁנָה), stray dagesh (רַב, מִן), חַיִּים, קֳּדָשִׁים. Wrong refs
+  2 K 2:21 → 22:1, "Jan 3:5" → Jon 3:5, Jb 15<sup>l0</sup> relinked. English: "the
+  anther", "eases". Review items: 448 (1 Ch 15:19 visual order), 457 (Ju 11:33
+  broken type). Next: B26.
