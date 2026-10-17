@@ -43,3 +43,8 @@ page	status	question	choice	logged
 361	open	Gn 44:29 and 1 S 2:15 phrases stored in visual (left-to-right) order across '...'; print reads וּלְקַחְתֶּם גַּם־אֶת־זֶה ... וְהוֹרַדְתֶּם and בְּטֶרֶם ... אֶת־הַחֵלֶב ... וּבָא נַעַר הַכֹּהֵן	Reordered to logical (reading) order	2026-10-17
 363	open	Print cites 'Ez 8³⁶' (Ezekiel 8 has 18 verses; Ezra 8:36 fits). Wikisource had silently corrected to Ezr	Restored Ez as printed (printer misprint), as on p.330	2026-10-17
 382	open	Ez 27:34 reading stored as נִשְׁבַּרְתְּ (ה)עַתָּ (visual order); print reads עַתָּ(ה) נִשְׁבַּרְתְּ	Reordered to logical order	2026-10-17
+385	open	1 S 2:13 phrase stored as הַכֹּהֵן כָּל־אִישׁ ... נַעַר (last word moved to front, visual order across line break) and זֶבַה for זֶבַח; print reads כָּל־אִישׁ זֹבֵחַ זֶבַח וּבָא נַעַר הַכֹּהֵן	Reordered to logical order and fixed ה→ח	2026-10-17
+389	open	Zc 7:7 alternatives stored as '(תַּעֲשׂוּ) תִּשְׁמְעוּ' in visual order; print reads תִּשְׁמְעוּ (תַּעֲשׂוּ)	Split and put in logical order	2026-10-17
+391	open	§117 p ends '... give thee counsel; 1 K 1¹².' — the same reference cited twice in the print; Wikisource agrees	Kept as printed (likely misprint for another passage)	2026-10-17
+393	open	שָׂבַע (שָׂבֵעַ) stored as '(שָׂבֵעַ) שָׂבַע' in visual order	Split and put in logical order	2026-10-17
+395	open	1 K 18:32 phrase stored as אֶת־הָאֲבָנִים מִזְבֵּחַ וַיִּבְנֶה (verb moved to end, visual order across line break); print reads וַיִּבְנֶה אֶת־הָאֲבָנִים מִזְבֵּחַ	Reordered to logical order	2026-10-17

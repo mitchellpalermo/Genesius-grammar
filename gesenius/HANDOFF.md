@@ -383,3 +383,11 @@ know. The numbers come from `proof/runs.tsv`; don't type them by hand.
   עֹרֵר (י→ר), לִבּוֹ, stray ׄ marks on נֹפֵל, נֹבֶלֶת, יֹצְאֵי, וְנֹכַחַת. A "##"
   join on 373. English: "heat thee"→"heal thee", "ninny"→"many", joined words.
   Review item: 382 (Ez 27:34 visual order). Next: B20.
+- 2026-10-17 — B20 done: pages 385–396 (§116 u–§118 b: end of the participle,
+  the accusative of the object, double accusative). 0 flagged, 51 fixes.
+  Hebrew: ה/ח (זֶבַח, אֶחָד, שָׁטַח, הֶחֱיָה, מָשַׁח, לֶחִי), the עֹשֶׂה holem/sin-dot
+  merge again (392), stray marks (יָצָא, שִׂפְתֵי, בִּשַּׂר, מִזְבַּח). Visual-order
+  spans again on 385, 389, 393, 395. Many {{GHGbible-ref|translate=…}} misuses
+  (the translate param swallowed the following English) unwound into plain
+  italics. Review items: 385, 389, 391 (1 K 1¹² cited twice), 393, 395. Five
+  queued loop firings arrived during a ~2.5h pause and were folded in. Next: B21.
