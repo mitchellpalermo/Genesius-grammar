@@ -338,3 +338,10 @@ know. The numbers come from `proof/runs.tsv`; don't type them by hand.
   נ/ג גְּבִרְתְּכֶם, ס/ם מַלְכַּת) and an "eorum" for "earum" in the 283 table.
   0 review items. Several queued loop firings arrived while the run was stalled;
   they were folded into this one run. Next: B14.
+- 2026-10-17 — B14 done: pages 306–308, 311–315, 317–320 (§96–§100 o, end of the
+  numerals and start of the particles). 0 flagged, 32 fixes. Recurring issue: Wikisource sometimes stored
+  two-word Hebrew in visual left-to-right order (עָשָׂר<ref> עַשְׁתֵּי on 314,
+  רִבּוֹא שְׁתֵּי on 315); restored logical order and logged both. Also letter
+  swaps אָמתַ֫יִם→מָאתַ֫יִם, אָו→אָז, מִוֶּה→מִזֶּה, and non-Gesenius § refs (Barth,
+  Stade) unlinked. Review items: 311 (§97 holem policy), 314 ×2 (row order; Ex
+  45¹² misprint for Ez kept), 315. Next: B15.

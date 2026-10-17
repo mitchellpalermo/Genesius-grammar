@@ -25,3 +25,8 @@ page	status	question	choice	logged
 266	open	§87 g: transliteration of חֲשׂוּפֵי שֵׁת — print's diacritics on h/s too small to read; wiki had plain h, s	used ḥ and ś to match the Hebrew (ח, שׂ)	2026-10-16
 272	open	§89 d: plural noun before suffix — wiki סוּסַ֫יִךְ, print form looks more like סוּסֶ֫יךָ (2 m. sg.)	kept Wikisource; tiny print	2026-10-16
 275	open	§90 i: Ju 20:16 locative and Baer's variant — wiki had shin+sin double dots (שַֹׁ); print pointing too small to compare the two forms	kept Wikisource vowels, single sin dot (הַשַּׂעֲרָה / Baer הַשַּׂעְרָה)	2026-10-16
+307	open	§96 (אֶחָד): plural 'some' — print's second letter looks rounded like ר (אֲחָרִים) at zoom; Wikisource has אֲחָדִים	kept אֲחָדִים (correct form; print unclear ד/ר)	2026-10-17
+311	open	§97 (numerals): the print's holem in שְׁלֹשֶׁת/שְׁלֹשָׁה merges with the shin dot; Wikisource writes these without a holem (שְׁל֫שֶׁת)	kept Wikisource; likely recurs through §97 — decide once	2026-10-17
+314	open	Table row 11b had עָשָׂר<ref> עַשְׁתֵּי (visual left-to-right order); print reads עַשְׁתֵּי¹ עָשָׂר	Swapped to logical order עַשְׁתֵּי<ref> עָשָׂר so footnote 1 attaches to עַשְׁתֵּי	2026-10-17
+314	open	Print cites 'Ex 45¹²' for עֲשָׂרָה וַחֲמִשָּׁה; the verse is Ezekiel 45:12 (Exodus has 40 chapters)	Kept Ex as printed (printer misprint)	2026-10-17
+315	open	Neh 7:71 form was רִבּוֹא שְׁתֵּי (visual order across the line break); print reads שְׁתֵּי | רִבּוֹא, matching MT	Changed to logical order שְׁתֵּי רִבּוֹא	2026-10-17

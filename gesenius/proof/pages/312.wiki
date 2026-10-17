@@ -55,7 +55,7 @@ Of the first two numerals, {{GHGheb|text=אֶחָד}}, ''one'', with its fem. {{
 | {{GHGheb|text=שִׁבְעָה}}
 | {{GHGheb|text=שִׁבְעַת}}
 | {{GHGheb|text=שֶׁ֫בַע}}
-|<ref>{{GHGheb|text=שְׁבַע}} and {{GHGheb|text=תְּשַּׁע}} appear only as connective forms before {{GHGheb|text=עֶשְׂרֵה}} and {{GHGheb|text=מֵאוֹת}}.</ref>{{GHGheb|text=[שְׁבַע]}}
+|<ref>{{GHGheb|text=שְׁבַע}} and {{GHGheb|text=תְּשַׁע}} appear only as connective forms before {{GHGheb|text=עֶשְׂרֵה}} and {{GHGheb|text=מֵאוֹת}}.</ref>{{GHGheb|text=[שְׁבַע]}}
 |-
 | 8.
 | {{GHGheb|text=שְׁמֹנָה}}
