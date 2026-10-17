@@ -48,3 +48,5 @@ page	status	question	choice	logged
 391	open	§117 p ends '... give thee counsel; 1 K 1¹².' — the same reference cited twice in the print; Wikisource agrees	Kept as printed (likely misprint for another passage)	2026-10-17
 393	open	שָׂבַע (שָׂבֵעַ) stored as '(שָׂבֵעַ) שָׂבַע' in visual order	Split and put in logical order	2026-10-17
 395	open	1 K 18:32 phrase stored as אֶת־הָאֲבָנִים מִזְבֵּחַ וַיִּבְנֶה (verb moved to end, visual order across line break); print reads וַיִּבְנֶה אֶת־הָאֲבָנִים מִזְבֵּחַ	Reordered to logical order	2026-10-17
+397	open	'בּוֹא עַל־' (split across a line break in the print) was stored as 'עַל־ בּוֹא'	Put in logical order בּוֹא עַל־	2026-10-17
+402	open	§119 g headword stored as '(אֱלֵי) אֶל־' in visual order; print reads אֶל־ (אֱלֵי)	Split and put in logical order	2026-10-17

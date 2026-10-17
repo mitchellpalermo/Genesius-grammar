@@ -391,3 +391,10 @@ know. The numbers come from `proof/runs.tsv`; don't type them by hand.
   (the translate param swallowed the following English) unwound into plain
   italics. Review items: 385, 389, 391 (1 K 1¹² cited twice), 393, 395. Five
   queued loop firings arrived during a ~2.5h pause and were folded in. Next: B21.
+- 2026-10-17 — B21 done: pages 397–408 (§118 b–§119 ii: the looser accusative
+  and the prepositions אֶל, בְּ, לְ, מִן, עַל). 0 flagged, 44 fixes. Hebrew: ד/ר
+  (עִבְרוּ, בְּרַח, הִשָּׁמֶר, דָּרַשׁ), ת/ה (תָּמַהּ, בָּנָה), ח/ת (שמח), כְּיוֹם for
+  בְּיוֹם, missing holems (מֹשֵׁל) and vowels (כַּחֲלוֹם, מֵרְאֹת). Several more
+  {{GHGheb|translate=…}} misuses where a Latin term (essentiae, instrumenti,
+  indole) had been swallowed into the gloss. Visual-order spans again on 397,
+  402. Review items: 397, 402. Next: B22.
