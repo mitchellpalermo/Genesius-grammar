@@ -19,3 +19,7 @@ page	status	question	choice	logged
 149	open	קִרְאֶן: pointing checked at high zoom but still close	kept Wikisource	2026-10-16
 158	open	print reads 'Ez 7:28, 8:25, 9:3' — likely meant Ezra	kept as printed (Ezekiel links)	2026-10-16
 166	open	קִצַּץ cited at '2 K 8:16'; the verse is 2 K 18:16 — misprint in the 1910 text	kept as printed	2026-10-16
+242	open	§76 h: wiki gave the same form twice (וַהֲקֵאֹתוֹ … in Opitius and Hahn is incorrect); print's first form has a small single dot under ק	read the first as וַהֲקִאֹתוֹ (hireq), second stays tsere	2026-10-16
+243	open	§77 a: 'consonant' has stray specks under the t in the print; wiki had italic consonant̤	plain 'consonant' (broken-type rule; print is roman)	2026-10-16
+243	open	§77 c: the פ״א stem paired with דּוּשׁ looks like אָרַשׁ (ר) in the zoom; the lexical stem is אדשׁ	kept Wikisource's אָדַשׁ	2026-10-16
+266	open	§87 g: transliteration of חֲשׂוּפֵי שֵׁת — print's diacritics on h/s too small to read; wiki had plain h, s	used ḥ and ś to match the Hebrew (ח, שׂ)	2026-10-16

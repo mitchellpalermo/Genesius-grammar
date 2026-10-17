@@ -320,3 +320,9 @@ know. The numbers come from `proof/runs.tsv`; don't type them by hand.
   ('c curs' p.234 kept vs 'I will le' p.239 left as 'be'). Next: B11.
 - 2026-10-16 — Broken-type rule added (see Protocol A): obvious mechanical
   damage → intended word + review log. Applied to p.234 ('c curs'→'occurs').
+- 2026-10-16 — B11 done: pages 242–244, 259–267 (§76 e–§78, §84b o–§87 p); 0 flagged,
+  52 fixes, 5.2 min. Same look-alike pattern (ח/ת תְּהִלִּים, ג/נ אִגְּרוֹת, ח/ת
+  חָזוֹן, ז/ו מִזְבֵּחַ, ח/ה חָכְמוֹת), English OCR (heating→healing, musc→masc,
+  ground-from), ‛/’→ʿ/ʾ throughout, a broken {{GHGcite|title|…}} template (262),
+  Barth/Stade § refs unlinked (264). 4 review items (242, 243 ×2, 266). The new
+  no-op guard in proof_fix.py fired once and wrote nothing, as intended. Next: B12.

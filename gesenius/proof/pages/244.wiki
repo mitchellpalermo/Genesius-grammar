@@ -5,15 +5,15 @@ The most common verbs of this kind are—
 
 {{GHGheb|text=בּשׁ|translate=to be ashamed}}. {{GHGterm|Hiphʿîl}} {{GHGheb|text=הֵבִישׁ}} (inferred from {{GHGheb|text=הֱבִישׁ֫וֹתָ}}), but also {{GHGheb|text=הֹבִישׁ}}, {{GHGheb|text=הוֹבִישׁ}} as if from {{GHGheb|text=יבשׁ}}, on the analogy of verbs {{GHGheb|text=פ״ו}}; also in {{GHGbible-ref|book=Is|chapter=30|verse=5}} the {{GHGterm|Q<sup>e</sup>rê}} requires {{GHGheb|text=הֹבִישׁ}}, where the {{GHGterm|K<sup>e</sup>thîbh}} has {{GHGheb|text=הִבְאִישׁ}} from {{GHGheb|text=בָּאַשׁ}}.
 
-{{GHGheb|text=טוֹב|translate=to be good}}. {{GHGterm|Perfect}} {{GHGheb|text=טוֹב}}; but {{GHGterm|imperfect}} {{GHGheb|text=יִיטַב}}. and {{GHGterm|Hiphʿîl}} {{GHGheb|text=הֵיטִיב}} from {{GHGheb|text=יָטַב}} (but cf. {{GHGheb|text=הֱטִיבֹ֫תָ}} {{GHGbible-ref|book=2 K|chapter=10|verse=30}}).
+{{GHGheb|text=טוֹב|translate=to be good}}. {{GHGterm|Perfect}} {{GHGheb|text=טוֹב}}; but {{GHGterm|imperfect}} {{GHGheb|text=יִיטַב}} and {{GHGterm|Hiphʿîl}} {{GHGheb|text=הֵיטִיב}} from {{GHGheb|text=יָטַב}} (but cf. {{GHGheb|text=הֱטִיבֹ֫תָ}} {{GHGbible-ref|book=2 K|chapter=10|verse=30}}).
 
-{{GHGheb|text=יָגׄר|translate=to be afraid}}. {{GHGterm|Imperfect}} {{GHGheb|text=יָגוּר}} (from {{GHGheb|text=גּוּר}}).
+{{GHGheb|text=יָגֹר|translate=to be afraid}}. {{GHGterm|Imperfect}} {{GHGheb|text=יָגוּר}} (from {{GHGheb|text=גּוּר}}).
 
 {{GHGheb|text=יָקַץ|translate=to awake}}, only in the ''imperf.'' {{GHGheb|text=יִיקַץ}}; for the {{GHGterm|perfect}}, the {{GHGterm|Hiphʿîl}} {{GHGheb|text=הֵקִיץ}} is used (from {{GHGheb|text=קוּץ}}).
 
-{{GHGheb|text=נָפַץ|translate=to break in pieces}}. {{GHGterm|Imperfect}} {{GHGheb|text=יָפוּץ}} (from {{GHGheb|text=פּוּץ}}). {{GHGterm|Imperative}} {{GHGheb|text=פּוּץ}}. {{GHGterm|Niphʿal}} {{GHGheb|text=נָפוֹץ}}. {{GHGterm|Piʿēl}} {{GHGheb|text=נִפֵּץ}} (from {{GHGheb|text=נָפַץ}}). ''Pôlēl'' {{GHGheb|text=פּוֹצֵץ}} (from {{GHGheb|text=פּוּץ}}). {{GHGterm|reflexive}} {{GHGheb|text=הִתְפּוֹצֵץ}}. {{GHGterm|Hiphʿîl}} {{GHGheb|text=הֵפִיץ}}. Also {{GHGheb|text=פִּצְפֵּץ}} {{GHGbible-ref|book=Jb|chapter=16|verse=12}}.
+{{GHGheb|text=נָפַץ|translate=to break in pieces}}. {{GHGterm|Imperfect}} {{GHGheb|text=יָפוּץ}} (from {{GHGheb|text=פּוּץ}}). {{GHGterm|Imperative}} {{GHGheb|text=פּוּץ}}. {{GHGterm|Niphʿal}} {{GHGheb|text=נָפוֹץ}}. {{GHGterm|Piʿēl}} {{GHGheb|text=נִפֵּץ}} (from {{GHGheb|text=נָפַץ}}). ''Pôlēl'' {{GHGheb|text=פּוֹצֵץ}} (from {{GHGheb|text=פּוּץ}}). {{GHGterm|Reflexive}} {{GHGheb|text=הִתְפּוֹצֵץ}}. {{GHGterm|Hiphʿîl}} {{GHGheb|text=הֵפִיץ}}. Also {{GHGheb|text=פִּצְפֵּץ}} {{GHGbible-ref|book=Jb|chapter=16|verse=12}}.
 
-{{GHGheb|text=נָצַב}} ({{GHGterm|Qal}} in post-biblical Hebrew, in Aramaic and Arabic) ''to place'', whence (possibly) {{GHGterm|Niphʿal}} {{GHGheb|text=נִצַּב}} and ''Hiph‛î''l {{GHGheb|text=הִצִיב}} (see above, § 71); but {{GHGterm|Hithpaʿēl}} {{GHGheb|text=הִתְיַצֵּב}}.
+{{GHGheb|text=נָצַב}} ({{GHGterm|Qal}} in post-biblical Hebrew, in Aramaic and Arabic) ''to place'', whence (possibly) {{GHGterm|Niphʿal}} {{GHGheb|text=נִצַּב}} and ''Hiphʿîl'' {{GHGheb|text=הִצִּיב}} (see above, § 71); but {{GHGterm|Hithpaʿēl}} {{GHGheb|text=הִתְיַצֵּב}}.
 
 {{GHGheb|text=שָׁתָה|translate=to drink}}, used in {{GHGterm|Qal}}; but in ''Hiph.'' {{GHGheb|text=הִשְׁקָה|translate=to give to drink}}, from a {{GHGterm|Qal}} {{GHGheb|text=שָׁקָה}} which is not used in Hebrew.
 
