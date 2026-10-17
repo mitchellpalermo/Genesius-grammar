@@ -78,14 +78,12 @@
 | 1
 | ''Plur''.
 | {{GHGheb|text=אַֽחֲרֵ֫ינוּ}}
-
-&
 | {{GHGheb|text=בֵּינֵ֫ינוּ}}
 
-{{GHGheb|text=בֵּינוֹתֵ֫ינוּ}}<ref>As Mayer Lambert observes, usage (cf. esp. {{GHGbible-ref|book=Gn|chapter=26|verse=28}}) distinguishes between the two forms: {{GHGheb|text=בינותינו}}, means ''between us and you'', whereas {{GHGheb|text=בינינו}} ({{GHGbible-ref|book=Jos|chapter=22|verse=25.27.28}} before {{GHGheb|text=וביניכם}}) means ''between us on the one side''.</ref>
+& {{GHGheb|text=בֵּינוֹתֵ֫ינוּ}}<ref>As Mayer Lambert observes, usage (cf. esp. {{GHGbible-ref|book=Gn|chapter=26|verse=28}}) distinguishes between the two forms: {{GHGheb|text=בינותינו}} means ''between us and you'', whereas {{GHGheb|text=בינינו}} ({{GHGbible-ref|book=Jos|chapter=22|verse=25.27.28}} before {{GHGheb|text=וביניכם}}) means ''between us on the one side''.</ref>
 | {{GHGheb|text=סְבִֽיבוֹתֵ֫ינוּ}}
 | {{GHGheb|text=תַּחְתֵּ֫ינוּ}}
-| {{GHGheb|text=אֵלֵ֫ינו}}
+| {{GHGheb|text=אֵלֵ֫ינוּ}}
 |
 | {{GHGheb|text=עָלֵ֫ינוּ}}
 |-
@@ -102,7 +100,7 @@
 | 3
 | ''Pl. m.''
 | {{GHGheb|text=אַֽחֲרֵיהֶם}}
-| {{GHGheb|text=בֵּֽינֵיחֶם}}
+| {{GHGheb|text=בֵּֽינֵיהֶם}}
 
 & {{GHGheb|text=בֵּֽינוֹתָם}}
 | {{GHGheb|text=סְבִיבֽוֹתֵיהֶם}}
@@ -115,7 +113,7 @@ usually {{GHGheb|text=תַּחְתָּם}}
 
 & {{GHGheb|text=אֲלֵהֶם}}
 
-[<ref>The poetical form {{GHGheb|text=אֵלֵ֫ימוֹ}} only in {{GHGbible-ref|book=Ps|chapter=2|verse=5}}; {{GHGheb|text=עָלֵ֫ימוֹ}}, on which see note 3 on f, 12 times [viz. {{GHGbible-ref|book=Dt|chapter=32|verse=23}}, {{GHGbible-ref|book=Ps|chapter=5|verse=12}}, {{GHGbible-ref|book=Ps|chapter=55|verse=16|hidebook=1}}, {{GHGbible-ref|book=Ps|chapter=64|verse=9|hidebook=1}}, {{GHGbible-ref|book=Jb|chapter=6|verse=16}}, {{GHGbible-ref|book=Jb|chapter=20|verse=23|hidebook=1}}, {{GHGbible-ref|book=Jb|chapter=21|verse=17|hidebook=1}}, {{GHGbible-ref|book=Jb|chapter=22|verse=2|hidebook=1}}, {{GHGbible-ref|book=Jb|chapter=27|verse=23|hidebook=1}}, {{GHGbible-ref|book=Jb|chapter=29|verse=22|hidebook=1}}, {{GHGbible-ref|book=Jb|chapter=30|verse=2.5|hidebook=1}}].</ref>{{GHGheb|text=אֵלֵ֫ימוֹ}}]
+[<ref>The poetical form {{GHGheb|text=אֵלֵ֫ימוֹ}} only in {{GHGbible-ref|book=Ps|chapter=2|verse=5}}; {{GHGheb|text=עָלֵ֫ימוֹ}}, on which see note 3 on ''f'', 12 times [viz. {{GHGbible-ref|book=Dt|chapter=32|verse=23}}, {{GHGbible-ref|book=Ps|chapter=5|verse=12}}, {{GHGbible-ref|book=Ps|chapter=55|verse=16|hidebook=1}}, {{GHGbible-ref|book=Ps|chapter=64|verse=9|hidebook=1}}, {{GHGbible-ref|book=Jb|chapter=6|verse=16}}, {{GHGbible-ref|book=Jb|chapter=20|verse=23|hidebook=1}}, {{GHGbible-ref|book=Jb|chapter=21|verse=17|hidebook=1}}, {{GHGbible-ref|book=Jb|chapter=22|verse=2|hidebook=1}}, {{GHGbible-ref|book=Jb|chapter=27|verse=23|hidebook=1}}, {{GHGbible-ref|book=Jb|chapter=29|verse=22|hidebook=1}}, {{GHGbible-ref|book=Jb|chapter=30|verse=2.5|hidebook=1}}].</ref>{{GHGheb|text=אֵלֵ֫ימוֹ}}]
 | [{{GHGheb|text=עָֽדֵיהֶם}}]
 | {{GHGheb|text=עֲלֵיהֶם}}
 
@@ -129,7 +127,7 @@ usually {{GHGheb|text=תַּחְתָּם}}
 | {{GHGheb|text=תַּחְתֵּיהֶן}}
 | {{GHGheb|text=אֲלֵיהֶן}}
 
-& {{GHGheb|text=אֲלֵחֶן}}
+& {{GHGheb|text=אֲלֵהֶן}}
 |
 | {{GHGheb|text=עֲלֵיהֶן}}
 |}

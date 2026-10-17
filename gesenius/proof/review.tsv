@@ -30,3 +30,8 @@ page	status	question	choice	logged
 314	open	Table row 11b had עָשָׂר<ref> עַשְׁתֵּי (visual left-to-right order); print reads עַשְׁתֵּי¹ עָשָׂר	Swapped to logical order עַשְׁתֵּי<ref> עָשָׂר so footnote 1 attaches to עַשְׁתֵּי	2026-10-17
 314	open	Print cites 'Ex 45¹²' for עֲשָׂרָה וַחֲמִשָּׁה; the verse is Ezekiel 45:12 (Exodus has 40 chapters)	Kept Ex as printed (printer misprint)	2026-10-17
 315	open	Neh 7:71 form was רִבּוֹא שְׁתֵּי (visual order across the line break); print reads שְׁתֵּי | רִבּוֹא, matching MT	Changed to logical order שְׁתֵּי רִבּוֹא	2026-10-17
+321	open	Print reads '(behold us). and' — a period where a comma belongs; looks like a broken comma	Kept Wikisource's comma (broken type)	2026-10-17
+325	open	Pausal forms list prints אֹתְךְ with shewa under ת (pausal would be אֹתָךְ); Wikisource agrees with the print	Kept אֹתְךְ as printed (possible misprint)	2026-10-17
+328	open	Ground-forms were stored as one span '(אֲלַי) אֱלַי' in visual order; print reads אֱלַי (אֲלַי)	Split into אֱלַי (אֲלַי) in logical order	2026-10-17
+330	open	Print cites '2 K 22³⁰' for וָבֹא; the verse is 1 K 22:30 (2 Kings 22 has 20 verses). Wikisource had silently corrected to 1 K	Restored 2 K as printed (printer misprint)	2026-10-17
+331	open	Gn 7:13 / 1 K 21:10 run was scrambled: נֹחַ split off after the phrase, and כֹּה וָכֹה ;אֱלֹהִים וָמֶלֶךְ fused in visual order under 1 K	Rebuilt per print: נֹחַ וְשֵׁם־וְחָם וָיֶ֫פֶת; 1 K 21:10 אֱלֹהִים וָמֶ֑לֶךְ; כֹּה וָכֹה thus and thus	2026-10-17

@@ -345,3 +345,11 @@ know. The numbers come from `proof/runs.tsv`; don't type them by hand.
   swaps אָמתַ֫יִם→מָאתַ֫יִם, אָו→אָז, מִוֶּה→מִזֶּה, and non-Gesenius § refs (Barth,
   Stade) unlinked. Review items: 311 (§97 holem policy), 314 ×2 (row order; Ex
   45¹² misprint for Ez kept), 315. Next: B15.
+- 2026-10-17 — B15 done: pages 321–332 (§100 o–§105 b, end of the particles).
+  0 flagged. The visual-order problem from B14 recurred in fused spans: אֱלַי
+  (אֲלַי) on 328 and the Gn 7:13 / 1 K 21:10 run on 331 (rebuilt). Also ב/כ
+  swaps in כָּכֶם (327), ט/מ and dagesh slips in the מִן table (מִמְּךָ, מִמֵּךְ),
+  ה/ח (בֵּינֵיהֶם, אֲלֵהֶן, וָפָח), and Wikisource had silently corrected the
+  printed "2 K 22³⁰" to 1 K (330) — restored as printed. Review items: 321, 325,
+  328, 330, 331. Eight queued loop firings arrived during the run and were folded
+  into it. Next: B16.
