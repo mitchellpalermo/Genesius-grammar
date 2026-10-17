@@ -137,6 +137,12 @@ For each `todo` page in the chunk:
 
 Rules that matter:
 
+- **Broken type is not a reading** (Mitch, 2026-10-16). Where the print is
+  plainly damaged — a dropped or broken letter or point, a split word like
+  `c curs` or `I will le` — use the word the printer intended, and log the
+  case with `proof_review.py`. This covers only obvious mechanical damage;
+  an author's or printer's genuine misprint (a wrong verse number, a wrong
+  form) stays as printed, per the next rule.
 - **The scan is the authority, not grammar.** Do not "correct" a form to what
   you expect. If print and expectation disagree and the print is legible, the
   print wins. If the print is illegible, leave Wikisource's reading and `flag`.
@@ -312,3 +318,5 @@ know. The numbers come from `proof/runs.tsv`; don't type them by hand.
   Stade/Barth § refs unlinked (234), ’/‛→ʾ/ʿ. 5 review items logged (236, 237,
   239, 240, plus backfill). Open policy question in review.tsv: broken type
   ('c curs' p.234 kept vs 'I will le' p.239 left as 'be'). Next: B11.
+- 2026-10-16 — Broken-type rule added (see Protocol A): obvious mechanical
+  damage → intended word + review log. Applied to p.234 ('c curs'→'occurs').

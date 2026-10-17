@@ -80,7 +80,10 @@ describes it. The points that keep a long unattended run honest:
   Mitch checks `proof/review.tsv` against the scan later; a call that exists
   only in the chat summary is lost. Use `flag` instead only when you cannot
   choose at all.
-- **The scan decides, not grammar.** Expectation is how a wrong "correction"
+- **The scan decides, not grammar** — except where the type itself is
+  broken (a split word, a dropped point): then use the intended word and
+  log it for review. See HANDOFF.md, Protocol A.
+- **Expectation is not evidence.** Expectation is how a wrong "correction"
   gets in; when the print is legible, it wins.
 - **Mark each page as it finishes**, not at the end of the chunk, so a run cut
   short loses at most one page.
