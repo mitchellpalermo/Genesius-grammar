@@ -85,3 +85,5 @@ page	status	question	choice	logged
 532	open	Paradigm A rebuilt as PARADIGM_A (tools/paradigms.py) with wikitext cells; test render shows adjacent Hebrew runs separated by ; or , in one cell displayed in reversed order (bidi) — a converter/build issue (S1), also likely in body text	data kept in printed order; issue noted for S1 in HANDOFF	2026-10-18
 536	open	Inf. Qal + 2 sg. m. / 2 pl. m. כָּתְבְּךָ, כָּתְבְּכֶם: dagesh in ב too faint to confirm at 300 dpi	kept Wikisource's dagesh	2026-10-18
 536	open	Paradigm C rebuilt as PARADIGM_C on B's grid renderer (data-driven captions/column groups); test render: row-label person/gender column wraps (3/m stacked) — layout for S1	data complete; layout noted for S1	2026-10-18
+539	open	E Hithpaʿēl imp. sg. f. / pl. m.: one tall bracket on the right of both forms (no closing bracket printed); Wikisource had half-brackets	both forms set as bracketed (do not occur): [הִתְבָּֽרֲכִי], [הִתְבָּֽרְכוּ]	2026-10-18
+538	open	D–F metegs and most points taken from Wikisource where the scan agreed at strip zoom; only clear differences changed (listed in paradigms.py docstring)	no per-cell zoom on metegs	2026-10-18

@@ -7,7 +7,8 @@ def form_cell(cell) -> str:
     if cell is None:
         return None  # covered by a rowspan above
     text, _, span = cell.partition("|")
-    rowspan = int(span) if span else 1
+    colspan = int(span[1:]) if span.startswith("c") else 1
+    rowspan = int(span) if span and not span.startswith("c") else 1
     if text == "—":
         body = ""
     elif text.startswith("~"):
@@ -18,6 +19,8 @@ def form_cell(cell) -> str:
             star = f.endswith("*")
             parts.append(f"#pform({tstr(f.rstrip('*'))}, {str(star).lower()});")
         body = "#box[" + ", ".join(parts) + "];"
+    if colspan > 1:
+        return f"table.cell(colspan: {colspan}, align: center + horizon)[{body}]"
     if rowspan > 1:
         return f"table.cell(rowspan: {rowspan}, align: center + horizon)[{body}]"
     return f"[{body}]"
@@ -83,10 +86,12 @@ def paradigm(p: dict) -> str:
     if "tables" in p:
         return wikitext_paradigm(p)
     out = [f"#parhead({tstr(p['id'])}, {tstr(p['title'])});\n"]
-    lp, rp = p["printed_pages"]
-    out.append(f"#origpage({tstr(lp)});")
-    out.append(table(p["left"], "Qal · Niphʿal · Piʿēl"))
-    out.append("#pagebreak(weak: true)\n")
-    out.append(f"#origpage({tstr(rp)});")
-    out.append(table(p["right"], "Puʿal · Hiphʿîl · Hophʿal · Hithpaʿēl"))
+    halves = [(p["left"], "Qal · Niphʿal · Piʿēl")]
+    if "right" in p:
+        halves.append((p["right"], "Puʿal · Hiphʿîl · Hophʿal · Hithpaʿēl"))
+    for i, ((half, cap), page) in enumerate(zip(halves, p["printed_pages"])):
+        if i:
+            out.append("#pagebreak(weak: true)\n")
+        out.append(f"#origpage({tstr(page)});")
+        out.append(table(half, cap))
     return "\n".join(out)
