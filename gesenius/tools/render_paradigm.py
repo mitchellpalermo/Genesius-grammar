@@ -1,6 +1,6 @@
 """Render a verb paradigm (paradigms.py) as two Typst tables, one per printed
 page of the original spread, each with its own row labels."""
-from convert import esc, tstr
+from convert import Converter, esc, to_typst, tstr
 
 
 def form_cell(cell) -> str:
@@ -52,11 +52,36 @@ def table(half: dict, caption: str) -> str:
             r = form_cell(c)
             if r is not None:
                 cells.append(r)
+    caption = half.get("caption", caption)
+    note = f"#text(size: 7pt, fill: muted)[{conv_note(half['note'])}]\n" if half.get("note") else ""
     return (f"#ptable({tstr(caption)}, {ncols}, ("
-            + ", ".join(header) + "), (" + ", ".join(cells) + ",));\n")
+            + ", ".join(header) + "), (" + ", ".join(cells) + ",));\n" + note)
+
+
+def conv_note(wikitext: str) -> str:
+    return to_typst(wikitext, Converter()).strip()
+
+
+def wikitext_paradigm(p: dict) -> str:
+    """Paradigms whose shape is not a verb grid (A: pronoun suffixes): each
+    printed page is a wikitext table, rendered by the body converter."""
+    conv = Converter()
+    out = [f"#parhead({tstr(p['id'])}, {tstr(p['title'])});\n"]
+    for i, (page, wt) in enumerate(zip(p["printed_pages"], p["tables"])):
+        if i:
+            out.append("#pagebreak(weak: true)\n")
+        out.append(f"#origpage({tstr(page)});")
+        out.append(to_typst(wt, conv))
+    if p.get("note"):
+        out.append("#text(size: 7.5pt)[" + to_typst(p["note"], conv).strip() + "]\n")
+    for w in conv.warnings:
+        print("WARN paradigm", p["id"], w)
+    return "\n".join(out)
 
 
 def paradigm(p: dict) -> str:
+    if "tables" in p:
+        return wikitext_paradigm(p)
     out = [f"#parhead({tstr(p['id'])}, {tstr(p['title'])});\n"]
     lp, rp = p["printed_pages"]
     out.append(f"#origpage({tstr(lp)});")

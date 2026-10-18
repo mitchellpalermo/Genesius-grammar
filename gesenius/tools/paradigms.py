@@ -12,6 +12,28 @@ Corrections against Wikisource, paradigm B (checked on scan pp. 510–511):
   Niphʿal perf. 2 f. sg.     stress mark removed (none printed)
   Puʿal inf. absol.          קֻטֹּל* restored (missing)
   Inf. and imperative rows realigned to their stems.
+
+Corrections against Wikisource, paradigm A (checked on scan pp. 508–509):
+  Acc. 3 m. sg.                 (הֹ) moved after ־ָ֫הוּ, as printed
+  Acc. 3 m. pl.                 ־ֶ֫מוֹ* → ־ָ֫מוֹ*
+  Suff. nom. sg. 2 m.           אְךָ → ־ְךָ
+  Suff. nom. sg. 3 m.           broken holem הׄ → הֹ
+  Nûn energicum 2 m.            (־ֶ֫נָךָּ) → (־ֶ֫נְךָּ)
+  Nûn energicum 3 m.            (־ֶ֫נָהוּ) → (־ֶ֫נְהוּ)
+  Header                        posessivum → possessivum
+  Row labels as printed (1. comm., not 1. c.); spurious empty rows removed;
+  braced glosses set as rowspans; footnote kept as the table note.
+
+Corrections against Wikisource, paradigm C (checked on scan pp. 512–513):
+  Perf. Plur. 3 c. + 3 sg. f.   קָטָל֫וּהָ → קְטָל֫וּהָ
+  Perf. Plur. 3 c. + 1 pl.      קָטָל֫וּנוּ → קְטָל֫וּנוּ
+  Perf. 3 m. + 2 sg. m.         stray meteg removed (קְטָֽלְךָ → קְטָלְךָ)
+  Imp. Qal + 3 sg. f.           קָטְלָהּ restored to its cell (Wikisource
+                                had it on the note row)
+  Note forms                    שְׁלָחֵנִי → שְׁלָחֵ֫נִי (stress as printed)
+  Impf. Plur. 3 m. + 3 sg. m.   stress mark moved to the syllable as printed
+                                (יִקְטְלוּ֫הוּ → יִקְטְל֫וּהוּ, יִגְאָלוּ֫הוּ → יִגְאָל֫וּהוּ)
+  Printed dashes and "wanting." kept distinct; empty spacer rows removed.
 """
 
 E = "—"
@@ -97,5 +119,225 @@ PARADIGM_B = {
             ("Part. act.", "", "", "", [E, "מַקְטִיל*", E, "מִתְקַטֵּל*"]),
             ("Part. pass.", "", "", "", ["מְקֻטָּל*", E, "מָקְטָל*", E]),
         ],
+    },
+}
+
+
+def _h(s: str) -> str:
+    """Wrap each Hebrew run of a cell in {{GHGheb}}: `{…}` marks a run."""
+    import re
+    return re.sub(r"(?<!\{)\{([^{}]+)\}(?!\})",
+                  lambda m: "{{GHGheb|text=" + m.group(1) + "}}", s)
+
+
+PARADIGM_A = {
+    "id": "A",
+    "title": "The Personal Pronoun",
+    "scan_pages": (532, 533),
+    "printed_pages": ("508", "509"),
+    # Cells are wikitext, rendered by the body converter; braced glosses
+    # ("} thou.") become rowspans. A label column is repeated on the right
+    # page, as in Paradigm B.
+    "note": "Forms with an asterisk are exclusively poetic, those in parentheses ( ) "
+            "are rare, those in brackets [ ] do not occur (cf. {{GHGpar|58|a}}, note).",
+    "tables": [_h("""{|
+|-
+!
+! colspan="2" | Nominative of the Pronoun, or ''Pronomen separatum''.
+! colspan="2" | Accusative of the Pronoun, or ''Suffixum Verbi''. ''A.'' Simple form.
+|-
+| ''Sing.'' 1. ''comm.''
+| {אָֽנֹכִי}, in pause {אָנֹ֫כִי}; {אֲנִי}, in pause {אָ֫נִי}
+| ''I''.
+| {נִי}; {־ַ֫ נִי}; {־ֵ֫ נִי}
+| ''me''.
+|-
+| 2. ''m.''
+| {אַתָּה} ({אַתָּ}), in pause {אָ֫תָּה}
+| rowspan="2" | ''thou''.
+| {ךָ}; {־ְךָ}, in pause {־ֶ֫ ךָ}, {־ָךְ}
+| rowspan="2" | ''thee''.
+|-
+| ''f.''
+| {אַתְּ} ({אַתְּי})
+| {ךְ}; {־ָךְ}; {־ֵךְ}, {־ֶ֫ ךְ}
+|-
+| 3. ''m.''
+| {הוּא}
+| ''he''.
+| {הוּ}, {ו}; {־ָ֫ הוּ} ({הֹ}), {וֹ}; {־ֵ֫ הוּ}
+| ''him''.
+|-
+| ''f.''
+| {הִיא}
+| ''she''.
+| {הָ}; {־ָהּ}; {־ֶ֫ הָ}
+| ''her'' (''eam'').
+|-
+| ''Plur.'' 1. ''comm.''
+| {אֲנַ֫חְנוּ} ({נַ֫חְנוּ}), in pause {אֲנָ֫חְנוּ} ({נָ֫חְנוּ})
+| ''we''.
+| {נוּ}; {־ָ֫ נוּ}; {־ֵ֫ נוּ}
+| ''us''.
+|-
+| 2. ''m.''
+| {אַתֶּם}
+| rowspan="2" | ''you''.
+| {כֶם}; {־ְכֶם}
+| rowspan="2" | ''you''.
+|-
+| ''f.''
+| {אַתֵּן}, {אַתֵּ֫נָה}
+| [{כֶן}; {־ְכֶן}]
+|-
+| 3. ''m.''
+| {הֵם}, {הֵ֫מָּה}
+| rowspan="2" | ''they''.
+| ({הֶם}), {ם}; {־ָם}, {־ַם}, {־ָ֫ מוֹ}<sup>*</sup>; {־ֵם}, ({־ֶ֫ ם}), {־ֵ֫ מוֹ}<sup>*</sup>
+| ''them'' (''eos'').
+|-
+| ''f.''
+| {הֵ֫נָּה}
+| [{הֶן}], {ן}; {־ָן}, ({־ַ֫ ן}); [{־ֵן}]
+| ''them'' (''eas'').
+|}"""), _h("""{|
+|-
+!
+! Accusative of the Pronoun, or ''Suffixum Verbi''.
+! colspan="4" | Genitive of the Pronoun, or ''Suffixum Nominis'' (''Pron. possessivum'').
+|-
+!
+! ''B.'' With ''Nûn energicum''.
+! colspan="2" | ''A.'' Attached to a sing. noun.
+! colspan="2" | ''B.'' Attached to a noun plur. or dual.
+|-
+| ''Sing.'' 1. ''comm.''
+| {־ַ֫ נִּי}; {־ֶ֫ נִּי}
+| {־ִי}
+| ''my'' (prop. gen. ''mei'').
+| {־ַי}
+| ''my''.
+|-
+| 2. ''m.''
+| {־ֶ֫ ךָּ}, ({־ֶ֫ נְךָּ})
+| {ךָ}, {־ְךָ}, in pause {־ֶ֫ ךָ}
+| rowspan="2" | ''thy'' (prop. ''tui'').
+| {־ֶ֫ יךָ}
+| rowspan="2" | ''thy''.
+|-
+| ''f.''
+| not found.
+| {ךְ}, {־ֵךְ}, ({־ָךְ})
+| {־ַ֫ יִךְ}
+|-
+| 3. ''m.''
+| ({־ֶ֫ נְהוּ}), {־ֶ֫ נּוּ}; ({נוֹ})
+| {הוּ}, {ו}; {־ֵ֫ הוּ}, {וֹ} ({הֹ})
+| ''his'' (''eius'' and ''suus'').
+| {־ָיו}, {־ָו}, ({־ֵ֫ יהוּ}<sup>*</sup>)
+| ''his''.
+|-
+| ''f.''
+| {־ֶ֫ נָּה}
+| {הָ}; {־ָהּ}; {־ֶ֫ הָ}
+| ''her''.
+| {־ֶ֫ יהָ}
+| ''her''.
+|-
+| ''Plur.'' 1. ''comm.''
+| {־ֶ֫ נּוּ} ? (see {{GHGpar|58|k}})
+| {נוּ}; {־ֵ֫ נוּ}; ({־ָ֫ נוּ})
+| ''our''.
+| {־ֵ֫ ינוּ}
+| ''our''.
+|-
+| 2. ''m.''
+| rowspan="2" | these forms are not found.
+| {כֶם}; {־ְכֶם}
+| rowspan="2" | ''your''.
+| {־ֵיכֶם}
+| rowspan="2" | ''your''.
+|-
+| ''f.''
+| {כֶן}; {־ְכֶן}
+| {־ֵיכֶן}
+|-
+| 3. ''m.''
+| rowspan="2" |
+| {הֶם}; {־ָם}, {־ָ֫ מוֹ}<sup>*</sup>
+| rowspan="2" | ''their''.
+| {־ֵיהֶם}, {־ֵ֫ ימוֹ}<sup>*</sup>
+| rowspan="2" | ''their''.
+|-
+| ''f.''
+| {הֶן}, {הֵן}, {־ָן}
+| {־ֵיהֶן}
+|}""")],
+}
+
+
+# Paradigm C — rows are (section, number, person, gender, 10 cells), the cells
+# running across both printed pages: 1 sg, 2 sg m, 2 sg f, 3 sg m | 3 sg f,
+# 1 pl, 2 pl m, 2 pl f, 3 pl m, 3 pl f. Braced alternatives are ", "-joined.
+# "~—" is a printed dash (form not possible), "~wanting." a printed note.
+D, W = "~—", "~wanting."
+_C_ROWS = [
+    ("Perf. Qal", "", "3.", "m.", ["קְטָלַ֫נִי, שְׁכֵחַ֫נִי", "קְטָלְךָ", "קְטָלֵךְ", "קְטָלָ֫הוּ, קְטָלוֹ",
+                                   "קְטָלָהּ", "קְטָלָ֫נוּ", W, W, "קְטָלָם, לְבֵשָׁם", "קְטָלָן"]),
+    ("", "", "3.", "f.", ["קְטָלַ֫תְנִי", "קְטָלַ֫תְךָ", "קְטָלָ֫תֶךְ", "קְטָלַ֫תְהוּ, קְטָלַ֫תּוּ",
+                          "קְטָלַ֫תָּה", "קְטָלַ֫תְנוּ", D, D, "קְטָלָ֫תַם", W]),
+    ("", "", "2.", "m.", ["קְטַלְתַּ֫נִי", D, D, "קְטַלְתָּ֫הוּ, קְטַלְתּוֹ",
+                          "קְטַלְתָּהּ", "קְטַלְתָּ֫נוּ", D, D, "קְטַלְתָּם", W]),
+    ("", "", "2.", "f.", ["קְטַלְתִּ֫ינִי", D, D, "קְטַלְתִּ֫יהוּ",
+                          "קְטַלְתִּ֫יהָ", "קְטַלְתִּ֫ינוּ", D, D, "קְטַלְתִּים", W]),
+    ("", "", "1.", "c.", [D, "קְטַלְתִּ֫יךָ", "קְטַלְתִּיךְ", "קְטַלְתִּיו, קְטַלְתִּ֫יהוּ",
+                          "קְטַלְתִּ֫יהָ", D, "קְטַלְתִּיכֶם", W, "קְטַלְתִּים", "קְטַלְתִּין"]),
+    ("", "Plur.", "3.", "c.", ["קְטָל֫וּנִי", "קְטָל֫וּךָ, אֲהֵב֫וּךָ", "קְטָלוּךְ", "קְטָל֫וּהוּ",
+                               "קְטָל֫וּהָ", "קְטָל֫וּנוּ", W, W, "קְטָלוּם", "קְטָלוּן"]),
+    ("", "", "2.", "m.", ["קְטַלְתּ֫וּנִי", D, D, "קְטַלְתּ֫וּהוּ",
+                          W, "קְטַלְתּ֫וּנוּ", D, D, W, W]),
+    ("", "", "1.", "c.", [D, "קְטַלְנ֫וּךָ", "קְטַלְנוּךְ", "קְטַלְנ֫וּהוּ",
+                          "קְטַלְנ֫וּהָ", D, "קְטַלְנוּכֶם", W, "קְטַלְנוּם", W]),
+    "rule",
+    ("Inf. Qal", "", "", "", ["קָטְלִי, קָטְלֵ֫נִי", "כָּתְבְּךָ, קְטָלְךָ", "קָטְלֵךְ", "קָטְלוֹ",
+                              "קָטְלָהּ", "קָטְלֵ֫נוּ", "כָּתְבְּכֶם, קְטָלְכֶם", W, "קָטְלָם", "קָטְלָן"]),
+    "rule",
+    ("Imp. Qal", "", "2.", "", ["קָטְלֵ֫נִי", D, D, "קָטְלֵ֫הוּ",
+                                "קָטְלֶ֫הָ, קָטְלָהּ", "קָטְלֵ֫נוּ", D, D, "קָטְלֵם", D]),
+    "rule",
+    ("Impf. Qal", "", "3.", "m.", ["יִקְטְלֵ֫נִי, יִלְבָּשֵׁ֫נִי", "יִקְטָלְךָ, יִלְבָּֽשְׁךָ", "יִקְטְלֵךְ, יִלְבָּשֵׁךְ",
+                                   "יִקְטְלֵ֫הוּ, יִלְבָּשֵׁ֫הוּ",
+                                   "יִקְטְלֶ֫הָ, יִלְבָּשֶׁ֫הָ, יִקְטְלָהּ", "יִקְטְלֵ֫נוּ, יִלְבָּשֵׁ֫נוּ", "יִקְטָלְכֶם", W,
+                                   "יִקְטְלֵם", W]),
+    ("with Nûn energ.", "", "3.", "m.", ["יִקְטְלֶ֫נִּי", "יִקְטְלֶ֫ךָּ", D, "יִקְטְלֶ֫נּוּ",
+                                         "יִקְטְלֶ֫נָּה", "יִקְטְלֶ֫נּוּ", D, D, D, D]),
+    ("", "Plur.", "3.", "m.", ["יִקְטְל֫וּנִי", "יִקְטְל֫וּךָ", "יִקְטְלוּךְ", "יִקְטְל֫וּהוּ, יִגְאָל֫וּהוּ",
+                               "יִקְטְל֫וּהָ", "יִקְטְל֫וּנוּ", "יִקְטְלוּכֶם", W, "יִקְטְלוּם", W]),
+    "rule",
+    ("Perf. Piʿēl", "", "3.", "m.", ["קִטְּלַ֫נִי", "קִטֶּלְךָ", "קִטְּלֵךְ", "קִטְּלוֹ",
+                                     "קִטְּלָהּ", "קִטְּלָ֫נוּ", W, W, "קִטְּלָם", "קִטְּלָן"]),
+]
+
+
+def _c_half(lo: int, hi: int) -> list:
+    return [r if r == "rule" else (*r[:4], r[4][lo:hi]) for r in _C_ROWS]
+
+
+PARADIGM_C = {
+    "id": "C",
+    "title": "Strong Verb with Suffixes",
+    "scan_pages": (536, 537),
+    "printed_pages": ("512", "513"),
+    "left": {
+        "caption": "Suffixes, singular",
+        "group": [("1 Sing.", 1), ("2 Sing. m.", 1), ("2 Sing. f.", 1), ("3 Sing. m.", 1)],
+        "rows": _c_half(0, 4),
+        "note": "Imp. Qal: from an Imperf. in a, {{GHGheb|text=שְׁלָחֵ֫נִי}}, {{GHGheb|text=שְׁמָע֫וּנִי}}.",
+    },
+    "right": {
+        "caption": "Suffixes, 3 sing. f. and plural",
+        "group": [("3 Sing. f.", 1), ("1 Plur.", 1), ("2 Plur. m.", 1), ("2 Plur. f.", 1),
+                  ("3 Plur. m.", 1), ("3 Plur. f.", 1)],
+        "rows": _c_half(4, 10),
     },
 }

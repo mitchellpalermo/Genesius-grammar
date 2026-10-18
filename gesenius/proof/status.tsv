@@ -368,12 +368,12 @@ page	printed	kind	chunk	status	notes
 525	501	body	B31	done	
 526	502	body	B31	done	
 528	504	body	B31	done	
-532	508	paradigm	P01	todo	
-533	509	paradigm	P01	todo	
+532	508	paradigm	P01	done	
+533	509	paradigm	P01	done	
 534	510	paradigm	P01	done	Paradigm B verified form by form in the sample session; data in tools/paradigms.py PARADIGM_B
 535	511	paradigm	P01	done	Paradigm B (right page); see PARADIGM_B
-536	512	paradigm	P01	todo	
-537	513	paradigm	P01	todo	
+536	512	paradigm	P01	done	
+537	513	paradigm	P01	done	
 538	514	paradigm	P02	todo	
 539	515	paradigm	P02	todo	
 540	516	paradigm	P02	todo	
