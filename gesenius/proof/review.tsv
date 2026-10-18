@@ -66,3 +66,9 @@ page	status	question	choice	logged
 474	open	Sub-heading under CHAPTER II: wikitext had italic 'The Sentence in General.'; scan prints 'I. The Sentence in General.' (roman, numbered), matching 'III. Syntax of the Pronoun.' style	restored 'I.' and roman type	2026-10-17
 482	open	לְ־לְ: wikitext put Latin 'sive—sive, et—et' in translate= plus an unprinted en='either—or, both—and' gloss	Latin moved out as italic text per policy; unprinted en= gloss dropped	2026-10-17
 482	open	Gn 47:21 reading: wikitext הֶֹֽעֱבִיד had a stray holem (broken type)	הֶֽעֱבִיד	2026-10-17
+484	open	קָרָא gloss: wikitext packed the whole italic/roman mix into translate= with inverted italics	translate=one only; rest as text with italics per scan	2026-10-17
+485	open	Ps 3:5 phrase stored in visual order (אֶל־יְהֹוָה אֶקְרָא קוֹלִי)	reordered to reading order: קוֹלִי אֶל־יְהֹוָה אֶקְרָא	2026-10-17
+487	open	Ex 1:20 phrase stored with מְאֹד moved to front (visual-order wrap)	reordered to reading order: וַיִּ֫רֶב הָעָם וַיַּֽעַצְמוּ מְאֹד	2026-10-17
+490	open	Jb 6:20 form: wikitext נָּטָ֑ח (nun with dagesh); scan prints בָּטָ֑ח	בָּטָ֑ח	2026-10-17
+493	open	הִנְּךָ מֵת reference prints 'Gn 20⁸' (superscript blurry; the phrase is at Gn 20:3)	kept as printed/transcribed: Gn 20:8	2026-10-17
+494	open	Cross-ref for וָלֹא 'and if not': wikitext had § 158 dd; scan prints § 159 dd	restored as printed: § 159 dd	2026-10-17
