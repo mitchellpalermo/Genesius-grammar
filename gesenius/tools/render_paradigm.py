@@ -6,9 +6,11 @@ from convert import Converter, esc, to_typst, tstr
 def form_cell(cell) -> str:
     if cell is None:
         return None  # covered by a rowspan above
+    import re
     text, _, span = cell.partition("|")
-    colspan = int(span[1:]) if span.startswith("c") else 1
-    rowspan = int(span) if span and not span.startswith("c") else 1
+    m = re.fullmatch(r"(?:c(\d+))?r?(\d+)?", span)
+    colspan = int(m.group(1) or 1)
+    rowspan = int(m.group(2) or 1)
     if text == "—":
         body = ""
     elif text.startswith("~"):
@@ -19,10 +21,8 @@ def form_cell(cell) -> str:
             star = f.endswith("*")
             parts.append(f"#pform({tstr(f.rstrip('*'))}, {str(star).lower()});")
         body = "#box[" + ", ".join(parts) + "];"
-    if colspan > 1:
-        return f"table.cell(colspan: {colspan}, align: center + horizon)[{body}]"
-    if rowspan > 1:
-        return f"table.cell(rowspan: {rowspan}, align: center + horizon)[{body}]"
+    if colspan > 1 or rowspan > 1:
+        return f"table.cell(colspan: {colspan}, rowspan: {rowspan}, align: center + horizon)[{body}]"
     return f"[{body}]"
 
 
@@ -44,6 +44,9 @@ def table(half: dict, caption: str) -> str:
             cells.append(f"table.hline(stroke: 0.6pt + primary)")
             continue
         a, b = label(row)
+        if isinstance(row[4], str):  # a full-width note row ("~Like Verbs …")
+            cells.append(f"table.cell(colspan: {2 + ncols}, align: center){form_cell(row[4])}")
+            continue
         if row[0].startswith("Shortened") and all(c == "—" for c in row[4]):
             cells.append(f"table.cell(colspan: {2 + ncols})[{a}]")
             continue

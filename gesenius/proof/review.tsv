@@ -87,3 +87,6 @@ page	status	question	choice	logged
 536	open	Paradigm C rebuilt as PARADIGM_C on B's grid renderer (data-driven captions/column groups); test render: row-label person/gender column wraps (3/m stacked) — layout for S1	data complete; layout noted for S1	2026-10-18
 539	open	E Hithpaʿēl imp. sg. f. / pl. m.: one tall bracket on the right of both forms (no closing bracket printed); Wikisource had half-brackets	both forms set as bracketed (do not occur): [הִתְבָּֽרֲכִי], [הִתְבָּֽרְכוּ]	2026-10-18
 538	open	D–F metegs and most points taken from Wikisource where the scan agreed at strip zoom; only clear differences changed (listed in paradigms.py docstring)	no per-cell zoom on metegs	2026-10-18
+543	open	G right page: brackets printed tall across several rows (Hophʿal perf. 2 m.–1 c. sg., 2 m.–1 c. pl.; Pôʿēl imp. f.; impf. groups). Rendered as Wikisource's half-brackets on the first/last form of each span	kept half-brackets; Pôʿēl imp. 2 f. sg. and impf. 2 f. pl. half-brackets added where Wikisource dropped them	2026-10-18
+542	open	G/I parenthetical extras (יֵקַל § 67 p; pause וַיָּסֹב; fem. נְסַבָּה; pause יֹאכֵל) printed inside the table, moved to a note under the table	moved to table note	2026-10-18
+544	open	H Qal impf. 2 f. pl.: one bracket printed round both Qal forms (תִּגַּ֫שְׁנָה תִּפֹּ֫לְנָה)	each form bracketed separately	2026-10-18
