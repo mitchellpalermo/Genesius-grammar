@@ -78,3 +78,6 @@ page	status	question	choice	logged
 508	open	'Ze 9⁹' in §154 a note (b): Zechariah is abbreviated Zc elsewhere; scan clearly prints Ze	kept as printed: Ze 9:9 (plain text)	2026-10-17
 514	open	§156 c fn 2: '(אֶ֫רֶץ) אָֽרְצָה' stored in visual order	reordered to reading order: אָֽרְצָה (אֶ֫רֶץ)	2026-10-17
 517	open	Ps 104:28 phrase split in visual order around the footnote, with ם for ט (יִלְקֹם֑וּן) and ת for ה (לָתֶם)	rejoined in reading order: תִּתֵּן לָהֶם יִלְקֹט֑וּן + footnote 2	2026-10-17
+523	open	§161 c correlative pairs: wikitext had broken וּךְ—ךְּ (Jos 14:11, 1 S 30:24) and כֵּן—כְּ (Ps 127:4) in reversed order	restored as printed in reading order: כְּ—וּכְ and כְּ—כֵּן	2026-10-18
+524	open	§162 b correlative pairs (אִם—וְאִם, Gn 24:44 גַּם—וְגַם, Zp 1:18 גַּם—גַּם ... לֹא) stored in reversed order; RTL typesetting makes the scan's visual order ambiguous	set in logical reading order (first-occurring member first), matching the cited verses; same policy as p.523	2026-10-18
+525	open	1 S 2:13 phrase stored with כָּל־אִישׁ moved to end (visual-order wrap) and broken holem in זׄבֵחַ	reordered: כָּל־אִישׁ זֹבֵחַ זֶ֫בַח וּבָא וג׳	2026-10-18
