@@ -72,3 +72,6 @@ page	status	question	choice	logged
 490	open	Jb 6:20 form: wikitext נָּטָ֑ח (nun with dagesh); scan prints בָּטָ֑ח	בָּטָ֑ח	2026-10-17
 493	open	הִנְּךָ מֵת reference prints 'Gn 20⁸' (superscript blurry; the phrase is at Gn 20:3)	kept as printed/transcribed: Gn 20:8	2026-10-17
 494	open	Cross-ref for וָלֹא 'and if not': wikitext had § 158 dd; scan prints § 159 dd	restored as printed: § 159 dd	2026-10-17
+495	open	Gn 3:13 מַה־וֹּאת: broken type (ז printed/transcribed as וֹ)	מַה־זֹּאת	2026-10-17
+496	open	Ju 5:8 אִם־ֵי֥רָאֶה: broken transcription (tsere before yod, stray merkha)	אִם־יֵרָאֶה as printed	2026-10-17
+498	open	1 K 22:15 footnote ref was nested inside the GHGheb text (between אִם and נֶחְדָּ֑ל); scan's marker sits mid-phrase due to RTL layout	moved <ref> after the Hebrew phrase so the template holds only Hebrew	2026-10-17
