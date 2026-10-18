@@ -93,3 +93,7 @@ page	status	question	choice	logged
 548	open	M Niphʿal perf. 2 f. pl.: scan appears to read [נְקוּמוֹתֶן] (full brackets, shureq); Wikisource נְקֽוֹמוֹתֶן] — small type, not zoomed	[נְקוּמוֹתֶן]	2026-10-18
 549	open	M/N multi-row brackets (Hophʿal 1 c. pl., Pôlal impf. 2 m. pl. half-brackets added; N Qal 1 c. pl. bracket removed) read at strip zoom; same half-bracket convention as G	as listed in paradigms.py docstring	2026-10-18
 547	open	K and L share printed p. 523; rendered as two separate tables (L after K)	split into PARADIGM_K and PARADIGM_L	2026-10-18
+550	open	O Niphʿal perf. 1 c. pl.: one bracket printed (נִמְצֵ֫אנוּ]); direction ambiguous at strip zoom	kept as a half-bracket	2026-10-18
+551	open	O/P bracket directions on multi-row spans (Puʿal/Hithpaʿēl columns) taken from Wikisource where the scan's RTL placement is ambiguous; cell form order also kept as Wikisource (e.g. Puʿal קֹרָא, [מֻצָּא)	Wikisource order/brackets kept unless clearly wrong	2026-10-18
+555	open	Q right page: תְּצַוֻּם printed on the 1 c. pl. row (aligned with נַשְׁקֶ֫נּוּ), though 2 m. pl. by form	kept on the printed row	2026-10-18
+554	open	Q rendered as a wikitext table; test render shows row labels beginning '2.' / '1.' split by the converter (numbered-list handling) — layout for S1	noted for S1	2026-10-18
