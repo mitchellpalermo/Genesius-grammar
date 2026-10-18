@@ -97,3 +97,7 @@ page	status	question	choice	logged
 551	open	O/P bracket directions on multi-row spans (Puʿal/Hithpaʿēl columns) taken from Wikisource where the scan's RTL placement is ambiguous; cell form order also kept as Wikisource (e.g. Puʿal קֹרָא, [מֻצָּא)	Wikisource order/brackets kept unless clearly wrong	2026-10-18
 555	open	Q right page: תְּצַוֻּם printed on the 1 c. pl. row (aligned with נַשְׁקֶ֫נּוּ), though 2 m. pl. by form	kept on the printed row	2026-10-18
 554	open	Q rendered as a wikitext table; test render shows row labels beginning '2.' / '1.' split by the converter (numbered-list handling) — layout for S1	noted for S1	2026-10-18
+558	open	Index transcription: Hebrew in index entries (e.g. {{GHGheb|text=זֶה}}, case-ending vowel signs ־ָה, ־ִי, ־וֹ/־וּ) set with standard pointing where the small index type is not fully legible	standard forms; check against scan if exact pointing matters	2026-10-18
+559	open	‘Emphasis expressed by infin. abs., 114 l–r, v–x’: infin. abs. is § 113 (l–r, v–x); scan and its OCR read 114	kept as printed: 114	2026-10-18
+559	open	Dageš lene exceptional cases: four small pointed pairs in parentheses, hard to read	set as בְּב, כְּכ, בְּפ, פְּמ (order as printed left-to-right)	2026-10-18
+561	open	Hiphʿîl/Imperfect Hiph. entries: example form printed small (looks like יְבָרְכוּ, with shewa vs. pathaḥ vowel signs shown as bare signs) — vowel-sign examples rendered as ''ĕ''/''ă'' text; 'after וְלְ' (114 p) also uncertain	best reading; check 561 against scan	2026-10-18
