@@ -2,12 +2,12 @@
 
 THE SENTENCE
 
-''The Sentence in General.''}}
+I. The Sentence in General.}}
 
 <!-- section begins above -->{{GHGpar-heading|140|Noun-clauses, Verbal-clauses, and the Compound Sentence}}
 
 {{GHGmargin-letter|140|a}}
-'''1.''' Every sentence, the subject and predicate of which are nouns or their equivalents (esp. participles), is called a ''noun-clause'', e.g. {{GHGheb|text=יָהוָֹה מַלְכֵּנוּ|translate=the Lord is our king}}, {{GHGbible-ref|book=Is|chapter=33|verse=22}}; {{GHGheb|text=וְאַנְשֵׁי סְדֹם רָעִים וְחַטָּאִים|translate=now the men of Sodom were wicked and sinners}}, {{GHGbible-ref|book=Gn|chapter=13|verse=13}}; {{GHGheb|text=פֶּה לָהֶם|translate=a mouth is theirs}}, {{GHGbible-ref|book=Ps|chapter=115|verse=5}}; see further, § 141.
+'''1.''' Every sentence, the subject and predicate of which are nouns or their equivalents (esp. participles), is called a ''noun-clause'', e.g. {{GHGheb|text=יְהוָֹה מַלְכֵּנוּ|translate=the Lord is our king}}, {{GHGbible-ref|book=Is|chapter=33|verse=22}}; {{GHGheb|text=וְאַנְשֵׁי סְדֹם רָעִים וְחַטָּאִים|translate=now the men of Sodom were wicked and sinners}}, {{GHGbible-ref|book=Gn|chapter=13|verse=13}}; {{GHGheb|text=פֶּה לָהֶם|translate=a mouth is theirs}}, {{GHGbible-ref|book=Ps|chapter=115|verse=5}}; see further, § 141.
 
 {{GHGmargin-letter|140|b}}
 '''2.''' Every sentence, the subject of which is a noun (or pronoun included in a verbal-form) and its predicate a finite verb, is called a ''verbal-clause'', e.g. {{GHGheb|text=וַיֹּא֫מֶר אֱלֹהִים|translate=and God said}}, {{GHGbible-ref|book=Gn|chapter=1|verse=3}}; {{GHGheb|text=וַיַּבְדֵּל|translate=and he divided}}, 1:7; see further, § 142.

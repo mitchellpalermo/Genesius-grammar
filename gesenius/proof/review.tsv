@@ -61,3 +61,8 @@ page	status	question	choice	logged
 467	open	§137 heading: wikitext had 'The Interrogative Pronouns'; scan prints singular 'Pronoun' (check TOC/index wording if it matters)	changed to singular, as printed	2026-10-17
 468	open	Arabic transliterations: wikitext ‛at̄ar / ʾallad-i; scan prints 'aṯar and 'allaḏi (alef apostrophe, macron-below t and d)	ʾaṯar, ʾallaḏi (ʾ for alef per policy; ṯ/ḏ for underlined letters)	2026-10-17
 469	open	Gn 13:3 phrase stored in visual order (אֲשֶׁר־הָיָה שָׁם אָֽהֳלֹה עַד־הַמָּקוֹם)	reordered to reading order: עַד־הַמָּקוֹם אֲשֶׁר־הָיָה שָׁם אָֽהֳלֹה	2026-10-17
+471	open	Ps 78:54 phrase printed חַר זֶה (heth); MT reads הַר־זֶה 'this mountain' — likely printer misprint	kept as printed: חַר זֶה	2026-10-17
+472	open	Zc 7:10 quotation (fn 1) stored in visual order with ה for ח (אָהִיו, תַּהְשְׁבוּ)	reordered to reading order and restored ח: וְרָעַת אִישׁ אָחִיו אַל־תַּחְשְׁבוּ בִּלְבַבְכֶם	2026-10-17
+474	open	Sub-heading under CHAPTER II: wikitext had italic 'The Sentence in General.'; scan prints 'I. The Sentence in General.' (roman, numbered), matching 'III. Syntax of the Pronoun.' style	restored 'I.' and roman type	2026-10-17
+482	open	לְ־לְ: wikitext put Latin 'sive—sive, et—et' in translate= plus an unprinted en='either—or, both—and' gloss	Latin moved out as italic text per policy; unprinted en= gloss dropped	2026-10-17
+482	open	Gn 47:21 reading: wikitext הֶֹֽעֱבִיד had a stray holem (broken type)	הֶֽעֱבִיד	2026-10-17
