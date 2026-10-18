@@ -75,3 +75,6 @@ page	status	question	choice	logged
 495	open	Gn 3:13 מַה־וֹּאת: broken type (ז printed/transcribed as וֹ)	מַה־זֹּאת	2026-10-17
 496	open	Ju 5:8 אִם־ֵי֥רָאֶה: broken transcription (tsere before yod, stray merkha)	אִם־יֵרָאֶה as printed	2026-10-17
 498	open	1 K 22:15 footnote ref was nested inside the GHGheb text (between אִם and נֶחְדָּ֑ל); scan's marker sits mid-phrase due to RTL layout	moved <ref> after the Hebrew phrase so the template holds only Hebrew	2026-10-17
+508	open	'Ze 9⁹' in §154 a note (b): Zechariah is abbreviated Zc elsewhere; scan clearly prints Ze	kept as printed: Ze 9:9 (plain text)	2026-10-17
+514	open	§156 c fn 2: '(אֶ֫רֶץ) אָֽרְצָה' stored in visual order	reordered to reading order: אָֽרְצָה (אֶ֫רֶץ)	2026-10-17
+517	open	Ps 104:28 phrase split in visual order around the footnote, with ם for ט (יִלְקֹם֑וּן) and ת for ה (לָתֶם)	rejoined in reading order: תִּתֵּן לָהֶם יִלְקֹט֑וּן + footnote 2	2026-10-17
