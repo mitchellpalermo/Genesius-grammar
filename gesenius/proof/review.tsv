@@ -90,3 +90,6 @@ page	status	question	choice	logged
 543	open	G right page: brackets printed tall across several rows (Hophʿal perf. 2 m.–1 c. sg., 2 m.–1 c. pl.; Pôʿēl imp. f.; impf. groups). Rendered as Wikisource's half-brackets on the first/last form of each span	kept half-brackets; Pôʿēl imp. 2 f. sg. and impf. 2 f. pl. half-brackets added where Wikisource dropped them	2026-10-18
 542	open	G/I parenthetical extras (יֵקַל § 67 p; pause וַיָּסֹב; fem. נְסַבָּה; pause יֹאכֵל) printed inside the table, moved to a note under the table	moved to table note	2026-10-18
 544	open	H Qal impf. 2 f. pl.: one bracket printed round both Qal forms (תִּגַּ֫שְׁנָה תִּפֹּ֫לְנָה)	each form bracketed separately	2026-10-18
+548	open	M Niphʿal perf. 2 f. pl.: scan appears to read [נְקוּמוֹתֶן] (full brackets, shureq); Wikisource נְקֽוֹמוֹתֶן] — small type, not zoomed	[נְקוּמוֹתֶן]	2026-10-18
+549	open	M/N multi-row brackets (Hophʿal 1 c. pl., Pôlal impf. 2 m. pl. half-brackets added; N Qal 1 c. pl. bracket removed) read at strip zoom; same half-bracket convention as G	as listed in paradigms.py docstring	2026-10-18
+547	open	K and L share printed p. 523; rendered as two separate tables (L after K)	split into PARADIGM_K and PARADIGM_L	2026-10-18
