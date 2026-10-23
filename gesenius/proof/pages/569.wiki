@@ -19,7 +19,7 @@
 
 {{GHGheb|text=אֵימָה|indexitem=1}}{{GHGpar|84|g|a|nosign=1}}
 
-{{GHGheb|text=אֵין, אַ֫יִן|indexitem=1}}connecting subject and predicate {{GHGpar|141|k|nosign=1}}, {{GHGpar|52|i|nosign=1}}-{{GHGpar|52|q|nonumber=1|nosign=1}}
+{{GHGheb|text=אֵין, אַ֫יִן|indexitem=1}}connecting subj. and predicate {{GHGpar|141|k|nosign=1}}, {{GHGpar|152|i|nosign=1}}-{{GHGpar|52|q|nonumber=1|nosign=1}}
 
 {{GHGheb|text=? אִין|indexitem=1}}{{GHGpar|150|c|nosign=1}}<sup>3</sup>
 
@@ -37,7 +37,7 @@
 
 {{GHGheb|text=אֵיתָן|indexitem=1}}{{GHGpar|85|b|nosign=1}}, {{GHGpar|133|a|nosign=1}}<sup>1</sup>
 
-{{GHGheb|text=אַךָ|indexitem=1}}{{GHGpar|100|i|nosign=1}}, uses of {{GHGpar|153||nosign=1}}
+{{GHGheb|text=אַךְ|indexitem=1}}{{GHGpar|100|i|nosign=1}}, uses of {{GHGpar|153||nosign=1}}
 
 {{GHGheb|text=אַכְזָב|indexitem=1}}{{GHGpar|85|b|nosign=1}}, {{GHGpar|133|a|nosign=1}}<sup>1</sup>
 
@@ -179,7 +179,7 @@ and Additions
 
 {{GHGheb|text=אַף־כִּי|indexitem=1}}{{GHGpar|154|a|nosign=1}}<sup>1</sup> (c)
 
-{{GHGheb|text=אָפְנָיו|indexitem=1}}{{GHGpar|23|i|nosign=1}}
+{{GHGheb|text=אָפְנָיו|indexitem=1}}{{GHGpar|93|r|nosign=1}}
 
 {{GHGheb|text=אֶפֶס|indexitem=1}}{{GHGpar|152|s|nosign=1}}, {{GHGheb|text=אֶפֶס כִּי}} {{GHGpar|163|c|nosign=1}}
 
@@ -187,7 +187,7 @@ and Additions
 
 {{GHGheb|text=אֶפְרַ֫יִם|indexitem=1}}{{GHGpar|88|c|nosign=1}}
 
-{{GHGheb|text=אֶפְשֳׂעה|indexitem=1}}{{GHGpar|65|b|nosign=1}}
+{{GHGheb|text=אֶפְשְׂעָה|indexitem=1}}{{GHGpar|65|b|nosign=1}}
 
 {{GHGheb|text=†אַצִּיתֶ֫נָּה|indexitem=1}}{{GHGpar|71|nosign=1}}
 |}<noinclude></noinclude>

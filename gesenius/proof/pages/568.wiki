@@ -26,7 +26,7 @@ The numbers refer to the sections : the ‘superior’ figures after the letters
 
 {{GHGheb|text=אֲבֽוֹתֵיהֶם|indexitem=1}}{{GHGpar|91|n|nosign=1}}
 
-{{GHGheb|text=אֶֽבֲחַר|indexitem=1}}{{GHGpar|10|g|nosign=1}}
+{{GHGheb|text=אֶֽבֲחַר|indexitem=1}}{{GHGpar|10|g|nosign=1}}<sup>3</sup>
 
 {{GHGheb|text=אָבִי|indexitem=1}}{{GHGpar|74|k|nosign=1}}, {{GHGpar|76|h|nosign=1}}
 
@@ -110,7 +110,7 @@ The numbers refer to the sections : the ‘superior’ figures after the letters
 
 {{GHGheb|text=אֽוֹתְכֶם|indexitem=1}}{{GHGpar|103|b|nosign=1}}
 
-{{GHGheb|text=אָז|indexitem=1}}{{GHGpar|100|i|nosign=1}}, with pref. and imperf. {{GHGpar|107|c|nosign=1}}, {{GHGpar|108|g|nosign=1}}<sup>1</sup>
+{{GHGheb|text=אָז|indexitem=1}}{{GHGpar|100|i|nosign=1}}, with perf. and imperf. {{GHGpar|107|c|nosign=1}}, {{GHGpar|108|g|nosign=1}}<sup>1</sup>
 
 {{GHGheb|text=אֵזוֹר|indexitem=1}}{{GHGpar|23|h|nosign=1}}
 
