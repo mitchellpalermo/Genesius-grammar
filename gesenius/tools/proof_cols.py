@@ -1,0 +1,51 @@
+"""Crop an index page into readable column pieces (Protocol C).
+
+    python3 tools/proof_cols.py 573        # 3 columns (Index of Hebrew Words)
+    python3 tools/proof_cols.py 557 2      # 2 columns (Subjects, Passages)
+
+Renders the scan page at 300 dpi, trims the margin, and writes
+proof/strips/<page>-<col><part>.png — columns A, B, C, each in three
+overlapping vertical parts — small enough to read the pointing. Also writes
+the scan's own OCR per column to proof/strips/<page>-<col>.txt as a typing aid
+(English is usable; its Hebrew is not).
+"""
+import pathlib
+import subprocess
+import sys
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+SCAN = ROOT / "scan" / "geseniushebrewgr00geseuoft.pdf"
+OUT = ROOT / "proof" / "strips"
+
+
+def run(*a: str) -> str:
+    return subprocess.run(a, check=True, capture_output=True, text=True).stdout
+
+
+def main() -> None:
+    page = int(sys.argv[1])
+    ncol = int(sys.argv[2]) if len(sys.argv) > 2 else 3
+    OUT.mkdir(parents=True, exist_ok=True)
+    full = OUT / f"{page}-full"
+    run("pdftoppm", "-f", str(page), "-l", str(page), "-r", "300", "-png", "-singlefile", str(SCAN), str(full))
+    trim = OUT / f"{page}-trim.png"
+    run("magick", f"{full}.png", "-fuzz", "15%", "-trim", "+repage", str(trim))
+    w, h = map(int, run("magick", "identify", "-format", "%w %h", str(trim)).split())
+    cw, part = w // ncol, (h + 2) // 3
+    for i in range(ncol):
+        col = "ABC"[i]
+        x = max(0, i * cw - 30)
+        for k in range(3):
+            y = max(0, k * part - 40)
+            run("magick", str(trim), "-crop", f"{cw + 30}x{part + 40}+{x}+{y}", "+repage",
+                str(OUT / f"{page}-{col}{k + 1}.png"))
+    info = run("pdfinfo", "-f", str(page), "-l", str(page), str(SCAN))
+    pw, ph = next(map(float, l.split()[3:6:2]) for l in info.splitlines() if "size:" in l)
+    for i in range(ncol):
+        run("pdftotext", "-f", str(page), "-l", str(page), "-r", "72", "-x", str(int(i * pw / ncol)), "-y", "0",
+            "-W", str(int(pw / ncol)), "-H", str(int(ph)), str(SCAN), str(OUT / f"{page}-{'ABC'[i]}.txt"))
+    print(f"{page}: {ncol} columns, trimmed {w}x{h}; read proof/strips/{page}-A1.png …")
+
+
+if __name__ == "__main__":
+    main()
