@@ -1,138 +1,105 @@
-<noinclude><pagequality level="1" user="Shenme" /></noinclude>Index of Hebrew Words and Forms
-{|
-|-
-| {{ts|ar}} | {{hebrew|לְמַעַן}}
-| 119 c 
-|-
-| {{ts|ar}} | {{hebrew|לַמְרוֹת}}
-| 53 q
-|-
-| {{ts|ar}} | {{hebrew|לְמַשְׂאוֹת}}
-| 45 e
-|-
-| {{ts|ar}} | {{hebrew|לִנְגּוֹעַ}}
-| 66 b 
-|-
-| {{ts|ar}} | {{hebrew|לָנֶח}}
-| 80 i
-|-
-| {{ts|ar}} | {{hebrew|לַנְחוֹתָם}}
-| 53 q
-|}
+<!-- scan 581, printed 557, Index of Hebrew Words and Forms -->
+{{colbegin}}
+{{GHGheb|text=לְמַ֫עַן}} 119 ''c''
+{{GHGheb|text=לַמְרוֹת}} 53 ''q''
+{{GHGheb|text=לְמַשָּׂאוֹת}} 45 ''e''
+{{GHGheb|text=לִנְגּוֹעַ}} 66 ''b''
+{{GHGheb|text=לָ֫נֶה}} 80 ''i''
+{{GHGheb|text=לַנְחוֹתָם}} 53 ''q''
+† {{GHGheb|text=לַנְפִּל}} 53 ''q'', 66 ''f''
+{{GHGheb|text=לָנֶ֫פֶשׁ}} 102 ''i''
+{{GHGheb|text=לַסְתִּר}} 53 ''q''
+{{GHGheb|text=לַעֲבִיר}} 53 ''q''
+{{GHGheb|text=לָעוֹ}} 72 ''q''
+{{GHGheb|text=לָֽעֲוִנִים}} 35 ''g''
+{{GHGheb|text=לְעֻמַּת}} 100 ''b'', 101 ''a''
+{{GHGheb|text=לְעַנּוֹת}} 51 ''l''
+? {{GHGheb|text=לַעְשֵׂר}} 53 ''k''
+{{GHGheb|text=לִפְנֵי}} 119 ''c'', 130 ''a''<sup>3</sup>
+{{GHGheb|text=לִצְבֹּא}} 45 ''g''
+{{GHGheb|text=לַצְבּוֹת}} 53 ''q''
+{{GHGheb|text=לְצַ֫חֶק בָּ֫נוּ}} 29 ''g''
+{{GHGheb|text=לֵצִים}} 55 ''f''
+{{GHGheb|text=לָקַח}} 66 ''g''
+{{GHGheb|text=לֻקַּח}} 66 ''g''
+{{GHGheb|text=לֻקָּח}} 52 ''s'' (ptcp.)
+{{GHGheb|text=לֻקְּחָה}} 10 ''h'', 52 ''d''
+{{GHGheb|text=לְקָחִי}} 66 ''g''
+† {{GHGheb|text=לָקַ֫חַתְּ}} 65 ''g''
+{{GHGheb|text=לִקְרַאת}} 19 ''k'', 74 ''h''
+? {{GHGheb|text=לֵרֹא}} 69 ''n''
+{{GHGheb|text=לֵרָאוֹת}} 51 ''l''
+{{GHGheb|text=לַרְאֹתְכֶם}} 53 ''q''
+{{GHGheb|text=לְשָׂטְנוֹ}} 61 ''b''
+{{GHGheb|text=לִשְׁאוֹל}} 10 ''g''<sup>3</sup>
+{{GHGheb|text=לַשְׁבִּית}} 53 ''q''
+{{GHGheb|text=לְשַׁלַּח}} 65 ''e''
+{{GHGheb|text=לִשְׁלֹ֫שֶׁת יָמִים}} 134 ''o''<sup>1</sup>
+{{GHGheb|text=לַשְׁמִד}} 53 ''q''
+{{GHGheb|text=לַשְׁמִעַ}} 53 ''q''
+{{GHGheb|text=לְשָׁ֫רֶת שָׁם}} 64 ''g''
+? {{GHGheb|text=לֵת}} 69 ''m''
+{{GHGheb|text=לָתֶת־חֹ֫רֶב}} 102 ''f''
+? {{GHGheb|text=לְתִתֵּן}} 66 ''i''
 
-ת Inden fHebrew oreds and
-g 53 לשמד
-לשסע
-64 שקת שם
-m 69 ולת
-o2ז fלזירלרב
-4 66 1 לחpן
-557
-uses I37 in exclamations
-I48
-o2b מהיות
-530 1 מהלכים
-6 I9ם למען
-9 53 למרות
-י 45 -ימישאות
-5 66 לנוע
-8oi לנה
-539 לנחiחם
-%66f 53 ללנכל
-; To2 לנפש
-q 63 לסמר
-לעכיר
-2qך לעוז
-9g 35 לעינים
-53 2
-ledמ מתפכה
-d d. 45 e 15ז צת
-מהקצעות
-8 52 (ptcp) מהר
-verbalsufix -מו
-by
-53 %
--aspreformaמ
-tiveof participles 54
-noun sut9 ;ע 56 BOmetimes dropped |of52 8;
-of יnouns103J ;> 45ה in#n. rare
-q ?ך מןט
-P ?ך מיל
-85 o-m
-37 r od מהר, מ-
-f מאומה
-8 ptep.)) Jמאן
-6d מאסכם
-שמ 5 אספיו
-2 לאת שצר
-מבטח
-withnal מכי
-מוסר
-Additions תו מוסרות
-52ימיערת
-0 53 מרצא
-00 75 מוצא
-'?95 מוצאה
-749f מונאת
-מורגים
-f 9 מותה
-68 מוין
-ror IO0לעמתd
-{ 51 לענות
-'k 53 ?לעשר
-TI9 G 'a 130 לפגי
-9 45 לצבא
-530 לצבת
-לצדק בנא
-55f לפצים
-g 66 לקת
-g 66 לקת
-ptep) 528 לקח
-To h, 52 d לקתה
-g 66 לקחי
-9 65 ןלקחמ
-h, 74 h 9 לקראת
-" 69 1 לרא
-7 51 לראות
-531 לראתכם
-b 61 לשמר
-'g ס1 לשאול
-535 לשבית
-e 65 לשלח
-ס 34 לשלשת מ
-ם 74% ,22ה dropped
-a 30 מבית ש
-*c 119 טבלי
-'cI9ז מבלערי
-8d מבעסר
-or 20 m מבציר
-20 נבירתם
-o 85 מגי ii
-ab-) "91k מגרלתה
-'^h 3 קיה ורפך
-II9 c מחןץ
-530 ממלמים
-em. 'J I22 מחנה
-88 3 מחניך
-T3b מחסי
-0 53 מחצרים
-9 מחרשות
-80 מחרת
-1יע
-) :דד
-in#n. 45 e מגרש
-9r k מנרשה
-I9d 54 c מרפר
-h, 67 o 26 מרפרה
-e ן מרה
-8 ך2 מרi
-5 ממחי
-ts ues : 37 ה
-137
-in wishes מי יתן
-I5I a, d
-IO2 m מיהה
-96 ,d 88 מימ
-9 מרע
-37 2G ,d ה ה", מה
-24f', ob מיטיניפ<noinclude><references/></noinclude>
+{{GHGheb|text=מ}} as preformative of participles 52 ''c'', sometimes dropped 52 ''s''; of infin. (rare) 45 ''e''; of nouns 85 ''e''–''m''
+{{GHGheb|text=מַ·}}, {{GHGheb|text=מַה־}} for {{GHGheb|text=מָה}} 20 ''d'', 37
+{{GHGheb|text=מְאוּמָה}} 90 ''f''
+{{GHGheb|text=מָאֵן}} (ptcp.) 52 ''s''
+{{GHGheb|text=מְאַסְּכֶם}} 61 ''d''
+† {{GHGheb|text=מְאַסְפָיו}} 52 ''p''
+{{GHGheb|text=מֵאֵת שֶׁ֫מֶר}} 29 ''f''
+{{GHGheb|text=מִבְטָח}} 92 ''g''
+{{GHGheb|text=מֵבִי}} with final {{GHGheb|text=א}} dropped 72 ''z'', 74 ''k'', 76 ''h''
+{{GHGheb|text=מְבִיאָ֫הּ}} 91 ''k''
+{{GHGheb|text=מִבֵּית לְ}} 130 ''a''<sup>3</sup>
+{{GHGheb|text=מִבְּלִי}} 119 ''c''<sup>2</sup>
+{{GHGheb|text=מִבַּלְעֲדֵי}} 119 ''c''<sup>2</sup>
+{{GHGheb|text=מִבַּעֲתֶךָ}} 80 ''d''
+{{GHGheb|text=מִבְצִיר}} for {{GHGheb|text=מִבְּ׳}} 20 ''m''
+{{GHGheb|text=מִגְבוּרָתָם}} 20 ''m''
+{{GHGheb|text=מְגִדּוֹן}} 85 ''v''
+{{GHGheb|text=מגדלתה}} (Moab.) 91 ''k''<sup>2</sup>
+{{GHGheb|text=מָגִנֵּי}} 85 ''f''
+{{GHGheb|text=מְגָרֵשׁ}} infin. 45 ''e''
+? {{GHGheb|text=מִגְרָשֶׁ֫הָ}} 91 ''k''
+{{GHGheb|text=מִדַּבֵּר}} 19 ''d'', 54 ''c''
+{{GHGheb|text=מִדְבָּ֫רָה}} 26 ''h'', 67 ''o''
+? {{GHGheb|text=מִדָּהּ}} 91 ''e''
+{{GHGheb|text=מִדּוֹ}} 27 ''s''
+{{GHGheb|text=מַדּוּעַ}} 99 ''e''
+{{GHGheb|text=מָה}}, {{GHGheb|text=מַה־}}, {{GHGheb|text=מַ·}} 20 ''d'', 37; its uses 137; in exclamations 148
+{{GHGheb|text=מִֽהְיוֹת}} 102 ''b''
+? {{GHGheb|text=מַהְלְכִים}} 53 ''o''
+{{GHGheb|text=מַהְפֵּכָה}} followed by {{GHGheb|text=אֵת}} 115 ''d'', cf. 45 ''e''
+{{GHGheb|text=מְהֻקְצָעוֹת}} 53 ''q''
+{{GHGheb|text=מַהֵר}} (ptcp.) 52 ''s''
+{{GHGheb|text=־מוֹ}} verbal suffix 58 ''g''; noun suff. 91 ''f'', ''l'', 103 ''f''<sup>2</sup>
+{{GHGheb|text=מוּט}} 72 ''q''
+{{GHGheb|text=מוּל}} 72 ''p''
+{{GHGheb|text=מוּסָד}} 71
+{{GHGheb|text=מוֹסֵרוֹת}} ''see'' Additions
+† {{GHGheb|text=מוּעֶ֫דֶת}} 52 ''s''
+{{GHGheb|text=מוֹצִא}} 53 ''o''
+{{GHGheb|text=מוֹצֵא}} 75 ''oo''
+{{GHGheb|text=מוֹצָאָה}} 95 ''p''
+{{GHGheb|text=מוֹצֵאת}} 74 ''i'', 94 ''f''
+{{GHGheb|text=מוֹרִגִּים}} 93 ''pp''
+{{GHGheb|text=מ֫וֹתָה}} 90 ''f''
+{{GHGheb|text=מֵזִין}} 68 ''i''
+† {{GHGheb|text=מָחֹה וְהָפֵךְ}} 113 ''h''<sup>2</sup>
+{{GHGheb|text=מִחוּץ}} 119 ''c''
+† {{GHGheb|text=מַחְלְמִים}} 53 ''o''
+{{GHGheb|text=מַחֲנֶה}} fem. 122 ''l''<sup>1</sup>
+{{GHGheb|text=מַחֲנֶ֫יךָ}} 93 ''ss''
+{{GHGheb|text=מַחְסִי}} 13 ''b''
+† {{GHGheb|text=מַחְצְרִים}} 53 ''o''
+{{GHGheb|text=מַחֲרֵשׁוֹת}} 95 ''q''
+{{GHGheb|text=מָחֳרָת}} 80 ''g''
+{{GHGheb|text=מִטְּחֵוֵי}} 75 ''kk''
+{{GHGheb|text=מִי}} 37; its uses 137
+{{GHGheb|text=מִי יִתֵּן}} in wishes 151 ''a'', ''d''
+{{GHGheb|text=מִיהוָֹה}} 102 ''m''
+{{GHGheb|text=מַ֫יִם}} 88 ''d'', 96
+{{GHGheb|text=מֵימִינִים}} 24 ''f''<sup>2</sup>, 70 ''b''
+{{colend}}
