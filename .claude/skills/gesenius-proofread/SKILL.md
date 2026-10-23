@@ -15,7 +15,8 @@ HANDOFF.md wins: it is the document every session has read.
 
 Work from the `gesenius/` folder of the worktree
 `.claude/worktrees/gesenius-grammar-modernize-ac64c1` (all paths below are
-relative to it). Each run ends with a local commit (step 4); never push.
+relative to it). Each run ends with a commit (step 4) that is also pushed to the private
+`backup` remote; never push to `origin`.
 
 ## 1. Start: lock and orient
 
@@ -100,13 +101,18 @@ describes it. The points that keep a long unattended run honest:
 2. Append one line to the **Log** section of `HANDOFF.md`: the summary line
    from step 1, then anything the next run needs (a recurring error pattern in
    this part of the book is worth noting — the next chunk probably has it too).
-3. Commit the run, locally:
+3. Commit the run (and back it up):
    `python3 tools/proof_commit.py "<chunk>: <pages> pages, <fixes> fixes, <flagged> flagged, <minutes> min"`
    (numbers from the step 1 summary). The script commits `gesenius/` and this
    skill on the project's own branch whatever folder you are running in —
    which matters, because a loop session usually has a worktree of its own
-   where a bare `git commit` would land on the wrong branch. Never push: the
-   commits are restore points, so a bad run can be rolled back.
+   where a bare `git commit` would land on the wrong branch. It then pushes
+   the branch to the private `backup` remote
+   (github.com/mitchellpalermo/Genesius-grammar), so the work survives the
+   Mac. Never push to `origin` — that is the public bible-language-tools repo,
+   and Mitch does not want this public yet. Never open a pull request. If the
+   script reports the push failed, say so in the report; the commit is still
+   a local restore point and the next run's push carries it.
 4. Report to Mitch in two or three lines: chunk, time taken, fixes, any
    flagged pages and why, how many review items the run added, and the last line of
    `python3 tools/proof_status.py estimate` for the hours left.
