@@ -17,5 +17,6 @@
 {{GHGmargin-letter|54|d}}
 Rem. Metathesis would likewise be expected, as in the cases under ''b'', when {{GHGheb|text=ת}} and {{GHGheb|text=ז}} come together, as well as a change of {{GHGheb|text=ת}} to {{GHGheb|text=ד}}. Instead of this, in the only instance of the kind ({{GHGheb|text=הִזַּכּוּ}} {{GHGbible-ref|book=Is|chapter=1|verse=16}}) the {{GHGheb|text=ת}} is assimilated to the {{GHGheb|text=ז}}, —unless indeed {{GHGheb|text=הִזַּ֫כּוּ}}, {{GHGterm|imperative Niphʿal}} of {{GHGheb|text=זכך}}, is intended.
 
+{{GHGmargin-letter|54|e}}
 '''3.''' As in form, so also in meaning, {{GHGterm|Hithpaʿēl}} is primarily (''a'') {{GHGterm|reflexive}} of ''Piʿēl'', e.g. {{GHGheb|text=הִתְאַזֵּר|translate=to gird oneself}}, {{GHGheb|text=הִתְקַדֵּשׁ|translate=to sanctify oneself}}. Although in these examples the intensive meaning is not distinctly marked, it is so in other cases, e.g. {{GHGheb|text=הִתְנַקֵּם|translate=to show oneself revengeful}} (''Niph.'' simply ''to take revenge''), and in the numerous instances where the {{GHGterm|Hithpaʿēl}} expresses ''to make oneself'' that which is predicated by the stem, ''to conduct oneself'' as such, ''to show oneself, to imagine oneself, to ''<section end=par54 /><noinclude>
 <references/></noinclude>

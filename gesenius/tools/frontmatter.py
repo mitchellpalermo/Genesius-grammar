@@ -76,7 +76,12 @@ def verso() -> str:
 '''
 
 
-def edition_note(qr_path: str, sample: bool = False) -> str:
+SAMPLE_SOURCES = ("The running text comes from the volunteer transcription of this edition on English Wikisource. "
+                  "The paradigms were checked against the scan form by form, because Wikisource's paradigm pages are "
+                  "unproofread and contain errors. Notes added by Wikisource's editors are left out.")
+
+
+def edition_note(qr_path: str, sample: bool = False, sources: str = SAMPLE_SOURCES) -> str:
     rules = ", ".join(rule_descriptions())
     return rf'''
 #page(header: none)[
@@ -100,7 +105,7 @@ def edition_note(qr_path: str, sample: bool = False) -> str:
 
       *Checking a page.* The small grey numbers in the inner margin (#text(fill: muted, size: 7pt)[p.#h(1pt)76]) mark where each page of the 1910 printing began.
 
-      *Sources.* The running text comes from the volunteer transcription of this edition on English Wikisource. The paradigms were checked against the scan form by form, because Wikisource's paradigm pages are unproofread and contain errors. Notes added by Wikisource's editors are left out.
+      *Sources.* {sources}
     ],
     [
       #align(center)[
@@ -122,6 +127,6 @@ def contents() -> str:
   #text(font: sans, size: 15pt, weight: "extrabold", fill: primary)[Contents]
   #v(0.15in)
   #show outline.entry.where(level: 1): it => { v(6pt); strong(text(fill: primary, it)) }
-  #outline(title: none, depth: 3, indent: 1em)
+  #outline(title: none, depth: 4, indent: 1em)
 ]
 '''

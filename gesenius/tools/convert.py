@@ -143,7 +143,7 @@ class Converter:
         out = []
         for i, part in enumerate(parts):
             if i % 2 == 1:
-                out.append(f"#origpage({tstr(part)});")
+                out.append(f"#origpage({tstr(part)}) <orig-{part}>;")
                 continue
             part = re.sub(r"\n\s*\n+", PARA, part)
             part = part.replace("\n", " ")
@@ -168,7 +168,7 @@ class Converter:
         heb = Ctx(hebrew=True, no_modernize=True)
         if name in ("GHGheb", "hebrew"):
             body = self.arg(t, "text", heb) if t.has("text") else self.arg(t, "1", heb)
-            out = f"#he[{body}];"
+            out = f"#he[{body}];" + (" " if t.has("indexitem") else "")
             pron = self.arg(t, "pron", Ctx(no_modernize=True))
             if pron:
                 out += f" #emph[{pron}];"
@@ -189,8 +189,8 @@ class Converter:
             sign = "" if self.raw(t, "nosign") is not None else ("§§" if self.raw(t, "doublesign") is not None else "§")
             target = f"p{num}{ab}{letter}" if letter else f"s{num}{ab}"
             shown = "" if nonum else f"{sign}{' ' if sign else ''}{num}{f'#super[{ab}];' if ab else ''}"
-            if letter:
-                shown += ("" if not shown else "") + f"#emph[{esc(letter)}];"
+            if letter:  # Gesenius sets "§ 22 c": a thin space between number and letter
+                shown += ("#h(0.18em)" if shown else "") + f"#emph[{esc(letter)}];"
             return f"#xref(<{target}>)[{shown}];"
         if name == "GHGmargin-letter":
             num, letter, ab = self.raw(t, "1"), self.raw(t, "2"), self.raw(t, "3", "")
@@ -202,10 +202,23 @@ class Converter:
                 'a-brev-acut': 'ắ', 'a-dier-brev': 'ä̆', 'a-dier-macr': 'ǟ', 'a-di-ma-ac': 'ǟ́',
                 'a-macr-acut': 'ā́', 'a-ring-macr': 'å̄', 'a-ring-brev': 'å̆', 'a-ring-circ': 'å̂',
                 'u-inv-brev': 'u̯', 'i-inv-brev': 'i̯'}.get(self.raw(t, "1"), "")
-        if name == "GHGpage":
-            return esc(self.raw(t, "1", ""))
+        if name == "GHGpage":  # a 1910 page number: link it to that page's margin marker
+            v = self.raw(t, "1", "")
+            return f"#xref(<orig-{v}>)[{esc(v)}];" if re.fullmatch(r"[0-9ivxl]+", v) else esc(v)
         if name == "GHGpar-heading":
             return self.par_heading(t, ctx)
+        if name == "GHGbookhead":
+            # a Part / Chapter / sub-head that the build put in place of the 1910 centred block
+            level, title = self.raw(t, "1"), self.arg(t, "2", ctx, "")
+            key = self.raw(t, "note")
+            note = self.wikicode(mw.parse(self.footnotes[key]), ctx).strip() if key else ""
+            return f"{PARA}#bookhead({level}, [{title}], note: [{f'#footnote[{note}];' if note else ''}]);{PARA}"
+        if name == "GHGbabsign":  # a Babylonian vowel sign Unicode cannot encode (scan 66–67)
+            return f"#babsign[{self.arg(t, '1', Ctx(no_modernize=True), '')}];"
+        if name == "GHGimage":  # an image the build cropped from the scan
+            return f"{PARA}#figure(image({tstr(self.raw(t, '1'))}, width: {self.raw(t, '2', '100%')}));{PARA}"
+        if name == "GHGmargin-letter-fmt":
+            return f"#emph[{esc(self.raw(t, '1', ''))}];"
         if name in ("abbr",):
             return self.arg(t, "1", ctx, "")
         if name in ("nowrap", "Nowrap"):
@@ -270,6 +283,16 @@ class Converter:
     def par_heading(self, t: Template, ctx: Ctx) -> str:
         num, ab = self.raw(t, "1"), self.raw(t, "3", "")
         title_code = t.get("2").value if t.has("2") else None
+        if t.has("4"):
+            # the 4th slot carries the rest of the title (§66 "e.g. נָגַשׁ", §133's closing
+            # italics) and/or the heading's footnote; join it to the title before parsing
+            raw2 = str(title_code) if title_code is not None else ""
+            raw4 = str(t.get("4").value)
+            if raw2.count("''") % 2 == 0:  # a stray closing '' (§133) would open italics instead
+                raw4 = re.sub(r"''(?!')", "", raw4) if "<ref" not in raw4 else raw4
+            text4 = re.sub(r"<ref.*?</ref>", "", raw4, flags=re.S)
+            sep = "." if text4.startswith(" ") and text4.strip() and re.search(r"[A-Za-z]$", raw2.rstrip()) else ""
+            title_code = mw.parse(raw2 + sep + raw4)
         note = ""
         title = ""
         if title_code is not None:
@@ -419,6 +442,10 @@ def page_body(djvu: int, text: str) -> str:
         text = text.replace(k, v)
     # words hyphenated across a page break: keep the whole word at the start
     text = re.sub(r"\{\{(?:hws|Hyphenated word start|hyphenated word start)\|([^|}]*)\|([^|}]*)(?:\|[^}]*)?\}\}", r"\2", text)
+    # the word's end is dropped (its start already carries the whole word); quote
+    # markup wrapped around the end alone must go too, or the empty pair of
+    # italic marks left behind (four apostrophes) reads as an opening bold
+    text = re.sub(r"('{2,5})\{\{(?:hwe|Hyphenated word end|hyphenated word end)\|[^|}]*\|[^|}]*\}\}\1", "", text)
     text = re.sub(r"\{\{(?:hwe|Hyphenated word end|hyphenated word end)\|([^|}]*)\|([^|}]*)\}\}", "", text)
     return text
 

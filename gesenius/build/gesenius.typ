@@ -28,10 +28,16 @@
 #let heblock(body) = block(width: 100%, spacing: 0.9em,
   align(right, text(font: hebrew-font, fill: hebrew-ink, size: 1.14em, lang: "he", dir: rtl, body)))
 #let greek(body) = text(font: ("Noto Sans",), body)
-#let arabic(body) = text(font: ("Noto Sans Arabic", "Noto Sans"), body)
+#let arabic(body) = text(font: ("Geeza Pro", "Noto Sans"), body)
 #let syriac(body) = text(font: ("Noto Sans Syriac", "Noto Sans"), body)
 #let sc(body) = text(size: 0.82em, tracking: 0.04em, upper(body))
 #let bref(s) = box(text(fill: ink, s))
+// A note added by this edition, set apart from the 1910 text.
+#let edition-aside(body) = block(width: 100%, above: 1.2em, fill: bg, radius: 4pt, inset: 8pt,
+  stroke: (left: 2.5pt + accent), text(size: 8.4pt, body))
+// Placeholder for a Babylonian (superlinear) vowel sign that has no Unicode character.
+#let babsign(sound) = box(stroke: 0.5pt + coral, radius: 2pt, inset: (x: 2pt, y: 1pt),
+  text(size: 0.75em, fill: coral, [Bab. #sound]))
 #let missing() = text(fill: coral, weight: "bold", [\[Hebrew missing\]])
 
 // A § cross-reference: a link when the target exists in this volume.
@@ -66,11 +72,34 @@
 #let origpage(n) = in-margin(side: "inside", dy: -0.5em, width: 0.5in,
   text(font: sans, size: 6pt, fill: muted, [p.#h(1pt)#n]))
 
-// ── Headings ──────────────────────────────────────────────────────────────
-#let sec(num, title, note: []) = {
-  heading(level: 3, [§#h(0.25em)#num. #title])
-  if note != [] { place(hide(note)) }
+// ── Footnotes ─────────────────────────────────────────────────────────────
+// Numbered per page, as Gesenius prints them. The number is the footnote's place
+// among the page's footnotes in reading order; resetting a counter in the header
+// instead does not settle when a note sits at a page break.
+#let fn-on-page(loc, inclusive) = {
+  let p = loc.page()
+  query(selector(std.footnote).before(loc, inclusive: inclusive)).filter(f => f.location().page() == p).len()
 }
+#let footnote(body) = {
+  // tabular digits: a renumbered marker keeps its width, so the line cannot reflow
+  context super(text(number-width: "tabular", str(fn-on-page(here(), false) + 1)))
+  std.footnote(numbering: (..n) => "", body)
+}
+
+// ── Headings ──────────────────────────────────────────────────────────────
+// Heading levels: 1 Part, 2 Chapter, 3 sub-head inside a chapter
+// (I. The Strong Verb, A. The Pure Stem …), 4 the numbered § sections.
+// A heading's footnote is drawn by the heading's show rule, after the title,
+// so it stays out of the contents list, the running heads and the bookmarks.
+#let heading-note = state("heading-note", none)
+#let with-note(note, h) = {
+  if note != [] { heading-note.update(note) }
+  h
+  if note != [] { heading-note.update(none) }
+}
+#let the-note() = context { let n = heading-note.get(); if n != none { n } }
+#let sec(num, title, note: []) = with-note(note, heading(level: 4, [§#h(0.25em)#num. #title]))
+#let bookhead(level, title, note: []) = with-note(note, heading(level: level, title))
 
 #let gtable(..args) = {
   set text(size: 8.5pt)
@@ -88,9 +117,8 @@
     width: page-w, height: 9in,
     margin: (inside: m-inside, outside: m-outside, top: 0.85in, bottom: 0.8in),
     header: context {
-      counter(footnote).update(0)
       let p = here().page()
-      let sel = heading.where(level: 3).or(heading.where(level: 2))
+      let sel = heading.where(level: 4).or(heading.where(level: 2)).or(heading.where(level: 1))
       let secs = query(sel.before(here()))
       let on-page = query(sel).filter(h => h.location().page() == p)
       if on-page.len() > 0 { secs = secs + on-page.slice(0, 1) }
@@ -114,9 +142,12 @@
   )
   set text(font: sans, size: 9.4pt, fill: ink, lang: "en", region: "gb", hyphenate: true)
   set par(justify: true, leading: 0.62em, spacing: 0.85em, first-line-indent: 0pt)
-  set footnote.entry(separator: line(length: 25%, stroke: 0.5pt + rule), gap: 0.45em, indent: 0pt)
-  show footnote.entry: set text(size: 7.8pt)
-  show footnote.entry: set par(leading: 0.5em)
+  set std.footnote.entry(separator: line(length: 25%, stroke: 0.5pt + rule), gap: 0.45em, indent: 0pt)
+  show std.footnote.entry: set text(size: 7.8pt)
+  show std.footnote.entry: set par(leading: 0.5em)
+  // footnotes are numbered afresh on each page, as in 1910 (see `footnote` above)
+  // only the number needs context; the body stays outside it so a long note can break across pages
+  show std.footnote.entry: it => [#context super(text(number-width: "tabular", str(fn-on-page(it.note.location(), true))))#h(1pt)#it.note.body]
   show emph: set text(style: "italic")
 
   show heading.where(level: 1): it => {
@@ -125,22 +156,28 @@
     block(width: 100%, height: 3pt, fill: accent-gradient)
     v(0.25in)
     set par(justify: false)
-    text(font: sans, size: 22pt, weight: "extrabold", fill: primary, tracking: -0.01em, hyphenate: false, it.body)
+    text(font: sans, size: 22pt, weight: "extrabold", fill: primary, tracking: -0.01em, hyphenate: false, [#it.body#the-note()])
     v(0.35in)
   }
   show heading.where(level: 2): it => {
     v(0.25in)
     block(width: 100%, inset: (x: 0pt, y: 6pt), below: 0.2in, {
       set par(justify: false)
-      text(font: sans, size: 13pt, weight: "extrabold", fill: primary, hyphenate: false, it.body)
+      text(font: sans, size: 13pt, weight: "extrabold", fill: primary, hyphenate: false, [#it.body#the-note()])
       v(-2pt)
       block(width: 1.2in, height: 2pt, fill: accent)
     })
   }
   show heading.where(level: 3): it => {
+    block(above: 1.8em, below: 0.9em, breakable: false, width: 100%, {
+      set par(justify: false)
+      align(center, text(font: sans, size: 9.5pt, weight: "bold", fill: primary, tracking: 0.04em, hyphenate: false, [#it.body#the-note()]))
+    })
+  }
+  show heading.where(level: 4): it => {
     block(above: 1.5em, below: 1.0em, breakable: false, width: 100%,
       fill: bg, radius: 4pt, inset: (x: 8pt, y: 7pt), stroke: (left: 3pt + primary),
-      text(font: sans, size: 11pt, weight: "bold", fill: primary, it.body))
+      text(font: sans, size: 11pt, weight: "bold", fill: primary, [#it.body#the-note()]))
   }
   body
 }
@@ -170,3 +207,18 @@
     )
   })
 }
+
+// ── Indexes ───────────────────────────────────────────────────────────────
+#let index-intro(body) = block(width: 100%, below: 1em,
+  align(center, text(size: 8pt, style: "italic", fill: muted, body)))
+#let index-cols(n, body) = {
+  set text(size: 7.6pt)
+  set par(justify: false, leading: 0.42em, spacing: 0.32em, hanging-indent: 1em)
+  columns(n, gutter: 14pt, body)
+}
+#let igap() = v(0.55em, weak: true)
+#let pbook(name) = block(above: 0.9em, below: 0.35em, sticky: true,
+  text(weight: "bold", fill: primary, size: 8.2pt, name))
+#let prow(ch, v, refs) = block(above: 0.22em, below: 0.22em, breakable: false,
+  grid(columns: (1.5em, 1.7em, 1fr), column-gutter: 3pt,
+    text(weight: "bold", fill: primary, ch), align(right, v), refs))
