@@ -117,7 +117,7 @@ def indexes_part(pages, conv) -> str:
             src = ROOT / "proof" / "pages" / f"{n}.wiki"
             text = src.read_text() if src.exists() else pages[str(n)]["text"]
             entries = index_entries(text)
-            marker = f"#origpage({tstr(str(n - 24))}) <orig-{n - 24}>;"
+            marker = f"#origpage({tstr(str(n - 24))}) <orig-{n - 24}> "  # no ";" after a label: Typst prints it
             if title == "Index of Passages":
                 body += passage_rows(entries, conv, marker)
                 continue

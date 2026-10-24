@@ -35,9 +35,9 @@
 // A note added by this edition, set apart from the 1910 text.
 #let edition-aside(body) = block(width: 100%, above: 1.2em, fill: bg, radius: 4pt, inset: 8pt,
   stroke: (left: 2.5pt + accent), text(size: 8.4pt, body))
-// Placeholder for a Babylonian (superlinear) vowel sign that has no Unicode character.
-#let babsign(sound) = box(stroke: 0.5pt + coral, radius: 2pt, inset: (x: 2pt, y: 1pt),
-  text(size: 0.75em, fill: coral, [Bab. #sound]))
+// A Babylonian (superlinear) vowel sign, which has no Unicode character: an image
+// cropped from the 1910 page. The rule under each sign stands on the baseline.
+#let babsign(path) = box(baseline: 0.12em, image(path, height: 1.05em))
 #let missing() = text(fill: coral, weight: "bold", [\[Hebrew missing\]])
 
 // A § cross-reference: a link when the target exists in this volume.
@@ -81,8 +81,10 @@
   query(selector(std.footnote).before(loc, inclusive: inclusive)).filter(f => f.location().page() == p).len()
 }
 #let footnote(body) = {
-  // tabular digits: a renumbered marker keeps its width, so the line cannot reflow
-  context super(text(number-width: "tabular", str(fn-on-page(here(), false) + 1)))
+  // a fixed-width marker: the number depends on which page the note lands on, and if
+  // "1" and "3" differed in width, renumbering would reflow the line, move the note,
+  // and Typst would never settle (Plus Jakarta Sans ignores tabular figures)
+  box(width: 0.42em, context super(str(fn-on-page(here(), false) + 1)))
   std.footnote(numbering: (..n) => "", body)
 }
 
@@ -147,7 +149,7 @@
   show std.footnote.entry: set par(leading: 0.5em)
   // footnotes are numbered afresh on each page, as in 1910 (see `footnote` above)
   // only the number needs context; the body stays outside it so a long note can break across pages
-  show std.footnote.entry: it => [#context super(text(number-width: "tabular", str(fn-on-page(it.note.location(), true))))#h(1pt)#it.note.body]
+  show std.footnote.entry: it => [#box(width: 0.55em, context super(str(fn-on-page(it.note.location(), true))))#it.note.body]
   show emph: set text(style: "italic")
 
   show heading.where(level: 1): it => {

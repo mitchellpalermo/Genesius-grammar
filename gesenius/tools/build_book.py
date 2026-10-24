@@ -130,9 +130,28 @@ def apply_structure(text: str, conv: Converter) -> str:
     return text
 
 
+BAB_SIGN = re.compile(r"(?<!\{)\{Babylonian ((?:[^{}]|\{\{[^{}]*\}\})*?) mark\}")
+
+
+def babylonian_signs(text: str) -> str:
+    """The Babylonian (superlinear) vowel signs of §8 g note 3 have no Unicode characters.
+    The wikitext names each as {Babylonian … mark}; in order of appearance they are the
+    images build/bab/01.png … 20.png, cropped from scan page 67."""
+    n = 0
+    def rep(m):
+        nonlocal n
+        n += 1
+        return f"{{{{GHGbabsign|bab/{n:02d}.png}}}}"
+    text = BAB_SIGN.sub(rep, text)
+    have = len(list((ROOT / "build" / "bab").glob("*.png")))
+    if n != have:
+        raise SystemExit(f"{n} Babylonian signs in the text but {have} images in build/bab")
+    return text
+
+
 def body(pages: dict, conv: Converter) -> str:
     text = assemble(pages, list(BODY))
-    text = re.sub(r"(?<!\{)\{Babylonian ((?:[^{}]|\{\{[^{}]*\}\})*?) mark\}", r"{{GHGbabsign|\1}}", text)
+    text = babylonian_signs(text)
     text = apply_structure(text, conv)
     typ = to_typst(text, conv)
     # any 1910 page marker left just before a heading goes after it

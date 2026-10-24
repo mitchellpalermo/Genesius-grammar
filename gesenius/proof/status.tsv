@@ -1,6 +1,6 @@
 page	printed	kind	chunk	status	notes
 33	9	body	B01	done	Altsemitischs→Altsemitische; no Hebrew on page
-66	42	body	B01	flagged	Qâmeṣ→Qâmēṣ, pront→pron fixed; footnote 3 continues on scan 67 (checked, text OK). Unresolved: Babylonian vowel marks are placeholders needing images from scan 67, and scan shows two signs the wiki omits — a second sign after '= î,' and 'or <sign>' before '= û'
+66	42	body	B01	done	Babylonian signs resolved in S1: 20 sign images cropped from scan 67 (build/bab), 2 omitted signs added
 77	53	body	B01	done	5 fixes: two missing ')' after ed. Mant. readings, missing comma 2 S 15:7, stray '.' after (ed. Mant.), Keeth→Keth. Print has 'Ezr 26:21' (misprint for Ez); wiki's book=Eze kept. Footnote 3 בִּֽקַרָב־ shows patah in print; kept
 87	63	body	B01	done	Übersetsungen→Übersetzungen; missing comma after אֶת־
 97	73	body	B01	done	fortz→forte; כַּנְּלֹֽתְךָ missing holem; חָדֵ֑לּוּ hiriq→tsere; bare 22:12 made a Jb ref
