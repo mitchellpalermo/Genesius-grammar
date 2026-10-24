@@ -196,9 +196,11 @@ body so the converter handles it:
   syntax of, 126: with demonstrative force, 126 ''a'', ''b'': …`);
 - section letters in italics `''a''`, `N.` for "note";
 - Hebrew in `{{GHGheb|text=…}}` — in the Hebrew-word index, the headword;
-- Index of Passages: a line per verse, `Gn 1 2 . . . 141 c` style is fine —
-  keep the book headings as `== Genesis ==` lines and the verse/section pairs
-  as `2 | 141 ''c''`.
+- Index of Passages: one row per verse, `2 | 141 ''c''`; the chapter number in
+  bold at its first verse (`'''1''' 1 | 5 ''n'', …`); each book named once as a
+  `== Genesis ==` heading where it begins (no running heads at column tops);
+  dot leaders dropped. **Mitch approved this format on 2026-10-24**; S1 styles
+  it as is.
 - start the page with `<!-- scan <n>, printed <n-24>, <which index> -->`.
 
 These references are to **sections**, so they stay valid in the new layout.
