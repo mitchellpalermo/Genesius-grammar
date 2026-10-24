@@ -11,7 +11,7 @@
 
 {{GHGheb|text=תַּחְתֵּ֫נִי|indexitem=1}}{{GHGpar|103|d|nosign=1}}
 
-{{GHGheb|text=תִּטְעִי|indexitem=1}}({{GHGbible-ref|book=Is|chapter=17|verse=10}}) {{GHGpar|20|m|nosign=1}}<sup>3</sup>
+{{GHGheb|text=תִּטְעִי|indexitem=1}}({{GHGbible-ref|book=Is|chapter=17|verse=10}})? {{GHGpar|20|m|nosign=1}}<sup>3</sup>
 
 {{GHGheb|text=תֵּֽיטְבִי|indexitem=1}}{{GHGpar|70|e|nosign=1}}
 
@@ -39,7 +39,7 @@
 
 {{GHGheb|text=תִּלְבַּ֫שְׁןָ|indexitem=1}}{{GHGpar|47|l|nosign=1}}
 
-{{GHGheb|text=תּלּ֫וֹנוּ|indexitem=1}}{{GHGpar|72|ee|nosign=1}}
+{{GHGheb|text=תִּלּ֫וֹנוּ|indexitem=1}}{{GHGpar|72|ee|nosign=1}}
 
 {{GHGheb|text=תָּלַן|indexitem=1}}{{GHGpar|29|q|nosign=1}}, {{GHGpar|73|e|nosign=1}}
 
@@ -47,7 +47,7 @@
 
 {{GHGheb|text=תְּמוּתֶ֫נָה|indexitem=1}}{{GHGpar|72|k|nosign=1}}
 
-{{GHGheb|text=אַל־תֶּ֑מְחִי|indexitem=1}}{{GHGpar|75|ii|nosign=1}}
+{{GHGheb|text=? אַל־תֶּ֑מְחִי|indexitem=1}}{{GHGpar|75|ii|nosign=1}}
 
 {{GHGheb|text=תִּֽמֲחַץ|indexitem=1}}{{GHGpar|10|g|nosign=1}}<sup>3</sup>
 
@@ -135,7 +135,7 @@
 
 {{GHGheb|text=תָּשֵׁ֫בְנָה|indexitem=1}}{{GHGpar|72|k|nosign=1}}
 
-{{GHGheb|text=תֶּ֑שִׁי|indexitem=1}}{{GHGpar|75|s|nosign=1}}
+{{GHGheb|text=? תֶּ֑שִׁי|indexitem=1}}{{GHGpar|75|s|nosign=1}}
 
 {{GHGheb|text=תִּשְׁלַ֫חְנָה|indexitem=1}}(anomalously) {{GHGpar|47|k|nosign=1}}
 
@@ -151,7 +151,7 @@
 
 {{GHGheb|text=תִּתְגָּר|indexitem=1}}{{GHGpar|75|bb|nosign=1}}
 
-{{GHGheb|text=תַּ֫תָּה|indexitem=1}}, {{GHGpar|66|k|nosign=1}}
+{{GHGheb|text=תַּ֫תָּה|indexitem=1}}{{GHGpar|19|i|nosign=1}}, {{GHGpar|66|k|nosign=1}}
 
 {{GHGheb|text=תַּתֵּם|indexitem=1}}{{GHGpar|67|y|nosign=1}}
 
