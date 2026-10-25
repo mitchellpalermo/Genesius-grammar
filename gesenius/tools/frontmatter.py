@@ -16,7 +16,7 @@ def write_qr(path: str) -> None:
     img.save(path)
 
 
-def title_page() -> str:
+def title_page_screen() -> str:
     # Wording and order exactly as the 1910 title page; only the type is new.
     return r'''
 #page(margin: 0pt, header: none, footer: none, numbering: none)[
@@ -57,7 +57,48 @@ def title_page() -> str:
 '''
 
 
-def verso() -> str:
+def title_page_print() -> str:
+    # Same words and order as the 1910 title page. No colour and nothing runs to the
+    # page edge, so the print file needs no bleed.
+    return r'''
+#page(header: none, footer: none, numbering: none)[
+  #set par(justify: false, leading: 0.5em)
+  #set text(font: sans, fill: ink)
+  #v(0.55in)
+  #text(size: 13pt, weight: "bold", tracking: 0.14em, fill: muted)[GESENIUS’]
+  #v(0.04in)
+  #text(size: 34pt, weight: "extrabold", tracking: -0.01em)[Hebrew\ Grammar]
+  #v(0.12in)
+  #block(width: 1.1in, height: 2pt, fill: ink)
+  #v(0.4in)
+  #text(size: 8.5pt, tracking: 0.08em, fill: muted)[AS EDITED AND ENLARGED BY THE LATE]
+  #v(0.04in)
+  #text(size: 15pt, weight: "bold")[E. Kautzsch]
+  #v(0.0in)
+  #text(size: 7.5pt, tracking: 0.06em, fill: muted)[PROFESSOR OF THEOLOGY IN THE UNIVERSITY OF HALLE]
+  #v(0.28in)
+  #text(size: 9.5pt, weight: "bold", tracking: 0.08em)[SECOND ENGLISH EDITION]
+  #v(0.04in)
+  #text(size: 8.5pt, tracking: 0.06em, fill: muted)[REVISED IN ACCORDANCE WITH THE TWENTY-EIGHTH\ GERMAN EDITION (1909) BY]
+  #v(0.04in)
+  #text(size: 15pt, weight: "bold")[A. E. Cowley]
+  #v(0.28in)
+  #text(size: 7.5pt, tracking: 0.06em, fill: muted)[WITH A FACSIMILE OF THE SILOAM INSCRIPTION BY J. EUTING,\ AND A TABLE OF ALPHABETS BY M. LIDZBARSKI]
+  #v(1fr)
+  #block(width: 0.9in, height: 1.5pt, fill: ink)
+  #v(0.06in)
+  #text(size: 9pt, weight: "bold", tracking: 0.1em)[OXFORD]\
+  #text(size: 8pt, tracking: 0.08em, fill: muted)[AT THE CLARENDON PRESS]
+  #place(bottom + right, dy: -0.1in, text(font: hebrew-font, size: 56pt, fill: rule, [א]))
+]
+'''
+
+
+def title_page() -> str:
+    return f"#if is-print [{title_page_print()}] else [{title_page_screen()}]"
+
+
+def verso_screen() -> str:
     return r'''
 #page(header: none, footer: none)[
   #set text(font: sans, size: 7.5pt, fill: muted)
@@ -79,6 +120,38 @@ def verso() -> str:
 SAMPLE_SOURCES = ("The running text comes from the volunteer transcription of this edition on English Wikisource. "
                   "The paradigms were checked against the scan form by form, because Wikisource's paradigm pages are "
                   "unproofread and contain errors. Notes added by Wikisource's editors are left out.")
+
+
+# Placeholders the print edition cannot ship with. build_book.py refuses a print
+# build that still contains any of them unless --draft is given.
+PRINT_PLACEHOLDERS = ("[ISBN]", "[LICENSE]", "[YEAR]", "[PUBLISHER]")
+
+
+def verso_print() -> str:
+    """The copyright page of the print edition. The bracketed fields are Mitch's
+    to fill in (tools/print_details.json); the build substitutes them."""
+    return r'''
+#page(header: none, footer: none)[
+  #set text(font: sans, size: 7.5pt, fill: ink)
+  #set par(justify: false, leading: 0.55em, spacing: 0.9em)
+  #v(1fr)
+  _Gesenius’ Hebrew Grammar_, as edited and enlarged by E. Kautzsch. Second English edition, revised in accordance with the twenty-eighth German edition (1909) by A. E. Cowley. Oxford: Clarendon Press, 1910. The 1910 edition is in the public domain.
+
+  This edition [YEAR]. Reset in modern type; see _About this edition_ for what was changed and how. The running text is based on the volunteer transcription on English Wikisource.
+
+  [LICENSE]
+
+  [PUBLISHER]
+
+  ISBN [ISBN]
+
+  #v(0.3in)
+]
+'''
+
+
+def verso() -> str:
+    return f"#if is-print [{verso_print()}] else [{verso_screen()}]"
 
 
 def edition_note(qr_path: str, sample: bool = False, sources: str = SAMPLE_SOURCES) -> str:

@@ -1,21 +1,28 @@
 // Gesenius' Hebrew Grammar — modern edition, styled after hebrew.tools.
 // Design tokens are copied from apps/hebrew-tools/src/styles/global.css.
 
-#let primary = rgb("#15803D")
-#let primary-light = rgb("#16A34A")
-#let accent = rgb("#F59E0B")
-#let accent-light = rgb("#FCD34D")
-#let coral = rgb("#F43F5E")
-#let grape = rgb("#7C3AED")
-#let jade = rgb("#059669")
-#let bg = rgb("#F0FDF4")
-#let ink = rgb("#14532D")
-#let muted = rgb("#6B7280")
-#let hebrew-ink = rgb("#15803D")
-#let rule = rgb("#BBF7D0")
+// Two editions from one source: the screen PDF in hebrew.tools colours, and a
+// black-and-white print edition for print-on-demand (compile with
+// `--input edition=print`). Colour is only ever set through these tokens.
+#let is-print = sys.inputs.at("edition", default: "screen") == "print"
+#let pick(screen, print) = if is-print { print } else { screen }
 
-// hebrew.tools' rainbow accent line, as a Typst gradient
-#let accent-gradient = gradient.linear(primary, grape, coral, accent, jade)
+#let primary = pick(rgb("#15803D"), luma(15%))
+#let primary-light = pick(rgb("#16A34A"), luma(30%))
+#let accent = pick(rgb("#F59E0B"), luma(55%))
+#let accent-light = pick(rgb("#FCD34D"), luma(80%))
+#let coral = pick(rgb("#F43F5E"), luma(30%))
+#let grape = pick(rgb("#7C3AED"), luma(40%))
+#let jade = pick(rgb("#059669"), luma(50%))
+#let bg = pick(rgb("#F0FDF4"), luma(94%))
+#let ink = pick(rgb("#14532D"), luma(0%))
+#let muted = pick(rgb("#6B7280"), luma(38%))
+#let hebrew-ink = pick(rgb("#15803D"), luma(0%))
+#let rule = pick(rgb("#BBF7D0"), luma(72%))
+
+// hebrew.tools' rainbow accent line, as a Typst gradient (grey ramp in print)
+#let accent-gradient = pick(gradient.linear(primary, grape, coral, accent, jade),
+  gradient.linear(luma(15%), luma(60%), luma(15%)))
 
 #let sans = ("Plus Jakarta Sans", "Noto Sans")
 #let hebrew-font = "Noto Sans Hebrew"
@@ -37,7 +44,7 @@
   stroke: (left: 2.5pt + accent), text(size: 8.4pt, body))
 // A Babylonian (superlinear) vowel sign, which has no Unicode character: an image
 // cropped from the 1910 page. The rule under each sign stands on the baseline.
-#let babsign(path) = box(baseline: 0.12em, image(path, height: 1.05em))
+#let babsign(path, width) = box(baseline: 0.12em, image(path, width: width))
 #let missing() = text(fill: coral, weight: "bold", [\[Hebrew missing\]])
 
 // A § cross-reference: a link when the target exists in this volume.
@@ -48,9 +55,11 @@
 // Margin-note machinery: place something in the outer (or inner) margin at
 // the current line, whichever side that is on this page.
 #let page-w = 6in
-#let m-inside = 0.75in
+// print needs a wider gutter: KDP asks up to 0.875in inside (701–828 pages); 0.9in leaves
+// room for vowel points and footnote numbers that stand a hair past the line
+#let m-inside = pick(0.75in, 0.9in)
 #let m-outside = 0.9in
-#let in-margin(side: "outside", dy: 0pt, width: 0.62in, body) = context {
+#let in-margin(side: "outside", dy: 0pt, width: 0.62in, away: false, body) = context {
   let pos = here().position()
   let recto = calc.odd(here().page())
   let right-side = if side == "outside" { recto } else { not recto }
@@ -60,7 +69,7 @@
     (if recto { m-inside } else { m-outside }) - 0.14in - width
   }
   box(width: 0pt, place(top + left, dx: x - pos.x, dy: dy,
-    box(width: width, align(if right-side { left } else { right }, body))))
+    box(width: width, align(if right-side != away { left } else { right }, body))))
 }
 
 // Paragraph letter (§22 a, b, c …) in the outer margin, as Gesenius prints it.
@@ -69,8 +78,16 @@
     text(font: sans, size: 7.5pt, weight: "bold", fill: primary, style: "italic", letter)))
 
 // Where a page of the 1910 printing began — for checking against the scan.
-#let origpage(n) = in-margin(side: "inside", dy: -0.5em, width: 0.5in,
+// Screen: inner margin. Print: the far edge of the outer margin, beside the paragraph
+// letter but clear of it, and 0.3in from the trim — the inner margin is the gutter,
+// which print-on-demand services ask to keep empty.
+#let origpage(n) = if is-print {
+  in-margin(side: "outside", dy: -0.5em, width: 0.46in, away: true,
   text(font: sans, size: 6pt, fill: muted, [p.#h(1pt)#n]))
+} else {
+  in-margin(side: "inside", dy: -0.5em, width: 0.5in,
+  text(font: sans, size: 6pt, fill: muted, [p.#h(1pt)#n]))
+}
 
 // ── Footnotes ─────────────────────────────────────────────────────────────
 // Numbered per page, as Gesenius prints them. The number is the footnote's place
@@ -143,6 +160,8 @@
     },
   )
   set text(font: sans, size: 9.4pt, fill: ink, lang: "en", region: "gb", hyphenate: true)
+  // print: no hanging punctuation, so nothing crosses into the gutter
+  set text(overhang: not is-print)
   set par(justify: true, leading: 0.62em, spacing: 0.85em, first-line-indent: 0pt)
   set std.footnote.entry(separator: line(length: 25%, stroke: 0.5pt + rule), gap: 0.45em, indent: 0pt)
   show std.footnote.entry: set text(size: 7.8pt)

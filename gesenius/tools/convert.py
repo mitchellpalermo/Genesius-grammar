@@ -214,7 +214,7 @@ class Converter:
             note = self.wikicode(mw.parse(self.footnotes[key]), ctx).strip() if key else ""
             return f"{PARA}#bookhead({level}, [{title}], note: [{f'#footnote[{note}];' if note else ''}]);{PARA}"
         if name == "GHGbabsign":  # a Babylonian vowel sign Unicode cannot encode (scan 66–67)
-            return f"#babsign({tstr(self.raw(t, '1', ''))});"
+            return f"#babsign({tstr(self.raw(t, '1', ''))}, {self.raw(t, '2', '0.15in')});"
         if name == "GHGimage":  # an image the build cropped from the scan
             return f"{PARA}#figure(image({tstr(self.raw(t, '1'))}, width: {self.raw(t, '2', '100%')}));{PARA}"
         if name == "GHGmargin-letter-fmt":

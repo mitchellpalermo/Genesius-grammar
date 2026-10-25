@@ -1,7 +1,38 @@
 #import "gesenius.typ": *
 #show: book
 #set page(numbering: "i")
-
+#if is-print [
+#page(header: none, footer: none, numbering: none)[
+  #set par(justify: false, leading: 0.5em)
+  #set text(font: sans, fill: ink)
+  #v(0.55in)
+  #text(size: 13pt, weight: "bold", tracking: 0.14em, fill: muted)[GESENIUS’]
+  #v(0.04in)
+  #text(size: 34pt, weight: "extrabold", tracking: -0.01em)[Hebrew\ Grammar]
+  #v(0.12in)
+  #block(width: 1.1in, height: 2pt, fill: ink)
+  #v(0.4in)
+  #text(size: 8.5pt, tracking: 0.08em, fill: muted)[AS EDITED AND ENLARGED BY THE LATE]
+  #v(0.04in)
+  #text(size: 15pt, weight: "bold")[E. Kautzsch]
+  #v(0.0in)
+  #text(size: 7.5pt, tracking: 0.06em, fill: muted)[PROFESSOR OF THEOLOGY IN THE UNIVERSITY OF HALLE]
+  #v(0.28in)
+  #text(size: 9.5pt, weight: "bold", tracking: 0.08em)[SECOND ENGLISH EDITION]
+  #v(0.04in)
+  #text(size: 8.5pt, tracking: 0.06em, fill: muted)[REVISED IN ACCORDANCE WITH THE TWENTY-EIGHTH\ GERMAN EDITION (1909) BY]
+  #v(0.04in)
+  #text(size: 15pt, weight: "bold")[A. E. Cowley]
+  #v(0.28in)
+  #text(size: 7.5pt, tracking: 0.06em, fill: muted)[WITH A FACSIMILE OF THE SILOAM INSCRIPTION BY J. EUTING,\ AND A TABLE OF ALPHABETS BY M. LIDZBARSKI]
+  #v(1fr)
+  #block(width: 0.9in, height: 1.5pt, fill: ink)
+  #v(0.06in)
+  #text(size: 9pt, weight: "bold", tracking: 0.1em)[OXFORD]\
+  #text(size: 8pt, tracking: 0.08em, fill: muted)[AT THE CLARENDON PRESS]
+  #place(bottom + right, dy: -0.1in, text(font: hebrew-font, size: 56pt, fill: rule, [א]))
+]
+] else [
 #page(margin: 0pt, header: none, footer: none, numbering: none)[
   #block(width: 100%, height: 6pt, fill: accent-gradient)
   #block(width: 100%, height: 3.35in, fill: primary, inset: (x: 0.75in, top: 0.9in))[
@@ -37,8 +68,25 @@
   #place(bottom + right, dx: -0.6in, dy: -0.55in,
     text(font: hebrew-font, size: 64pt, fill: rule, [א]))
 ]
+]
+#if is-print [
+#page(header: none, footer: none)[
+  #set text(font: sans, size: 7.5pt, fill: ink)
+  #set par(justify: false, leading: 0.55em, spacing: 0.9em)
+  #v(1fr)
+  _Gesenius’ Hebrew Grammar_, as edited and enlarged by E. Kautzsch. Second English edition, revised in accordance with the twenty-eighth German edition (1909) by A. E. Cowley. Oxford: Clarendon Press, 1910. The 1910 edition is in the public domain.
 
+  This edition [YEAR]. Reset in modern type; see _About this edition_ for what was changed and how. The running text is based on the volunteer transcription on English Wikisource.
 
+  [LICENSE]
+
+  [PUBLISHER]
+
+  ISBN [ISBN]
+
+  #v(0.3in)
+]
+] else [
 #page(header: none, footer: none)[
   #set text(font: sans, size: 7.5pt, fill: muted)
   #set par(justify: false)
@@ -53,7 +101,7 @@
   ]
   #v(0.4in)
 ]
-
+]
 
 #page(header: none)[
   #set par(justify: false)
@@ -531,7 +579,7 @@ I readily admit, with regard to #emph[Qameṣ]; and #emph[S#super[e];gol];, that
 
 #ml("g") <p8g> #text(size: 0.88em)[ No dot is used for the Ḥolem when #emph[ō]; (of course without #emph[wāw];) is pronounced after #emph[śîn]; or before #emph[šîn];. Hence #he[שׂנֵא]; #emph[śônē]; (hating), #he[נְשׂא]; #emph[n#super[e];śō]; (to bear), #he[משֶׁה]; #emph[môšè]; (not #he[מֹשֶׁה];); but #he[שֹׁמֵר]; #emph[šômēr]; (a watchman). When #emph[ō]; precedes the #emph[śîn];, the dot is placed over its right arm, e.g. #he[יִרְפּשֹׁ]; #emph[yirpōś]; (he treads with the feet), #he[הַנּֽשְֹׁאִים]; #emph[hannôś#super[e];ʾîm]; (those who carry).];
 
-#text(size: 0.88em)[In the sign #he[וֹ];, the #he[ו]; may also be a consonant. The #he[וֹ]; is then either to be read #emph[ōw]; (necessarily so when a consonant otherwise without a vowel precedes, e.g. #he[לֹוֶה]; #emph[lôwè];, lending) or #emph[wō];, when a vowel already precedes the #he[ו];, e.g. #he[עָוֹן]; #emph[ʿāwôn]; (iniquity) for #he[עָווֹן];. In more exact printing, a distinction is at least made between #he[וֹ]; #emph[wo]; and #he[וֹ]; (i.e. either #emph[ô]; or, when another vowel follows the #emph[wāw];, #emph[ôw];#footnote[Since 1846 we have become acquainted with a system of vocalization different in many respects from the common method. The vowel signs, all except #he[וּ];, are there placed #emph[above]; the consonants, and differ almost throughout in form, and some even as regards the sound which they denote: #babsign("bab/01.png"); \= #emph[â];, #emph[ā];, #babsign("bab/02.png"); \= tone\-bearing #emph[ă]; and #emph[è];, #babsign("bab/03.png"); \= #emph[ê];, #emph[ē];, #babsign("bab/04.png"); \= #emph[î];, #babsign("bab/05.png");, #babsign("bab/06.png"); \= #emph[ô];, #emph[ō];, #babsign("bab/07.png"); or #babsign("bab/08.png"); \= #emph[û];. In an unsharpened syllable #babsign("bab/09.png"); \= toneless #emph[ă]; and #emph[è];, and also Ḥaṭeph Pathaḥ; #babsign("bab/10.png"); \= toneless #emph[ĕ]; and Ḥaṭeph S#super[e];ghôl; #babsign("bab/11.png"); \= #emph[ĭ];, #babsign("bab/12.png"); \= #emph[ŭ];, #babsign("bab/13.png"); \= #emph[ŏ];, and Ḥaṭeph Qameṣ. Lastly in toneless syllables before Dageš, #babsign("bab/14.png"); \= #emph[ă];, #babsign("bab/15.png"); \= #emph[ĕ];, #babsign("bab/16.png"); \= #emph[i];, #babsign("bab/17.png"); \= #emph[ŭ];, #babsign("bab/18.png"); \= #emph[å̆];. Š#super[e];wâ is #babsign("bab/19.png");. The accents differ less and stand in some cases under the line of the consonants. Besides this complicated system of the Codex Babylonicus (see below) and other MSS., there is a simpler one, used in Targums. It is still uncertain whether the latter is the foundation of the former (as Merx, #emph[Chrest. Targ.]; xi, and Bacher, #emph[ZDMG.]; 1895, p. 15 ff.), or is a later development of it among the Jews of South Arabia (as Praetorius, #emph[ZDMG.]; 1899, p. 181 ff.). For the older literature on this #emph[Babylonian punctuation]; (#he[נִקּוּד בַּבְלִי];), as it is called, see A. Harkavy and H. L. Strack, #emph[Katalog der hebr. Bibelhandschr. der Kaiserl. öffentl. Bibliothek zu St. Petersb.];, St. Petersb. and Lpz., 1875, parts i and ii, p. 223 ff. A more thorough study of the system was made possible by H. Strack’s facsimile edition of the #emph[Prophetarum posteriorum codex Babylonicus Petropolitanus]; (St. Petersb., 1876, la. fol.) of the year 916, which Firkowitsch discovered in 1839, in the synagogue at Tschufutkale in the Crimea. The MS. has been shown by Ginsburg (#emph[Recueil des travaux rédigés en mémoire... de Chwolson];, Berlin, 1899, p. 149, and #emph[Introd.];, pp. 216 ff., 475 f.) to contain a recension of the Biblical text partly Babylonian and partly Palestinian; cf. also Barnstein, #emph[The Targum of Onkelos to Genesis];, London, 1896, p. 6 f. Strack edited a fragment of it in #emph[Hosea et Joel prophetae ad fidem cod. Babylon. Petrop.];, St. Petersb. 1875. Cf. also the publication by A. Merx, quoted above, #xref(<p7h>)[§ 7#h(0.18em)#emph[h];];, and his #emph[Chrestomathia Targumica];, Berlin, 1888; G. Margoliouth, in the #emph[PSBA.]; xv. 4, and M. Gaster, ibid.; P. Kahle, #emph[Der masoret. Text des A.T. nach d. Überlief. der babyl. Juden];, Lpz. 1902, with the valuable review by Rahlfs in #emph[GGA];. 1903, no. 5; Nestle, #emph[ZDMG.]; 1905, p. 719 (Babylonian #babsign("bab/20.png"); \= #he[ע];. According to the opinion formerly prevailing, this Babylonian punctuation exhibits the system which was developed in the Eastern schools, corresponding to and contemporaneous with the Western or Tiberian system, although a higher degree of originality, or approximation to the original of both systems of punctuation, was generally conceded to the latter. Recently, however, Wickes, #emph[Accents of the Twenty\-one Books];, Oxford, 1887, p. 142 ff, has endeavoured to show, from the accents, that the ‘Babylonian’ punctuation may certainly be #emph[an]; Oriental, but is by no means #emph[the]; Oriental system. It is rather to be regarded, according to him, as a later and not altogether successful attempt to modify, and thus to simplify, the system common to all the Schools in the East and West. Strack, #emph[Wiss. Jahresb. der ZDMG.]; 1879, p. 124, established the probability that the vowels of the superlinear punctuation arose under #emph[Arab]; influence from the vowel letters #he[יוא]; (so previously Pinsker and Graetz), while the Tiberian system shows #emph[Syrian]; influence. #linebreak(); A third, widely different system (Palestinian), probably the basis of the other two, is described by A. Neubauer, #emph[JQR.]; vii. 1895, p. 361 ff., and Friedländer, ibid., p. 564 ff., and #emph[PSBA.]; 1896, p. 86 ff.; C. Levias, #emph[Journ. of Sem. Lang. and Lit.];, xv. p. 157 ff.; and esp. P. Kahle, ‘Beitr. zu der Gesch. der hebr. Punktation,’ and in #emph[ZAW.]; 1901, p. 273 ff. and in #emph[Der masoret. Text des A.T.]; (see above), chiefly dealing with the Berlin MS. Or. qu. 680, which contains a number of variants on the biblical text, and frequently agrees with the transcriptions of the LXX and Jerome.];). ];
+#text(size: 0.88em)[In the sign #he[וֹ];, the #he[ו]; may also be a consonant. The #he[וֹ]; is then either to be read #emph[ōw]; (necessarily so when a consonant otherwise without a vowel precedes, e.g. #he[לֹוֶה]; #emph[lôwè];, lending) or #emph[wō];, when a vowel already precedes the #he[ו];, e.g. #he[עָוֹן]; #emph[ʿāwôn]; (iniquity) for #he[עָווֹן];. In more exact printing, a distinction is at least made between #he[וֹ]; #emph[wo]; and #he[וֹ]; (i.e. either #emph[ô]; or, when another vowel follows the #emph[wāw];, #emph[ôw];#footnote[Since 1846 we have become acquainted with a system of vocalization different in many respects from the common method. The vowel signs, all except #he[וּ];, are there placed #emph[above]; the consonants, and differ almost throughout in form, and some even as regards the sound which they denote: #babsign("bab/01.png", 0.1475in); \= #emph[â];, #emph[ā];, #babsign("bab/02.png", 0.1375in); \= tone\-bearing #emph[ă]; and #emph[è];, #babsign("bab/03.png", 0.1425in); \= #emph[ê];, #emph[ē];, #babsign("bab/04.png", 0.1375in); \= #emph[î];, #babsign("bab/05.png", 0.0400in);, #babsign("bab/06.png", 0.1475in); \= #emph[ô];, #emph[ō];, #babsign("bab/07.png", 0.1475in); or #babsign("bab/08.png", 0.0450in); \= #emph[û];. In an unsharpened syllable #babsign("bab/09.png", 0.1450in); \= toneless #emph[ă]; and #emph[è];, and also Ḥaṭeph Pathaḥ; #babsign("bab/10.png", 0.1500in); \= toneless #emph[ĕ]; and Ḥaṭeph S#super[e];ghôl; #babsign("bab/11.png", 0.1425in); \= #emph[ĭ];, #babsign("bab/12.png", 0.1475in); \= #emph[ŭ];, #babsign("bab/13.png", 0.1500in); \= #emph[ŏ];, and Ḥaṭeph Qameṣ. Lastly in toneless syllables before Dageš, #babsign("bab/14.png", 0.1500in); \= #emph[ă];, #babsign("bab/15.png", 0.1425in); \= #emph[ĕ];, #babsign("bab/16.png", 0.0800in); \= #emph[i];, #babsign("bab/17.png", 0.1350in); \= #emph[ŭ];, #babsign("bab/18.png", 0.1500in); \= #emph[å̆];. Š#super[e];wâ is #babsign("bab/19.png", 0.1225in);. The accents differ less and stand in some cases under the line of the consonants. Besides this complicated system of the Codex Babylonicus (see below) and other MSS., there is a simpler one, used in Targums. It is still uncertain whether the latter is the foundation of the former (as Merx, #emph[Chrest. Targ.]; xi, and Bacher, #emph[ZDMG.]; 1895, p. 15 ff.), or is a later development of it among the Jews of South Arabia (as Praetorius, #emph[ZDMG.]; 1899, p. 181 ff.). For the older literature on this #emph[Babylonian punctuation]; (#he[נִקּוּד בַּבְלִי];), as it is called, see A. Harkavy and H. L. Strack, #emph[Katalog der hebr. Bibelhandschr. der Kaiserl. öffentl. Bibliothek zu St. Petersb.];, St. Petersb. and Lpz., 1875, parts i and ii, p. 223 ff. A more thorough study of the system was made possible by H. Strack’s facsimile edition of the #emph[Prophetarum posteriorum codex Babylonicus Petropolitanus]; (St. Petersb., 1876, la. fol.) of the year 916, which Firkowitsch discovered in 1839, in the synagogue at Tschufutkale in the Crimea. The MS. has been shown by Ginsburg (#emph[Recueil des travaux rédigés en mémoire... de Chwolson];, Berlin, 1899, p. 149, and #emph[Introd.];, pp. 216 ff., 475 f.) to contain a recension of the Biblical text partly Babylonian and partly Palestinian; cf. also Barnstein, #emph[The Targum of Onkelos to Genesis];, London, 1896, p. 6 f. Strack edited a fragment of it in #emph[Hosea et Joel prophetae ad fidem cod. Babylon. Petrop.];, St. Petersb. 1875. Cf. also the publication by A. Merx, quoted above, #xref(<p7h>)[§ 7#h(0.18em)#emph[h];];, and his #emph[Chrestomathia Targumica];, Berlin, 1888; G. Margoliouth, in the #emph[PSBA.]; xv. 4, and M. Gaster, ibid.; P. Kahle, #emph[Der masoret. Text des A.T. nach d. Überlief. der babyl. Juden];, Lpz. 1902, with the valuable review by Rahlfs in #emph[GGA];. 1903, no. 5; Nestle, #emph[ZDMG.]; 1905, p. 719 (Babylonian #babsign("bab/20.png", 0.1475in); \= #he[ע];. According to the opinion formerly prevailing, this Babylonian punctuation exhibits the system which was developed in the Eastern schools, corresponding to and contemporaneous with the Western or Tiberian system, although a higher degree of originality, or approximation to the original of both systems of punctuation, was generally conceded to the latter. Recently, however, Wickes, #emph[Accents of the Twenty\-one Books];, Oxford, 1887, p. 142 ff, has endeavoured to show, from the accents, that the ‘Babylonian’ punctuation may certainly be #emph[an]; Oriental, but is by no means #emph[the]; Oriental system. It is rather to be regarded, according to him, as a later and not altogether successful attempt to modify, and thus to simplify, the system common to all the Schools in the East and West. Strack, #emph[Wiss. Jahresb. der ZDMG.]; 1879, p. 124, established the probability that the vowels of the superlinear punctuation arose under #emph[Arab]; influence from the vowel letters #he[יוא]; (so previously Pinsker and Graetz), while the Tiberian system shows #emph[Syrian]; influence. #linebreak(); A third, widely different system (Palestinian), probably the basis of the other two, is described by A. Neubauer, #emph[JQR.]; vii. 1895, p. 361 ff., and Friedländer, ibid., p. 564 ff., and #emph[PSBA.]; 1896, p. 86 ff.; C. Levias, #emph[Journ. of Sem. Lang. and Lit.];, xv. p. 157 ff.; and esp. P. Kahle, ‘Beitr. zu der Gesch. der hebr. Punktation,’ and in #emph[ZAW.]; 1901, p. 273 ff. and in #emph[Der masoret. Text des A.T.]; (see above), chiefly dealing with the Berlin MS. Or. qu. 680, which contains a number of variants on the biblical text, and frequently agrees with the transcriptions of the LXX and Jerome.];). ];
 
 #origpage("43") <orig-43>
 

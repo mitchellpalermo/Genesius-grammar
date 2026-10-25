@@ -13,12 +13,13 @@ from __future__ import annotations
 import json
 import pathlib
 import re
+import struct
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from convert import PAGE_CLOSE, PAGE_OPEN, Converter, assemble, to_typst  # noqa: E402
 from book_back import indexes_part, paradigms_part  # noqa: E402
-from frontmatter import contents, edition_note, title_page, verso, write_qr  # noqa: E402
+from frontmatter import PRINT_PLACEHOLDERS, contents, edition_note, title_page, verso, write_qr  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 BODY = range(25, 531)  # scan pages of §1 – §167; 531 opens the paradigms
@@ -141,7 +142,10 @@ def babylonian_signs(text: str) -> str:
     def rep(m):
         nonlocal n
         n += 1
-        return f"{{{{GHGbabsign|bab/{n:02d}.png}}}}"
+        # set at its 1910 size: the crops come from the scan's 400 dpi image
+        png = ROOT / "build" / "bab" / f"{n:02d}.png"
+        w, h = struct.unpack(">II", png.read_bytes()[16:24])
+        return f"{{{{GHGbabsign|bab/{n:02d}.png|{w / 400:.4f}in}}}}"
     text = BAB_SIGN.sub(rep, text)
     have = len(list((ROOT / "build" / "bab").glob("*.png")))
     if n != have:
@@ -214,7 +218,21 @@ if __name__ == "__main__":
     write_qr(str(ROOT / "build" / "scan-qr.svg"))
     doc = ['#import "gesenius.typ": *', "#show: book", front(pages, conv), body(pages, conv),
            paradigms_part(pages, conv), indexes_part(pages, conv)]
-    (ROOT / "build" / "book.typ").write_text("\n".join(doc))
+    out = "\n".join(doc)
+    # the print edition's copyright-page details (ISBN, licence, …) live in
+    # tools/print_details.json; until they are filled in the placeholders print as is
+    details_path = ROOT / "tools" / "print_details.json"
+    details = json.loads(details_path.read_text()) if details_path.exists() else {}
+    missing = []
+    for ph in PRINT_PLACEHOLDERS:
+        value = details.get(ph.strip("[]").lower(), "")
+        if value:
+            out = out.replace(ph, esc(value))
+        else:
+            missing.append(ph)
+    (ROOT / "build" / "book.typ").write_text(out)
+    if missing:
+        print("PRINT EDITION NOT READY: fill in", ", ".join(missing), "in tools/print_details.json")
     for w in conv.warnings:
         print("WARN", w)
     print("wrote build/book.typ")
